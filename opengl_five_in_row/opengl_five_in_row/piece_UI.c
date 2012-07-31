@@ -1,5 +1,5 @@
 //
-//  steps.c
+//  piece_UI.c
 //  opengl_five_in_row
 //
 //  Created by eamars on 31/07/12.
