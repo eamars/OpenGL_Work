@@ -1,0 +1,114 @@
+Topengl_ploting_graph
+v5
+r1
+cCheck dependencies
+cCompileC build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/main.o /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/functions_lib.o /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/functions_lib.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/源码/opengl_ploting_graph/build/Debug/opengl_ploting_graph normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000004FF015DA00000000000000AA
+t1341134298
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c000000005010B1830000000000004523
+t1343271299
+s17699
+
+N/Users/mac/源码/opengl_ploting_graph/GLUT.framework/GLUT
+c000000005010A19400000000000FFF10
+t1343267220
+s1048336
+
+N/Users/mac/源码/opengl_ploting_graph/GLUT.framework/Headers/glut.h
+c000000005014F0CC000000000000586B
+t1343549644
+s22635
+
+N/Users/mac/源码/opengl_ploting_graph/OpenGL.framework/OpenGL
+c000000005010A032000000000002DAF0
+t1343266866
+s187120
+
+N/Users/mac/源码/opengl_ploting_graph/build/Debug/opengl_ploting_graph
+t2
+s0
+
+N/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/functions_lib.o
+t2
+s0
+
+N/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/opengl_ploting_graph.LinkFileList
+c000000005016FD270000000000000115
+t1343683879
+s277
+
+N/Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/define.h
+c000000005016757900000000000001D4
+t1343649145
+s468
+
+N/Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/functions_lib.c
+c00000000501673CF00000000000001B4
+t1343648719
+s436
+
+N/Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/main.c
+c000000005016FCF30000000000000F5F
+t1343683827
+s3935
+i<stdio.h>
+i<GLUT/glut.h>
+i"define.h"
+
+CBuild AST from /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/functions_lib.c
+r0
+
+CBuild AST from /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies753ec4a734c7b541^41efc9a734c7b541^---0#1#0#--18"Check dependencies36"B2990A30-2B97-49F8-927C-AB624888B26D-
+
+CCompileC build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/functions_lib.o /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/functions_lib.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365376679.790776
+e365376679.815186
+r1
+xCompileC
+xbuild/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/functions_lib.o
+x/Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/functions_lib.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/functions_lib.c508ecaa734c7b541^c4afd0a734c7b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/mac/%E6%BA%90%E7%A0%81/opengl_ploting_graph/opengl_ploting_graph/functions_lib.c0000000000000000^2789"CompileC build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/functions_lib.o opengl_ploting_graph/functions_lib.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/源码/opengl_ploting_graph    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/opengl_ploting_graph-generated-files.hmap -I/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/opengl_ploting_graph-own-target-headers.hmap -I/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/opengl_ploting_graph-all-target-headers.hmap -iquote /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/opengl_ploting_graph-project-headers.hmap -I/Users/mac/源码/opengl_ploting_graph/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/DerivedSources/x86_64 -I/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/DerivedSources -F/Users/mac/源码/opengl_ploting_graph/build/Debug -F/Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph -F/Users/mac/源码/opengl_ploting_graph -MMD -MT dependencies -MF /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/functions_lib.d --serialize-diagnostics /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/functions_lib.dia -c /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/functions_lib.c -o /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/functions_lib.o36"5DE1EA65-25CB-470F-8F1E-68955196F6D6-
+
+CCompileC build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/main.o /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365376679.790771
+e365376679.834909
+r1
+xCompileC
+xbuild/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/main.o
+x/Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/main.c438dcaa734c7b541^1fbdd5a734c7b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/mac/%E6%BA%90%E7%A0%81/opengl_ploting_graph/opengl_ploting_graph/main.c0000000000000000^2735"CompileC build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/main.o opengl_ploting_graph/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/源码/opengl_ploting_graph    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/opengl_ploting_graph-generated-files.hmap -I/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/opengl_ploting_graph-own-target-headers.hmap -I/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/opengl_ploting_graph-all-target-headers.hmap -iquote /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/opengl_ploting_graph-project-headers.hmap -I/Users/mac/源码/opengl_ploting_graph/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/DerivedSources/x86_64 -I/Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/DerivedSources -F/Users/mac/源码/opengl_ploting_graph/build/Debug -F/Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph -F/Users/mac/源码/opengl_ploting_graph -MMD -MT dependencies -MF /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/main.dia -c /Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph/main.c -o /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/main.o36"51578E9A-560F-484C-B0EE-37585A180344-
+
+CLd /Users/mac/源码/opengl_ploting_graph/build/Debug/opengl_ploting_graph normal x86_64
+s365376679.841609
+e365376679.863470
+r1
+xLd
+x/Users/mac/源码/opengl_ploting_graph/build/Debug/opengl_ploting_graph
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Link /Users/mac/源码/opengl_ploting_graph/build/Debug/opengl_ploting_graph7385d7a734c7b541^390ddda734c7b541^---0#0#0#--871"Ld build/Debug/opengl_ploting_graph normal x86_64    cd /Users/mac/源码/opengl_ploting_graph    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/源码/opengl_ploting_graph/build/Debug -F/Users/mac/源码/opengl_ploting_graph/build/Debug -F/Users/mac/源码/opengl_ploting_graph/opengl_ploting_graph -F/Users/mac/源码/opengl_ploting_graph -filelist /Users/mac/源码/opengl_ploting_graph/build/opengl_ploting_graph.build/Debug/opengl_ploting_graph.build/Objects-normal/x86_64/opengl_ploting_graph.LinkFileList -mmacosx-version-min=10.8 -framework GLUT -framework OpenGL -o /Users/mac/源码/opengl_ploting_graph/build/Debug/opengl_ploting_graph36"3BEB2D95-E054-4F3A-AF1F-EBF97AF7A86B-
+

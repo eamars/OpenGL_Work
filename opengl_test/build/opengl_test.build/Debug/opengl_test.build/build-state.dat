@@ -1,0 +1,102 @@
+Topengl_test
+v5
+r1
+cCheck dependencies
+cCompileC build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/main.o /Users/mac/源码/opengl_test/opengl_test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/源码/opengl_test/build/Debug/opengl_test normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000004FF015DA00000000000000AA
+t1341134298
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h
+c000000005010B18000000000000066C2
+t1343271296
+s26306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c000000005010B1830000000000004523
+t1343271299
+s17699
+
+N/Users/mac/源码/opengl_test/GLUT.framework/GLUT
+c000000005010A19400000000000FFF10
+t1343267220
+s1048336
+
+N/Users/mac/源码/opengl_test/GLUT.framework/Headers/glut.h
+c000000005014F0CC000000000000586B
+t1343549644
+s22635
+
+N/Users/mac/源码/opengl_test/OpenGL.framework/Headers/gl.h
+c000000005014F0D30000000000025633
+t1343549651
+s153139
+
+N/Users/mac/源码/opengl_test/OpenGL.framework/Headers/glext.h
+c000000005014F0D30000000000034A1B
+t1343549651
+s215579
+
+N/Users/mac/源码/opengl_test/OpenGL.framework/Headers/glu.h
+c000000005014F0D30000000000003F80
+t1343549651
+s16256
+
+N/Users/mac/源码/opengl_test/OpenGL.framework/OpenGL
+c000000005010A032000000000002DAF0
+t1343266866
+s187120
+
+N/Users/mac/源码/opengl_test/build/Debug/opengl_test
+t1343691296
+s15372
+
+N/Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/main.o
+t1343691296
+s15356
+
+N/Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/opengl_test.LinkFileList
+c000000005015BF96000000000000006B
+t1343602582
+s107
+
+N/Users/mac/源码/opengl_test/opengl_test/main.c
+c0000000050171A20000000000000195C
+t1343691296
+s6492
+i<GLUT/glut.h>
+i<math.h>
+
+CBuild AST from /Users/mac/源码/opengl_test/opengl_test/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7bbccc07bcc7b541^4b23d607bcc7b541^---0#1#0#--18"Check dependencies36"FC475E2D-07E1-4555-98CF-15517BE29B96-
+
+CCompileC build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/main.o /Users/mac/源码/opengl_test/opengl_test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365384096.637756
+e365384096.679994
+r1
+xCompileC
+xbuild/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/main.o
+x/Users/mac/源码/opengl_test/opengl_test/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/mac/源码/opengl_test/opengl_test/main.c9163a3a051c7b541^4914aea051c7b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/mac/%E6%BA%90%E7%A0%81/opengl_test/opengl_test/main.c0000000000000000^2313"CompileC build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/main.o opengl_test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/源码/opengl_test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/opengl_test-generated-files.hmap -I/Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/opengl_test-own-target-headers.hmap -I/Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/opengl_test-all-target-headers.hmap -iquote /Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/opengl_test-project-headers.hmap -I/Users/mac/源码/opengl_test/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/DerivedSources/x86_64 -I/Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/DerivedSources -F/Users/mac/源码/opengl_test/build/Debug -F/Users/mac/源码/opengl_test -MMD -MT dependencies -MF /Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/main.dia -c /Users/mac/源码/opengl_test/opengl_test/main.c -o /Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/main.o36"ABA1227F-20AF-4E1A-A0C4-94C1387217F3-
+
+CLd /Users/mac/源码/opengl_test/build/Debug/opengl_test normal x86_64
+s365384096.686814
+e365384096.708431
+r1
+xLd
+x/Users/mac/源码/opengl_test/build/Debug/opengl_test
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Link /Users/mac/源码/opengl_test/build/Debug/opengl_testf3e3afa051c7b541^745cb5a051c7b541^---0#0#0#--710"Ld build/Debug/opengl_test normal x86_64    cd /Users/mac/源码/opengl_test    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/源码/opengl_test/build/Debug -F/Users/mac/源码/opengl_test/build/Debug -F/Users/mac/源码/opengl_test -filelist /Users/mac/源码/opengl_test/build/opengl_test.build/Debug/opengl_test.build/Objects-normal/x86_64/opengl_test.LinkFileList -mmacosx-version-min=10.8 -framework GLUT -framework OpenGL -o /Users/mac/源码/opengl_test/build/Debug/opengl_test36"DC41583A-D85F-469B-89CF-8049D80717CB-
+
