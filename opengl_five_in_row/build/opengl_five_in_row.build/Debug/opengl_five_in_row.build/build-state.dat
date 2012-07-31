@@ -3,23 +3,18 @@ v5
 r1
 cCheck dependencies
 cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_UI.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_UI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/ai_function.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_opengl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/functions.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/functions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/piece_UI.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/piece_UI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_data.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/versus.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/versus.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/win_check.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/win_check.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/mac/Codes/opengl_five_in_row/build/Debug/opengl_five_in_row normal x86_64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
 c000000004FF015DA00000000000000AA
 t1341134298
 s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h
-c000000005010B18000000000000066C2
-t1343271296
-s26306
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
 c000000005010B1830000000000004523
@@ -57,168 +52,94 @@ t1343266866
 s187120
 
 N/Users/mac/Codes/opengl_five_in_row/build/Debug/opengl_five_in_row
-t1343724869
-s15608
+t1343732795
+s17656
 
-N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/ai_function.o
-t2
-s0
+N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_UI.o
+t1343732795
+s4440
 
-N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o
-t1343724869
-s6668
-
-N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/functions.o
-t2
-s0
+N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_data.o
+t1343732795
+s5024
 
 N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o
-t1343724869
-s3564
+t1343732795
+s4072
 
 N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o
-t1343724869
-s3452
+t1343732795
+s5264
 
 N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/opengl_five_in_row.LinkFileList
-c0000000050179FD70000000000000391
-t1343725527
-s913
+c000000005017BC3B000000000000038E
+t1343732795
+s910
+
+N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/piece_UI.o
+t1343732795
+s4808
 
 N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.o
-t2
-s0
+t1343732795
+s3240
 
-N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/versus.o
-t2
-s0
+N/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/win_check.o
+t1343732795
+s5296
 
-N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c
-c00000000500A84190000000000001952
-t1342866457
-s6482
-
-N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_opengl.c
-c0000000050179A7900000000000008BB
-t1343724153
-s2235
+N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_UI.c
+c000000005017A4D50000000000000428
+t1343726805
+s1064
 i<stdio.h>
-i"define_board_opengl.h"
+i"define_UI.h"
 i<GLUT/glut.h>
-i<math.h>
 
-N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/define_board_opengl.h
-c00000000501797E2000000000000018E
-t1343723490
+N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_data.c
+c000000005017A5EE0000000000000528
+t1343727086
+s1320
+
+N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/define_UI.h
+c000000005017A1CC000000000000018E
+t1343726028
 s398
 
-N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/functions.c
-c000000005007F65D0000000000001B0E
-t1342699101
-s6926
+N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/define_data.h
+c000000005017B71300000000000002C2
+t1343731475
+s706
 
 N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c
-c0000000050178BF3000000000000025B
-t1343720435
-s603
+c000000005017B1B700000000000002A8
+t1343730103
+s680
 
 N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c
-c00000000501797830000000000000368
-t1343723395
-s872
+c000000005017B7FB000000000000078C
+t1343731707
+s1932
+
+N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/piece_UI.c
+c000000005017B1B8000000000000054D
+t1343730104
+s1357
 
 N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c
-c00000000500A847D0000000000000AD9
-t1342866557
-s2777
+c000000005017A8D7000000000000014A
+t1343727831
+s330
 
-N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/versus.c
-c00000000500533A4000000000000076E
-t1342518180
-s1902
+N/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/win_check.c
+c000000005017B7A800000000000008AD
+t1343731624
+s2221
 
-N/Users/mac/源码/opengl_five_in_row/GLUT.framework/GLUT
-c000000005010A19400000000000FFF10
-t1343267220
-s1048336
-
-N/Users/mac/源码/opengl_five_in_row/GLUT.framework/Headers/glut.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/mac/源码/opengl_five_in_row/OpenGL.framework/Headers/gl.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/mac/源码/opengl_five_in_row/OpenGL.framework/Headers/glext.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/mac/源码/opengl_five_in_row/OpenGL.framework/Headers/glu.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/mac/源码/opengl_five_in_row/OpenGL.framework/OpenGL
-c000000005010A032000000000002DAF0
-t1343266866
-s187120
-
-N/Users/mac/源码/opengl_five_in_row/build/Debug/opengl_five_in_row
-t1343724136
-s15616
-
-N/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o
-t1343724136
-s6772
-
-N/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o
-t1343723490
-s3572
-
-N/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o
-t1343723490
-s3460
-
-N/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/opengl_five_in_row.LinkFileList
-c00000000501756220000000000000189
-t1343706658
-s393
-
-N/Users/mac/源码/opengl_five_in_row/opengl_five_in_row/board_opengl.c
-c00000000000000000000000000000000
-t2
-s0
-i<stdio.h>
-i"define_board_opengl.h"
-i<GLUT/glut.h>
-i<math.h>
-
-N/Users/mac/源码/opengl_five_in_row/opengl_five_in_row/define_board_opengl.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/mac/源码/opengl_five_in_row/opengl_five_in_row/main.c
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/mac/源码/opengl_five_in_row/opengl_five_in_row/mouse.c
-c00000000000000000000000000000000
-t2
-s0
-
-CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c
+CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_UI.c
 r0
 
-CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_opengl.c
-r0
-
-CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/functions.c
+CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_data.c
 r0
 
 CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c
@@ -227,108 +148,48 @@ r0
 CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c
 r0
 
+CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/piece_UI.c
+r0
+
 CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c
 r0
 
-CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/versus.c
-r0
-
-CBuild AST from /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/board_opengl.c
-r0
-
-CBuild AST from /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/main.c
-r0
-
-CBuild AST from /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/mouse.c
+CBuild AST from /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/win_check.c
 r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9ed3fc56d7c7b541^56b80557d7c7b541^---0#1#0#--18"Check dependencies36"C6B9A2F8-841A-437C-B0B7-172F127EBB99-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2e53fb46f5c7b541^c6c10547f5c7b541^---0#1#0#--18"Check dependencies36"5DCCE00D-4D21-4DB2-8172-9F777527678B-
 
-CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/ai_function.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365418327.025059
-e365418327.071333
+CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_UI.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_UI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365425595.792375
+e365425595.843876
 r1
 xCompileC
-xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/ai_function.o
-x/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c
+xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_UI.o
+x/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_UI.c
 xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:185:9: warning: unused variable 'h_length' [-Wunused-variable]
-o    int h_length=0;
-o        ^
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:186:9: warning: unused variable 'd_plength' [-Wunused-variable]
-o    int d_plength=0;
-o        ^
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:187:9: warning: unused variable 'd_mlength' [-Wunused-variable]
-o    int d_mlength=0;
-o        ^
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:193:9: warning: unused variable 'x_h' [-Wunused-variable]
-o    int x_h=x;
-o        ^
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:194:9: warning: unused variable 'y_h' [-Wunused-variable]
-o    int y_h=y;
-o        ^
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:196:9: warning: unused variable 'x_dp' [-Wunused-variable]
-o    int x_dp=x;
-o        ^
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:197:9: warning: unused variable 'y_dp' [-Wunused-variable]
-o    int y_dp=y;
-o        ^
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:199:9: warning: unused variable 'x_dm' [-Wunused-variable]
-o    int x_dm=x;
-o        ^
-o/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:200:9: warning: unused variable 'y_dm' [-Wunused-variable]
-o    int y_dm=y;
-o        ^
-o9 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c8c840657d7c7b541^af421257d7c7b541^-1432"/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:185:9: warning: unused variable 'h_length' [-Wunused-variable]    int h_length=0;        ^/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:186:9: warning: unused variable 'd_plength' [-Wunused-variable]    int d_plength=0;        ^/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:187:9: warning: unused variable 'd_mlength' [-Wunused-variable]    int d_mlength=0;        ^/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:193:9: warning: unused variable 'x_h' [-Wunused-variable]    int x_h=x;        ^/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:194:9: warning: unused variable 'y_h' [-Wunused-variable]    int y_h=y;        ^/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:196:9: warning: unused variable 'x_dp' [-Wunused-variable]    int x_dp=x;        ^/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:197:9: warning: unused variable 'y_dp' [-Wunused-variable]    int y_dp=y;        ^/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:199:9: warning: unused variable 'x_dm' [-Wunused-variable]    int x_dm=x;        ^/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c:200:9: warning: unused variable 'y_dm' [-Wunused-variable]    int y_dm=y;        ^9 warnings generated.9(36%IDEClangDiagnosticActivityLogMessage2@26"Unused variable 'h_length'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^184#8#184#8#3694#0#19"Unused Entity Issue--2@27"Unused variable 'd_plength'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^185#8#185#8#3714#0#19"Unused Entity Issue--2@27"Unused variable 'd_mlength'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^186#8#186#8#3735#0#19"Unused Entity Issue--2@21"Unused variable 'x_h'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^192#8#192#8#3806#0#19"Unused Entity Issue--2@21"Unused variable 'y_h'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^193#8#193#8#3821#0#19"Unused Entity Issue--2@22"Unused variable 'x_dp'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^195#8#195#8#3841#0#19"Unused Entity Issue--2@22"Unused variable 'y_dp'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^196#8#196#8#3857#0#19"Unused Entity Issue--2@22"Unused variable 'x_dm'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^198#8#198#8#3878#0#19"Unused Entity Issue--2@22"Unused variable 'y_dm'-365418327#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^199#8#199#8#3894#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@84"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c0000000000000000^2621"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/ai_function.o opengl_five_in_row/ai_function.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/ai_function.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/ai_function.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/ai_function.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/ai_function.o36"DAE0BA34-425F-4E9A-A6B7-FCE352AE1545-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_UI.cbd3acbbbf3c7b541^1729d8bbf3c7b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_UI.c0000000000000000^2603"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_UI.o opengl_five_in_row/board_UI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_UI.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_UI.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_UI.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_UI.o36"FDFD1996-0252-4CC9-AD4C-7168CAB439C1-
 
-CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_opengl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365417669.507267
-e365417669.552870
+CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_data.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365425595.845151
+e365425595.888432
 r1
 xCompileC
-xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o
-x/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_opengl.c
+xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_data.o
+x/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_data.c
 xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_opengl.c90f481c5d4c7b541^c1908dc5d4c7b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_opengl.c0000000000000000^2627"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o opengl_five_in_row/board_opengl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_opengl.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o36"341A65D3-C3F3-42F1-83C8-224156308C77-
-
-CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/board_opengl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365416953.881020
-e365416953.935875
-r1
-xCompileC
-xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o
-x/Users/mac/源码/opengl_five_in_row/opengl_five_in_row/board_opengl.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/board_opengl.ccfdce3f9d1c7b541^b395eff9d1c7b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/mac/%E6%BA%90%E7%A0%81/opengl_five_in_row/opengl_five_in_row/board_opengl.c0000000000000000^2641"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o opengl_five_in_row/board_opengl.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/源码/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/源码/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/源码/opengl_five_in_row/build/Debug -F/Users/mac/源码/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.d --serialize-diagnostics /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.dia -c /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/board_opengl.c -o /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_opengl.o36"77DA998A-CB1F-4D70-8D28-57E570B8B1D6-
-
-CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/functions.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/functions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365418327.026246
-e365418327.070213
-r1
-xCompileC
-xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/functions.o
-x/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/functions.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/functions.c77d60657d7c7b541^7bf91157d7c7b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/functions.c0000000000000000^2609"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/functions.o opengl_five_in_row/functions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/functions.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/functions.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/functions.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/functions.o36"16111FC1-2FC7-4176-BF69-951F2206D2B0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_data.ca181d8bbf3c7b541^6c7be3bbf3c7b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_data.c0000000000000000^2615"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_data.o opengl_five_in_row/board_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_data.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_data.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/board_data.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/board_data.o36"CBA37A2D-84FC-4460-ADF3-415E72301EBC-
 
 CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365417669.507266
-e365417669.544718
+s365425595.792303
+e365425595.855713
 r1
 xCompileC
 xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o
@@ -337,24 +198,11 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c4df481c5d4c7b541^60728bc5d4c7b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c0000000000000000^2579"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o opengl_five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o36"B197BDE1-5574-4D78-A008-442FD70EA2E0-
-
-CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365416290.257181
-e365416290.306049
-r1
-xCompileC
-xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o
-x/Users/mac/源码/opengl_five_in_row/opengl_five_in_row/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/main.c62f74162cfc7b541^6d594e62cfc7b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/mac/%E6%BA%90%E7%A0%81/opengl_five_in_row/opengl_five_in_row/main.c0000000000000000^2593"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o opengl_five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/源码/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/源码/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/源码/opengl_five_in_row/build/Debug -F/Users/mac/源码/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.dia -c /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/main.c -o /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o36"90198474-93E5-4E91-8E5F-72F1F2838732-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c5936cbbbf3c7b541^581bdbbbf3c7b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c0000000000000000^2579"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o opengl_five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/main.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/main.o36"CD664F29-1E61-4F93-B960-853433319DF0-
 
 CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365417669.546105
-e365417669.581535
+s365425595.792266
+e365425595.871714
 r1
 xCompileC
 xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o
@@ -363,24 +211,24 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c5ce78bc5d4c7b541^59df94c5d4c7b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c0000000000000000^2585"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o opengl_five_in_row/mouse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o36"80F2EE6B-BE2F-4090-954D-B5D503C6A0CF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c7e35cbbbf3c7b541^f834dfbbf3c7b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c0000000000000000^2585"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o opengl_five_in_row/mouse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/mouse.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o36"C07E9EE9-9D0D-49E7-847E-40E35CA48DD3-
 
-CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/mouse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365416290.257163
-e365416290.309669
+CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/piece_UI.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/piece_UI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365425595.792712
+e365425595.874961
 r1
 xCompileC
-xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o
-x/Users/mac/源码/opengl_five_in_row/opengl_five_in_row/mouse.c
+xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/piece_UI.o
+x/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/piece_UI.c
 xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/mouse.c90f84162cfc7b541^78464f62cfc7b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mac/%E6%BA%90%E7%A0%81/opengl_five_in_row/opengl_five_in_row/mouse.c0000000000000000^2599"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o opengl_five_in_row/mouse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/源码/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/源码/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/源码/opengl_five_in_row/build/Debug -F/Users/mac/源码/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.d --serialize-diagnostics /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.dia -c /Users/mac/源码/opengl_five_in_row/opengl_five_in_row/mouse.c -o /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/mouse.o36"DE0F3C05-8ED6-4334-A860-D7B6FE3CCB41-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/piece_UI.cb457cbbbf3c7b541^e206e0bbf3c7b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/piece_UI.c0000000000000000^2603"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/piece_UI.o opengl_five_in_row/piece_UI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/piece_UI.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/piece_UI.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/piece_UI.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/piece_UI.o36"8C5A26F3-1CDB-47AB-B91E-3DDA88886DBC-
 
 CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365418327.026241
-e365418327.060849
+s365425595.857034
+e365425595.896338
 r1
 xCompileC
 xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.o
@@ -389,38 +237,28 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c24d60657d7c7b541^64940f57d7c7b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c0000000000000000^2585"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.o opengl_five_in_row/steps.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.o36"BBCC757F-0F9D-41DB-B703-83A92D306619-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.cef8fdbbbf3c7b541^b77be5bbf3c7b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c0000000000000000^2585"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.o opengl_five_in_row/steps.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/steps.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/steps.o36"5A6418F6-CFF0-4C3F-9249-CD51570E7C15-
 
-CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/versus.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/versus.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s365418327.026250
-e365418327.054798
+CCompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/win_check.o /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/win_check.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365425595.885655
+e365425595.914660
 r1
 xCompileC
-xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/versus.o
-x/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/versus.c
+xbuild/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/win_check.o
+x/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/win_check.c
 xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/versus.c25ce0657d7c7b541^7e700e57d7c7b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/versus.c0000000000000000^2591"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/versus.o opengl_five_in_row/versus.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/versus.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/versus.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/versus.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/versus.o36"A55E2371-3D2B-4BA0-A5EE-F286D5EED280-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/win_check.cf3e4e2bbf3c7b541^ed28eabbf3c7b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/win_check.c0000000000000000^2609"CompileC build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/win_check.o opengl_five_in_row/win_check.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-generated-files.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-own-target-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/opengl_five_in_row-project-headers.hmap -I/Users/mac/Codes/opengl_five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/DerivedSources -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -MMD -MT dependencies -MF /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/win_check.d --serialize-diagnostics /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/win_check.dia -c /Users/mac/Codes/opengl_five_in_row/opengl_five_in_row/win_check.c -o /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/win_check.o36"EF1452CB-822D-4E16-8AD6-F99145ED7F51-
 
 CLd /Users/mac/Codes/opengl_five_in_row/build/Debug/opengl_five_in_row normal x86_64
-s365418327.078324
-e365418327.099240
+s365425595.921587
+e365425595.946918
 r1
 xLd
 x/Users/mac/Codes/opengl_five_in_row/build/Debug/opengl_five_in_row
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Link /Users/mac/Codes/opengl_five_in_row/build/Debug/opengl_five_in_row6c211457d7c7b541^b6681957d7c7b541^---0#0#0#--781"Ld build/Debug/opengl_five_in_row normal x86_64    cd /Users/mac/Codes/opengl_five_in_row    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -filelist /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/opengl_five_in_row.LinkFileList -mmacosx-version-min=10.8 -framework GLUT -framework OpenGL -o /Users/mac/Codes/opengl_five_in_row/build/Debug/opengl_five_in_row36"CFCDE5EB-2119-4B8C-8765-EC2E9CED4291-
-
-CLd /Users/mac/源码/opengl_five_in_row/build/Debug/opengl_five_in_row normal x86_64
-s365416953.942645
-e365416953.962297
-r1
-xLd
-x/Users/mac/源码/opengl_five_in_row/build/Debug/opengl_five_in_row
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Link /Users/mac/源码/opengl_five_in_row/build/Debug/opengl_five_in_rowae62f1f9d1c7b541^0c5cf6f9d1c7b541^---0#0#0#--787"Ld build/Debug/opengl_five_in_row normal x86_64    cd /Users/mac/源码/opengl_five_in_row    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/源码/opengl_five_in_row/build/Debug -F/Users/mac/源码/opengl_five_in_row/build/Debug -F/Users/mac/源码/opengl_five_in_row -filelist /Users/mac/源码/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/opengl_five_in_row.LinkFileList -mmacosx-version-min=10.8 -framework GLUT -framework OpenGL -o /Users/mac/源码/opengl_five_in_row/build/Debug/opengl_five_in_row36"7C4CD434-6578-4C98-8401-C779E8D7B809-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Link /Users/mac/Codes/opengl_five_in_row/build/Debug/opengl_five_in_row4cfeebbbf3c7b541^a86ef2bbf3c7b541^---0#0#0#--781"Ld build/Debug/opengl_five_in_row normal x86_64    cd /Users/mac/Codes/opengl_five_in_row    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row/build/Debug -F/Users/mac/Codes/opengl_five_in_row -filelist /Users/mac/Codes/opengl_five_in_row/build/opengl_five_in_row.build/Debug/opengl_five_in_row.build/Objects-normal/x86_64/opengl_five_in_row.LinkFileList -mmacosx-version-min=10.8 -framework GLUT -framework OpenGL -o /Users/mac/Codes/opengl_five_in_row/build/Debug/opengl_five_in_row36"BAF2E9B9-DA0B-4F30-9390-5B9C4684C952-
 

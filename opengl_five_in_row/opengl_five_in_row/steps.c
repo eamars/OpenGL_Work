@@ -7,3 +7,17 @@
 //
 
 #include <stdio.h>
+#include "define_data.h"
+
+void steps(int x,int y,char side)
+{
+    if (side=='b') {
+        board[x][y]='X';
+    }
+    
+    if (side=='w') {
+        board[x][y]='O';
+    }
+    
+}
+

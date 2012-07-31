@@ -8,7 +8,7 @@
 
 #ifndef opengl_five_in_row_define_board_opengl_h
 #define opengl_five_in_row_define_board_opengl_h
-#define COEI 5.0
+#define COEI 6.0
 void grid();
 void init();
 void print_board_UI();
