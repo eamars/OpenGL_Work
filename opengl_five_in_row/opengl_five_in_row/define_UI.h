@@ -14,7 +14,21 @@ void init();
 void print_board_UI();
 void model1();
 
+
+void MousePassingEndFrame(int,int);
+void MouseClickEndFrame(int,int,int,int);
 void MouseAction(int,int,int,int);
 void piece_GL(char,int,int);
+
+
+void Lett_Y (float,float,float);
+void Lett_O (float,float,float);
+void Lett_U (float,float,float);
+void Lett_W (float,float,float);
+void Lett_I (float,float,float);
+void Lett_N (float,float,float);
+void Sign_1 (float,float,float);
+
+void YOU_WIN (float,float,float);
 #endif
 

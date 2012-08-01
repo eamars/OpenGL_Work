@@ -41,8 +41,6 @@ void grid()
     
     glEnd();
     
-    
-    
 }
 
 
@@ -51,7 +49,7 @@ void grid()
 void model1()
 {
     /* clear all pixels */
-    glClearColor (0.0, 0.0, 0.0, 0.0);//default background for white
+    glClearColor (0.0, 0.0, 0.0, 0.0);//default background for black
     glClear (GL_COLOR_BUFFER_BIT);
     
     /* print coordinate */
@@ -62,4 +60,8 @@ void model1()
     
     
 }
+
+
+
+
 

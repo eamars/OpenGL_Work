@@ -13,6 +13,7 @@
 		0439D2B115C7524600AA5D2A /* board_UI.c in Sources */ = {isa = PBXBuildFile; fileRef = 0439D2B015C7524600AA5D2A /* board_UI.c */; };
 		0439D2B915C754CB00AA5D2A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0439D2B815C754CB00AA5D2A /* main.c */; };
 		0439D2CF15C78CEB00AA5D2A /* mouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 0439D2CE15C78CEB00AA5D2A /* mouse.c */; };
+		04CE4C6A15C9022100D1E1A3 /* letters.c in Sources */ = {isa = PBXBuildFile; fileRef = 04CE4C6915C9022100D1E1A3 /* letters.c */; };
 		04E0195615C7D89200B03290 /* piece_UI.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E0195515C7D89200B03290 /* piece_UI.c */; };
 		04E0195915C7DC9700B03290 /* board_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E0195815C7DC9700B03290 /* board_data.c */; };
 		04E0195B15C7DE8400B03290 /* steps.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E0195A15C7DE8400B03290 /* steps.c */; };
@@ -41,6 +42,7 @@
 		0439D2B615C752B600AA5D2A /* define_UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define_UI.h; sourceTree = "<group>"; };
 		0439D2B815C754CB00AA5D2A /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0439D2CE15C78CEB00AA5D2A /* mouse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mouse.c; sourceTree = "<group>"; };
+		04CE4C6915C9022100D1E1A3 /* letters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = letters.c; sourceTree = "<group>"; };
 		04E0195515C7D89200B03290 /* piece_UI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = piece_UI.c; sourceTree = "<group>"; };
 		04E0195715C7DC2400B03290 /* define_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define_data.h; sourceTree = "<group>"; };
 		04E0195815C7DC9700B03290 /* board_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = board_data.c; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				0439D2B015C7524600AA5D2A /* board_UI.c */,
 				0439D2B615C752B600AA5D2A /* define_UI.h */,
 				0439D2CE15C78CEB00AA5D2A /* mouse.c */,
+				04CE4C6915C9022100D1E1A3 /* letters.c */,
 				04E0195515C7D89200B03290 /* piece_UI.c */,
 			);
 			name = UI;
@@ -170,6 +173,7 @@
 				04E0195915C7DC9700B03290 /* board_data.c in Sources */,
 				04E0195B15C7DE8400B03290 /* steps.c in Sources */,
 				04E0195D15C7EB3300B03290 /* win_check.c in Sources */,
+				04CE4C6A15C9022100D1E1A3 /* letters.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,15 +27,14 @@ int main(int argc,char **argv)
     glutCreateWindow("Gomoku");
     init();
     
-    glutDisplayFunc(model1);
+    
 
+    glutDisplayFunc(model1);
+    
     glutMouseFunc(MouseAction);
     
     glutMainLoop();
-    
-    print_board(1);
 
-    
     
     return 0;
 }
