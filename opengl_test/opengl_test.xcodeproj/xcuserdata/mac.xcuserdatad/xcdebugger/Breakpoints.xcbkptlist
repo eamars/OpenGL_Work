@@ -19,12 +19,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "opengl_test/main.c"
-         timestampString = "365383886.946281"
+         timestampString = "365478739.778055"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "302"
-         endingLineNumber = "302"
+         startingLineNumber = "396"
+         endingLineNumber = "396"
          landmarkName = "main()"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "opengl_test/main.c"
+         timestampString = "365478137.635632"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "311"
+         endingLineNumber = "311"
+         landmarkName = "MousePassing()"
          landmarkType = "7">
       </FileBreakpoint>
    </FileBreakpoints>

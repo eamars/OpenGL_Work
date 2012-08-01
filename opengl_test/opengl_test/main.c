@@ -8,6 +8,7 @@
 
 #include <GLUT/glut.h>
 #include <math.h>
+#include <stdio.h>
 
 void model1()
 {
@@ -268,6 +269,97 @@ void model8()
     glFlush();
 }
 
+void model9()
+{
+    /* AA */
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
+    glEnable(GL_LINE_SMOOTH);
+    glEnable(GL_POLYGON_SMOOTH);
+    glClear(GL_COLOR_BUFFER_BIT);
+    glEnable(GL_POINT_SMOOTH);
+
+    glLineWidth(1.5f);
+    
+    /*
+    glColor3f(1,0,0);
+    
+    glBegin(GL_POLYGON);
+    glVertex2d(0.25, 0.25);
+    glVertex2d(0.25, 0.75);
+    glVertex2d(0.75, 0.75);
+    glVertex2d(0.75, 0.25);
+    glEnd();
+    glFlush();
+     */
+}
+
+void MousePassing(int x, int y)
+{
+    if (x>125&&x<375&&y>125&&y<375) {
+        glColor3f(0.75, 0, 0);
+        glBegin(GL_POLYGON);
+        glVertex2d(0.25, 0.25);
+        glVertex2d(0.25, 0.75);
+        glVertex2d(0.75, 0.75);
+        glVertex2d(0.75, 0.25);
+        glEnd();
+        glFlush();
+    }
+    else
+    {
+        glColor3f(1, 0, 0);
+        glBegin(GL_POLYGON);
+        glVertex2d(0.25, 0.25);
+        glVertex2d(0.25, 0.75);
+        glVertex2d(0.75, 0.75);
+        glVertex2d(0.75, 0.25);
+        glEnd();
+        glFlush();
+    }
+}
+void MouseClick(int button, int state, int x, int y)
+{
+    if(state == GLUT_DOWN && x>125&&x<375&&y>125&&y<375)
+    {
+        if(button == GLUT_LEFT_BUTTON)
+        {
+            printf("YouHaveLeftClickedIt!\n");
+            glColor3f(1, 1, 1);
+            glBegin(GL_POLYGON);
+            glVertex2d(0.25, 0.25);
+            glVertex2d(0.25, 0.75);
+            glVertex2d(0.75, 0.75);
+            glVertex2d(0.75, 0.25);
+            glEnd();
+            glFlush();
+        }
+        if (button == GLUT_RIGHT_BUTTON) {
+            printf("YouHaveRightClickedIt!\n");
+            glColor3f(0, 0, 0);
+            glBegin(GL_POLYGON);
+            glVertex2d(0.25, 0.25);
+            glVertex2d(0.25, 0.75);
+            glVertex2d(0.75, 0.75);
+            glVertex2d(0.75, 0.25);
+            glEnd();
+            glFlush();
+        }
+        
+    }
+        
+}
+
+void MouseOutFrame(int state)
+{
+    if (state==GLUT_LEFT) {
+        printf("YouHaveLeft!\n");
+    }
+    if (state==GLUT_ENTERED) {
+        printf("YouHaveReturned!\n");
+    }
+}
+
 void piece(char side,float x_axis,float y_axis)
 {
     int const COEI=8;
@@ -284,6 +376,8 @@ void piece(char side,float x_axis,float y_axis)
         glVertex2f(x[i],y[i]);
     }
     glEnd();
+    
+    glFlush();
     
 }
 
@@ -305,7 +399,11 @@ int main(int argc,char **argv)
     glutInitWindowPosition(200,200);
     glutCreateWindow("AA Enabled");
     init();
-    glutDisplayFunc(model8);
+    
+    glutPassiveMotionFunc(MousePassing);
+    glutMouseFunc(MouseClick);
+    glutEntryFunc(MouseOutFrame);
+    glutDisplayFunc(model9);
     
     glutMainLoop();
     
