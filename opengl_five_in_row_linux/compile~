@@ -1,1 +1,0 @@
-gcc -c -std=c99 -lglut 
