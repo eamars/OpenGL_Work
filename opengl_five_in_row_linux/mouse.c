@@ -9,8 +9,13 @@
 #include <stdio.h>
 #include "define_UI.h"
 #include "define_data.h"
-#include <GL/glut.h>
 #include <stdlib.h>
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
 
 int turns=2;
 char side='b';

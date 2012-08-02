@@ -8,8 +8,13 @@
 
 #include <stdio.h>
 #include "define_UI.h"
-#include <GLUT/glut.h>
 #include "define_data.h"
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
 
 float scale_each=0.5/COEI;
 

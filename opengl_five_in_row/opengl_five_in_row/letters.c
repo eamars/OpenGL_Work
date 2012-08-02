@@ -7,8 +7,13 @@
 //
 
 #include <stdio.h>
-#include <GLUT/glut.h>
 #include "define_UI.h"
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
 
 void Lett_Y (float x,float y,float FS)
 {
@@ -271,16 +276,16 @@ void Sign_1 (float x,float y,float FS)
 void YOU_WIN (float x,float y,float FS)
 {
     Lett_Y(x, y, FS);
-    x=x+0.05;
+    x=x+FS/20;
     Lett_O(x, y, FS);
-    x=x+0.05;
+    x=x+FS/20;
     Lett_U(x, y, FS);
-    x=x+0.1;
+    x=x+FS*2/20;
     Lett_W(x, y, FS);
-    x=x+0.05;
+    x=x+FS/20;
     Lett_I(x, y, FS);
-    x=x+0.05;
+    x=x+FS/20;
     Lett_N(x, y, FS);
-    x=x+0.05;
+    x=x+FS/20;
     Sign_1(x, y, FS);
 }

@@ -7,11 +7,16 @@
 //
 
 #include <stdio.h>
-#include <GLUT/glut.h>
 #include <math.h>
 #include "define_UI.h"
 #define PI 3.1415926
 #define N 80
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
 
 void piece_GL(char side,int x_axis,int y_axis)
 {
