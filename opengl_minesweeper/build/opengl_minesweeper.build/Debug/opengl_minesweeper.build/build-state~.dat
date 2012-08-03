@@ -1,0 +1,92 @@
+Topengl_minesweeper
+v5
+r1
+cCheck dependencies
+cCompileC build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/board_data.o /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/../board_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/Codes/opengl_minesweeper/build/Debug/opengl_minesweeper normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000004FF015DA00000000000000AA
+t1341134298
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c000000005010B1830000000000004523
+t1343271299
+s17699
+
+N/Users/mac/Codes/opengl_minesweeper/build/Debug/opengl_minesweeper
+t2
+s0
+
+N/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/board_data.o
+t2
+s0
+
+N/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/opengl_minesweeper.LinkFileList
+c00000000501B708D0000000000000104
+t1343975565
+s260
+
+N/Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/../board_data.c
+c00000000501B708D000000000000052B
+t1343975565
+s1323
+
+N/Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/main.c
+c00000000501B6FEE000000000000010C
+t1343975406
+s268
+i<stdio.h>
+
+CBuild AST from /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/../board_data.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies350ba80da8cbb541^e65ab00da8cbb541^---0#1#0#--18"Check dependencies36"0057338F-BE2E-47AC-8E7F-D47E268E7D95-
+
+CCompileC build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/board_data.o /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/../board_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365668365.690767
+e365668365.715993
+r1
+xCompileC
+xbuild/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/board_data.o
+x/Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/../board_data.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/../board_data.c3df1b00da8cbb541^624bb70da8cbb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/../board_data.c0000000000000000^2583"CompileC build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/board_data.o opengl_minesweeper/../board_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_minesweeper    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/opengl_minesweeper-generated-files.hmap -I/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/opengl_minesweeper-own-target-headers.hmap -I/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/opengl_minesweeper-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/opengl_minesweeper-project-headers.hmap -I/Users/mac/Codes/opengl_minesweeper/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/DerivedSources -F/Users/mac/Codes/opengl_minesweeper/build/Debug -MMD -MT dependencies -MF /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/board_data.d --serialize-diagnostics /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/board_data.dia -c /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/../board_data.c -o /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/board_data.o36"5226BD87-F98D-4A22-A22F-ADC6C54E9B15-
+
+CCompileC build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365668365.690769
+e365668365.711009
+r1
+xCompileC
+xbuild/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/main.o
+x/Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/main.c0bf1b00da8cbb541^4b04b60da8cbb541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/main.c0000000000000000^2541"CompileC build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/main.o opengl_minesweeper/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_minesweeper    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/opengl_minesweeper-generated-files.hmap -I/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/opengl_minesweeper-own-target-headers.hmap -I/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/opengl_minesweeper-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/opengl_minesweeper-project-headers.hmap -I/Users/mac/Codes/opengl_minesweeper/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/DerivedSources -F/Users/mac/Codes/opengl_minesweeper/build/Debug -MMD -MT dependencies -MF /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/opengl_minesweeper/opengl_minesweeper/main.c -o /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/main.o36"37406421-CC9A-426F-AC6F-7A0BD903F38A-
+
+CLd /Users/mac/Codes/opengl_minesweeper/build/Debug/opengl_minesweeper normal x86_64
+s365668365.722652
+e365668365.741293
+r1
+xLd
+x/Users/mac/Codes/opengl_minesweeper/build/Debug/opengl_minesweeper
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Link /Users/mac/Codes/opengl_minesweeper/build/Debug/opengl_minesweeper5e10b90da8cbb541^19c6bd0da8cbb541^---0#0#0#--709"Ld build/Debug/opengl_minesweeper normal x86_64    cd /Users/mac/Codes/opengl_minesweeper    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/opengl_minesweeper/build/Debug -F/Users/mac/Codes/opengl_minesweeper/build/Debug -filelist /Users/mac/Codes/opengl_minesweeper/build/opengl_minesweeper.build/Debug/opengl_minesweeper.build/Objects-normal/x86_64/opengl_minesweeper.LinkFileList -mmacosx-version-min=10.8 -o /Users/mac/Codes/opengl_minesweeper/build/Debug/opengl_minesweeper36"B6CE7F7F-553A-4A57-A406-0026B7B4A5E7-
+
