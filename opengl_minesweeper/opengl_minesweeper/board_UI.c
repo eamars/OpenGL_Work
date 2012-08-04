@@ -24,6 +24,10 @@ void init(void)
     glLoadIdentity();
     glOrtho(0.0,FRAMEWORK,0.0,FRAMEWORK,-1.0,1.0);
     glLineWidth(1.0f);//default line width =1
+    /* AA */
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
+    
 }
 
 void grid()
@@ -52,12 +56,13 @@ void Mine_sweeper(void)
 {
     grid();
     Blind_piece();
+    glutMouseFunc(MouseClick);
     glFlush();
 }
 
 void End_frame(int status)
 {
-    glColor4f(0, 0, 0, 0.5);
+    glColor4f(0, 0, 0, 0.8);
     glBegin(GL_POLYGON);
     glVertex2d(FRAMEWORK*0.2, FRAMEWORK*0.4);
     glVertex2d(FRAMEWORK*0.2, FRAMEWORK*0.6);
@@ -88,4 +93,30 @@ void End_frame(int status)
         glColor3f(1, 0, 0);
         YOU_LOSE(FRAMEWORK*0.23, FRAMEWORK*0.55, 2.5);
     }
+
+}
+
+void startup_frame(void)
+{
+    glBegin(GL_POLYGON);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.1);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.2);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.2);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.1);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.3);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.4);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.4);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.3);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.5);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.6);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.6);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.5);
+    glEnd();
+    glFlush();
+    
+    glutMouseFunc(MouseClickStartFrame);
 }

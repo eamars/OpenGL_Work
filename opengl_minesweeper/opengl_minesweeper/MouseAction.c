@@ -107,3 +107,55 @@ void MouseClickEndFrame(int button, int state, int x, int y)
     }
     
 }
+
+
+
+void MouseClickStartFrame(int button, int state, int x, int y)
+{
+    printf("x=%d y=%d\n",x,y);
+    if(state == GLUT_DOWN && (float)x/100>FRAMEWORK*0.2&&(float)x/100<FRAMEWORK*0.8&&(float)y/100>FRAMEWORK*0.8&&(float)y/100<FRAMEWORK*0.9)
+    {
+        if(button == GLUT_LEFT_BUTTON)
+        {
+            
+            /* clearing background */
+            glClear (GL_COLOR_BUFFER_BIT);
+            glClearColor(0.0,0.0,0.0,0.0);
+            //hard
+            Mine_sweeper();
+        }
+
+    }
+    else if(state == GLUT_DOWN && (float)x/100>FRAMEWORK*0.2&&(float)x/100<FRAMEWORK*0.8&&(float)y/100>FRAMEWORK*0.6&&(float)y/100<FRAMEWORK*0.7)
+    {
+        if(button == GLUT_LEFT_BUTTON)
+        {
+            
+            /* clearing background */
+            glClear (GL_COLOR_BUFFER_BIT);
+            glClearColor(0.0,0.0,0.0,0.0);
+            //moderate
+            Mine_sweeper();
+        }
+        
+    }
+    else if(state == GLUT_DOWN && (float)x/100>FRAMEWORK*0.2&&(float)x/100<FRAMEWORK*0.8&&(float)y/100>FRAMEWORK*0.4&&(float)y/100<FRAMEWORK*0.5)
+    {
+        if(button == GLUT_LEFT_BUTTON)
+        {
+            
+            /* clearing background */
+            glClear (GL_COLOR_BUFFER_BIT);
+            glClearColor(0.0,0.0,0.0,0.0);
+            //simple
+            Mine_sweeper();
+        }
+        
+    }
+
+
+}
+void MousePassStartFrame(int x,int y)
+{
+    
+}

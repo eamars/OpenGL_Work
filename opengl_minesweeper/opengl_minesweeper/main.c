@@ -29,7 +29,7 @@ int main(int argc, char **argv)
     glutCreateWindow("Mine Sweeper");
     init();
     glutDisplayFunc(Mine_sweeper);
-    glutMouseFunc(MouseClick);
+    
     glutMainLoop();
     return 0;
 }

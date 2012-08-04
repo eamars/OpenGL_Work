@@ -21,6 +21,9 @@ void disp_font(char *asc,float x,float y,float fs)
     float Point_size;
     fs=fs/50;
     Point_size=80*fs;
+    if (fs*50<1.5) {
+        Point_size=150*fs;
+    }
     glPointSize(Point_size);
     
     float xf=x,yf=y;
@@ -30,6 +33,7 @@ void disp_font(char *asc,float x,float y,float fs)
 		{
 			if(asc[i] & (0x80>>j))
 			{
+                           
 				glBegin(GL_POINTS);
                 glVertex2f(xf, yf);
                 glEnd();

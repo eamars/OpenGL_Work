@@ -19,7 +19,7 @@ void Blind_piece()
 {
     // blind pieces
     // from down left
-    glColor3f(0, 1, 1);
+    glColor3f(1, 1, 1);
     for (float i=0; i<FRAMEWORK; i=i+FRAMEWORK/BOARD_SIZE) {
         for (float j=0; j<FRAMEWORK; j=j+FRAMEWORK/BOARD_SIZE) {
             glBegin(GL_POLYGON);
@@ -32,7 +32,7 @@ void Blind_piece()
     }
     // outer line
     glLineWidth(1);
-    glColor3f(0, 0.7193, 1);
+    glColor3f(0.7193, 0.7193, 0.7193);
     for (float i=0; i<FRAMEWORK; i=i+FRAMEWORK/BOARD_SIZE) {
         for (float j=0; j<FRAMEWORK; j=j+FRAMEWORK/BOARD_SIZE) {
             glBegin(GL_LINE_LOOP);
@@ -54,7 +54,7 @@ void Piece_With_number(float x,float y,int number)
     x=x*FRAMEWORK/BOARD_SIZE;
     y=(BOARD_SIZE+1-y)*FRAMEWORK/BOARD_SIZE;
     if (number!=-1) {
-        glColor3f(0, 0, 0);
+        glColor3f(0.618, 0.618, 0.618);
     }
     else
         glColor3f(1, 0, 0);
@@ -69,7 +69,7 @@ void Piece_With_number(float x,float y,int number)
     
     //outer line
     if (number!=-1) {
-        glColor3f(0, 0.7193, 1);
+        glColor3f(0.7193, 0.7193, 0.7193);
     }
     else
         glColor3f(1, 1, 0);
@@ -83,6 +83,8 @@ void Piece_With_number(float x,float y,int number)
     glFlush();
     if (number!=0) {
         NumberSet(number, x+BOARD_SIZE/68.0, y-BOARD_SIZE/72.0, BOARD_SIZE*-2+28);
+        AdvancedNumverSet(number, x+BOARD_SIZE/67.0, y-BOARD_SIZE/120.0, 1.2);
+
     }
     
     

@@ -16,6 +16,7 @@ void Mine_sweeper();
 void Blind_piece();
 void Piece_With_number(float,float,int);
 void NumberSet(int,float,float,float);
+void AdvancedNumverSet(int,float,float,float);
 void MouseClick(int,int,int,int);
 void MousePassing(int,int);
 void End_frame(int);
@@ -27,6 +28,9 @@ void disp_font(char *,float,float,float);
 
 void YOU_WIN (float,float,float);
 void YOU_LOSE (float,float,float);
-void MousePassingEndFrame(int,int);
 void MouseClickEndFrame(int,int,int,int);
+
+void startup_frame();
+void MouseClickStartFrame(int,int,int,int);
+void MousePassStartFrame(int,int);
 #endif
