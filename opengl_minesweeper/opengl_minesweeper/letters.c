@@ -13,243 +13,88 @@
 #else
 #include <GL/glut.h>
 #endif
+#include "font_8x16.h"
 
-void Lett_Y (float x,float y,float FS)
+
+void disp_font(char *asc,float x,float y,float fs)
 {
     float Point_size;
-
-    
-    
-    /* init axis is from upper left */
-    Point_size=FS;
-    FS=FS/100;
-    glColor3f(1, 1, 1);
+    fs=fs/50;
+    Point_size=80*fs;
     glPointSize(Point_size);
-    glBegin(GL_POINTS);
     
-    
-    
-    glVertex2f(x, y);
-    glVertex2f(x+FS, y-FS);
-    glVertex2f(x+2*FS, y-2*FS);
-    glVertex2f(x+3*FS, y-FS);
-    glVertex2f(x+4*FS, y);
-    glVertex2f(x+2*FS, y-3*FS);
-    glVertex2f(x+2*FS, y-4*FS);
-    
-    glEnd();
-    glFlush();
-    
-}
-
-void Lett_O (float x,float y,float FS)
-{
-    float Point_size;
-
-    
-    
-    /* init axis is from upper left */
-    Point_size=FS;
-    FS=FS/100;
-    glColor3f(1, 1, 1);
-    glPointSize(Point_size);
-    glBegin(GL_POINTS);
-    
-    
-    
-    glVertex2f(x+FS,y);
-    glVertex2f(x+2*FS, y);
-    glVertex2f(x+3*FS, y);
-    glVertex2f(x, y-FS);
-    glVertex2f(x+4*FS, y-FS);
-    glVertex2f(x, y-2*FS);
-    glVertex2f(x+4*FS, y-2*FS);
-    glVertex2f(x, y-3*FS);
-    glVertex2f(x+4*FS, y-3*FS);
-    glVertex2f(x+3*FS, y-4*FS);
-    glVertex2f(x+2*FS, y-4*FS);
-    glVertex2f(x+FS, y-4*FS);
-    
-    
-    
-    
-    glEnd();
-    glFlush();
-    
-}
-
-void Lett_U (float x,float y,float FS)
-{
-    float Point_size;
-
-    
-    
-    /* init axis is from upper left */
-    Point_size=FS;
-    FS=FS/100;
-    glColor3f(1, 1, 1);
-    glPointSize(Point_size);
-    glBegin(GL_POINTS);
-    
-    
-    
-    glVertex2f(x, y);
-    glVertex2f(x+4*FS, y);
-    glVertex2f(x, y-FS);
-    glVertex2f(x+4*FS, y-FS);
-    glVertex2f(x, y-2*FS);
-    glVertex2f(x+4*FS, y-2*FS);
-    glVertex2f(x, y-3*FS);
-    glVertex2f(x+4*FS, y-3*FS);
-    glVertex2f(x+FS, y-4*FS);
-    glVertex2f(x+2*FS, y-4*FS);
-    glVertex2f(x+3*FS, y-4*FS);
-    
-    
-    glEnd();
-    glFlush();
-}
-
-void Lett_W (float x,float y,float FS)
-{
-    float Point_size;
-
-    
-    
-    /* init axis is from upper left */
-    Point_size=FS;
-    FS=FS/100;
-    glColor3f(1, 1, 1);
-    glPointSize(Point_size);
-    glBegin(GL_POINTS);
-    
-    
-    
-    glVertex2f(x, y);
-    glVertex2f(x+4*FS, y);
-    glVertex2f(x, y-FS);
-    glVertex2f(x+4*FS, y-FS);
-    glVertex2f(x, y-2*FS);
-    glVertex2f(x+2*FS, y-2*FS);
-    glVertex2f(x+4*FS, y-2*FS);
-    glVertex2f(x, y-3*FS);
-    glVertex2f(x+2*FS, y-3*FS);
-    glVertex2f(x+4*FS, y-3*FS);
-    glVertex2f(x+FS, y-4*FS);
-    glVertex2f(x+3*FS, y-4*FS);
-    
-    
-    
-    glEnd();
-    glFlush();
-}
-
-void Lett_I (float x,float y,float FS)
-{
-    float Point_size;
-
-    
-    
-    /* init axis is from upper left */
-    Point_size=FS;
-    FS=FS/100;
-    glColor3f(1, 1, 1);
-    glPointSize(Point_size);
-    glBegin(GL_POINTS);
-    
-    
-    
-    glVertex2f(x+FS, y);
-    glVertex2f(x+2*FS, y);
-    glVertex2f(x+3*FS, y);
-    glVertex2f(x+2*FS, y-FS);
-    glVertex2f(x+2*FS, y-2*FS);
-    glVertex2f(x+2*FS, y-3*FS);
-    glVertex2f(x+2*FS, y-4*FS);
-    glVertex2f(x+FS, y-4*FS);
-    glVertex2f(x+3*FS, y-4*FS);
-    
-    glEnd();
+    float xf=x,yf=y;
+	for(int i=0;i<16;i++)
+	{
+		for(int j=0;j<8;j++)
+		{
+			if(asc[i] & (0x80>>j))
+			{
+				glBegin(GL_POINTS);
+                glVertex2f(xf, yf);
+                glEnd();
+                xf=xf+fs;
+			}
+			else
+				xf=xf+fs;
+		}
+		xf=x;
+        yf=yf-fs;
+	}
     glFlush();
 }
 
 
 
-void Lett_N (float x,float y,float FS)
+void printc(char c,float x,float y,float fs)
 {
-    float Point_size;
-
+    char *p;
+    long offset;
+	offset = c* 16;
+    p = fontdata_8x16+offset;
     
-    
-    /* init axis is from upper left */
-    Point_size=FS;
-    FS=FS/100;
-    glColor3f(1, 1, 1);
-    glPointSize(Point_size);
-    glBegin(GL_POINTS);
-    
-    
-    
-    glVertex2f(x, y);
-    glVertex2f(x, y-1*FS);
-    glVertex2f(x, y-2*FS);
-    glVertex2f(x, y-3*FS);
-    glVertex2f(x, y-4*FS);
-    glVertex2f(x+4*FS, y);
-    glVertex2f(x+4*FS, y-1*FS);
-    glVertex2f(x+4*FS, y-2*FS);
-    glVertex2f(x+4*FS, y-3*FS);
-    glVertex2f(x+4*FS, y-4*FS);
-    glVertex2f(x+1*FS, y-1*FS);
-    glVertex2f(x+2*FS, y-2*FS);
-    glVertex2f(x+3*FS, y-3*FS);
-    
-    
-    
-    glEnd();
-    glFlush();
+    disp_font(p,x,y,fs);
 }
 
-void Sign_1 (float x,float y,float FS)
-{
-    float Point_size;
 
-    
-    
-    /* init axis is from upper left */
-    Point_size=FS;
-    FS=FS/100;
-    glColor3f(1, 1, 1);
-    glPointSize(Point_size);
-    glBegin(GL_POINTS);
-    
-    
-    
-    glVertex2f(x+2*FS, y);
-    glVertex2f(x+2*FS, y-1*FS);
-    glVertex2f(x+2*FS, y-2*FS);
-    glVertex2f(x+2*FS, y-4*FS);
-    
-    
-    
-    glEnd();
-    glFlush();
-}
+
 
 
 void YOU_WIN (float x,float y,float FS)
 {
-    Lett_Y(x, y, FS);
-    x=x+FS/15;
-    Lett_O(x, y, FS);
-    x=x+FS/15;
-    Lett_U(x, y, FS);
-    x=x+FS*2/15;
-    Lett_W(x, y, FS);
-    x=x+FS/15;
-    Lett_I(x, y, FS);
-    x=x+FS/15;
-    Lett_N(x, y, FS);
-    x=x+FS/15;
-    Sign_1(x, y, FS);
+    float gap=FS/6;
+    printc('Y', x, y, FS);
+    x=x+gap;
+    printc('o', x, y, FS);
+    x=x+gap;
+    printc('u', x, y, FS);
+    x=x+gap;
+    printc(' ', x, y, FS);
+    x=x+gap;
+    printc('W', x, y, FS);
+    x=x+gap;
+    printc('i', x, y, FS);
+    x=x+gap;
+    printc('n', x, y, FS);
+    
+}
+
+void YOU_LOSE (float x,float y,float FS)
+{
+    float gap=FS/6;
+    printc('Y', x, y, FS);
+    x=x+gap;
+    printc('o', x, y, FS);
+    x=x+gap;
+    printc('u', x, y, FS);
+    x=x+gap;
+    printc(' ', x, y, FS);
+    x=x+gap;
+    printc('L', x, y, FS);
+    x=x+gap;
+    printc('o', x, y, FS);
+    x=x+gap;
+    printc('s', x, y, FS);
+    x=x+gap;
+    printc('e', x, y, FS);
 }

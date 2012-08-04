@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		044015B015CCC6930096C677 /* letters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = letters.c; sourceTree = "<group>"; };
+		044015F715CD31630096C677 /* font_8x16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font_8x16.h; sourceTree = "<group>"; };
 		044E12DF15CBA76E009C91A0 /* opengl_minesweeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengl_minesweeper; sourceTree = BUILT_PRODUCTS_DIR; };
 		044E12E315CBA76E009C91A0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		044E12E515CBA76E009C91A0 /* opengl_minesweeper.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = opengl_minesweeper.1; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				044E12FF15CBC495009C91A0 /* board_UI.c */,
+				044015F715CD31630096C677 /* font_8x16.h */,
 				044E130C15CBD3A1009C91A0 /* numbers.c */,
 				044E130E15CBE6D6009C91A0 /* MouseAction.c */,
 				044E130115CBC4CE009C91A0 /* define_UI.h */,

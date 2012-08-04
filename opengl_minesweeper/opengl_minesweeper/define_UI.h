@@ -20,15 +20,13 @@ void MouseClick(int,int,int,int);
 void MousePassing(int,int);
 void End_frame(int);
 
-void Lett_Y (float,float,float);
-void Lett_O (float,float,float);
-void Lett_U (float,float,float);
-void Lett_W (float,float,float);
-void Lett_I (float,float,float);
-void Lett_N (float,float,float);
-void Sign_1 (float,float,float);
+void printc(char,float,float,float);
+void disp_font(char *,float,float,float);
+
+
 
 void YOU_WIN (float,float,float);
+void YOU_LOSE (float,float,float);
 void MousePassingEndFrame(int,int);
 void MouseClickEndFrame(int,int,int,int);
 #endif

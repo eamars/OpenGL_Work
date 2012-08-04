@@ -78,8 +78,14 @@ void End_frame(int status)
     glEnd();
     glFlush();
     
+
     if (status==1) {
-        YOU_WIN(FRAMEWORK*0.27, FRAMEWORK*0.51, 6);
+        glColor3f(1, 0, 0);
+        YOU_WIN(FRAMEWORK*0.26, FRAMEWORK*0.55, 2.5);
     }
-    
+    else
+    {
+        glColor3f(1, 0, 0);
+        YOU_LOSE(FRAMEWORK*0.23, FRAMEWORK*0.55, 2.5);
+    }
 }

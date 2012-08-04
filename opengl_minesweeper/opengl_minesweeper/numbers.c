@@ -116,20 +116,7 @@ void NumberSet(int number,float x,float y,float fs)
         glVertex2f(x+3*fs, y-4*fs);
         glEnd();
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     glFlush();
     
 }
