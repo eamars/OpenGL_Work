@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044015B115CCC6930096C677 /* letters.c in Sources */ = {isa = PBXBuildFile; fileRef = 044015B015CCC6930096C677 /* letters.c */; };
 		044E12E415CBA76E009C91A0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 044E12E315CBA76E009C91A0 /* main.c */; };
 		044E12E615CBA76E009C91A0 /* opengl_minesweeper.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 044E12E515CBA76E009C91A0 /* opengl_minesweeper.1 */; };
 		044E12F115CBA831009C91A0 /* board_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 044E12F015CBA831009C91A0 /* board_data.c */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		044015B015CCC6930096C677 /* letters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = letters.c; sourceTree = "<group>"; };
 		044E12DF15CBA76E009C91A0 /* opengl_minesweeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengl_minesweeper; sourceTree = BUILT_PRODUCTS_DIR; };
 		044E12E315CBA76E009C91A0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		044E12E515CBA76E009C91A0 /* opengl_minesweeper.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = opengl_minesweeper.1; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				044E130C15CBD3A1009C91A0 /* numbers.c */,
 				044E130E15CBE6D6009C91A0 /* MouseAction.c */,
 				044E130115CBC4CE009C91A0 /* define_UI.h */,
+				044015B015CCC6930096C677 /* letters.c */,
 				044E130A15CBCB16009C91A0 /* piece.c */,
 			);
 			name = UI;
@@ -171,6 +174,7 @@
 				044E130B15CBCB16009C91A0 /* piece.c in Sources */,
 				044E130D15CBD3A1009C91A0 /* numbers.c in Sources */,
 				044E130F15CBE6D6009C91A0 /* MouseAction.c in Sources */,
+				044015B115CCC6930096C677 /* letters.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +271,7 @@
 				044E12EB15CBA76E009C91A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

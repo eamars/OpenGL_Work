@@ -18,4 +18,17 @@ void Piece_With_number(float,float,int);
 void NumberSet(int,float,float,float);
 void MouseClick(int,int,int,int);
 void MousePassing(int,int);
+void End_frame(int);
+
+void Lett_Y (float,float,float);
+void Lett_O (float,float,float);
+void Lett_U (float,float,float);
+void Lett_W (float,float,float);
+void Lett_I (float,float,float);
+void Lett_N (float,float,float);
+void Sign_1 (float,float,float);
+
+void YOU_WIN (float,float,float);
+void MousePassingEndFrame(int,int);
+void MouseClickEndFrame(int,int,int,int);
 #endif

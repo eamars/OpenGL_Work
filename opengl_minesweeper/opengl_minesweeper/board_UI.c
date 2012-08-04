@@ -52,8 +52,34 @@ void Mine_sweeper(void)
 {
     grid();
     Blind_piece();
+    glFlush();
+}
+
+void End_frame(int status)
+{
+    glColor4f(0, 0, 0, 0.5);
+    glBegin(GL_POLYGON);
+    glVertex2d(FRAMEWORK*0.2, FRAMEWORK*0.4);
+    glVertex2d(FRAMEWORK*0.2, FRAMEWORK*0.6);
+    glVertex2d(FRAMEWORK*0.8,FRAMEWORK* 0.6);
+    glVertex2d(FRAMEWORK*0.8, FRAMEWORK*0.4);
+    glEnd();
     
+    //out line
+    glLineWidth(3);
+    glEnable(GL_LINE_STIPPLE);
+    glLineStipple(2, 0x0F0F);
+    glColor3f(1, 1, 0);
+    glBegin(GL_LINE_LOOP);
+    glVertex2d(FRAMEWORK*0.2, FRAMEWORK*0.4);
+    glVertex2d(FRAMEWORK*0.2, FRAMEWORK*0.6);
+    glVertex2d(FRAMEWORK*0.8, FRAMEWORK*0.6);
+    glVertex2d(FRAMEWORK*0.8, FRAMEWORK*0.4);
+    glEnd();
+    glFlush();
     
-    
+    if (status==1) {
+        YOU_WIN(FRAMEWORK*0.27, FRAMEWORK*0.51, 6);
+    }
     
 }

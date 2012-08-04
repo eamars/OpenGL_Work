@@ -66,13 +66,26 @@ void NumberSet(int number,float x,float y,float fs)
         glEnd();
         
     }
+    if (number==4) {
+        glBegin(GL_POINTS);
+        glVertex2f(x+2*fs, y);
+        glVertex2f(x+fs, y-fs);
+        glVertex2f(x, y-2*fs);
+        glVertex2f(x+2*fs, y-2*fs);
+        glVertex2f(x, y-3*fs);
+        glVertex2f(x+fs, y-3*fs);
+        glVertex2f(x+2*fs, y-3*fs);
+        glVertex2f(x+3*fs, y-3*fs);
+        glVertex2f(x+2*fs, y-4*fs);
+        glEnd();
+    }
     
     //none
     
     
     //mine
     if (number==-1) {
-        glColor3f(0, 0, 0);
+        glColor3f(1, 1, 1);
         glBegin(GL_POINTS);
         glVertex2f(x, y);
         glVertex2f(x+4*fs, y);

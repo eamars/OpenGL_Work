@@ -10,8 +10,8 @@
 #define opengl_minesweeper_define_data_h
 
 
-#define BOARD_SIZE 12
-#define MINE_NO 10
+#define BOARD_SIZE 9
+#define MINE_NO 20
 #define NON_MINE 0
 #define MINE -1
 

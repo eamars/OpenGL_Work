@@ -54,10 +54,10 @@ void Piece_With_number(float x,float y,int number)
     x=x*FRAMEWORK/BOARD_SIZE;
     y=(BOARD_SIZE+1-y)*FRAMEWORK/BOARD_SIZE;
     if (number!=-1) {
-        glColor3f(0, 1, 0);
+        glColor3f(0, 0, 0);
     }
     else
-        glColor3f(0, 1, 1);
+        glColor3f(1, 0, 0);
     
     //from upper left
     glBegin(GL_POLYGON);
@@ -68,8 +68,12 @@ void Piece_With_number(float x,float y,int number)
     glEnd();
     
     //outer line
-    glLineWidth(1);
-    glColor3f(0, 0.7193, 1);
+    if (number!=-1) {
+        glColor3f(0, 0.7193, 1);
+    }
+    else
+        glColor3f(1, 1, 0);
+    glLineWidth(2);
     glBegin(GL_LINE_LOOP);
     glVertex2f(x+FRAMEWORK/120, y-FRAMEWORK/120);
     glVertex2f(x+FRAMEWORK/BOARD_SIZE-FRAMEWORK/120, y-FRAMEWORK/120);
