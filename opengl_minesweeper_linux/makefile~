@@ -16,7 +16,6 @@ ARGU=-std=c99 -lglut
 
 # output name
 OUTPUT=opengl_minesweeper
-BuildNO=Build_1.003
 #
 
 

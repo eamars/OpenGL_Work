@@ -26,7 +26,7 @@ int main(int argc, char **argv)
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);
     glutInitWindowSize(((int)FRAMEWORK)*100,((int)FRAMEWORK)*100);
     glutInitWindowPosition(100,100);
-    glutCreateWindow("Mine Sweeper");
+    glutCreateWindow("Mine Sweeper.Build 1.003");
     init();
     glutDisplayFunc(Mine_sweeper);
     
