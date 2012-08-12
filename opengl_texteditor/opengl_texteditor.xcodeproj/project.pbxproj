@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E8F2CE15D7AC23001E7A71 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E8F2CD15D7AC23001E7A71 /* main.c */; };
+		04E8F2D015D7AC23001E7A71 /* opengl_texteditor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04E8F2CF15D7AC23001E7A71 /* opengl_texteditor.1 */; };
+		04E8F2D815D7AC59001E7A71 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E8F2D615D7AC59001E7A71 /* GLUT.framework */; };
+		04E8F2D915D7AC59001E7A71 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E8F2D715D7AC59001E7A71 /* OpenGL.framework */; };
+		04E8F2E015D7AD00001E7A71 /* Framework1.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E8F2DF15D7AD00001E7A71 /* Framework1.c */; };
+		04E8F2E315D7ADC1001E7A71 /* font_driver.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E8F2E215D7ADC1001E7A71 /* font_driver.c */; };
+		04E8F2E515D7AED6001E7A71 /* keyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E8F2E415D7AED6001E7A71 /* keyboard.c */; };
+		04E8F2EB15D7CBE4001E7A71 /* data_control.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E8F2EA15D7CBE4001E7A71 /* data_control.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04E8F2C715D7AC23001E7A71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				04E8F2D015D7AC23001E7A71 /* opengl_texteditor.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04E8F2C915D7AC23001E7A71 /* opengl_texteditor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengl_texteditor; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E8F2CD15D7AC23001E7A71 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04E8F2CF15D7AC23001E7A71 /* opengl_texteditor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = opengl_texteditor.1; sourceTree = "<group>"; };
+		04E8F2D615D7AC59001E7A71 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLUT.framework; sourceTree = "<group>"; };
+		04E8F2D715D7AC59001E7A71 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+		04E8F2DE15D7ACEA001E7A71 /* define_graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define_graph.h; sourceTree = "<group>"; };
+		04E8F2DF15D7AD00001E7A71 /* Framework1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Framework1.c; sourceTree = "<group>"; };
+		04E8F2E115D7ADA6001E7A71 /* font_8x16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font_8x16.h; sourceTree = "<group>"; };
+		04E8F2E215D7ADC1001E7A71 /* font_driver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = font_driver.c; sourceTree = "<group>"; };
+		04E8F2E415D7AED6001E7A71 /* keyboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keyboard.c; sourceTree = "<group>"; };
+		04E8F2E915D7CA9D001E7A71 /* define_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define_data.h; sourceTree = "<group>"; };
+		04E8F2EA15D7CBE4001E7A71 /* data_control.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = data_control.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E8F2C615D7AC23001E7A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E8F2D815D7AC59001E7A71 /* GLUT.framework in Frameworks */,
+				04E8F2D915D7AC59001E7A71 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E8F2BE15D7AC23001E7A71 = {
+			isa = PBXGroup;
+			children = (
+				04E8F2D615D7AC59001E7A71 /* GLUT.framework */,
+				04E8F2D715D7AC59001E7A71 /* OpenGL.framework */,
+				04E8F2CC15D7AC23001E7A71 /* opengl_texteditor */,
+				04E8F2CA15D7AC23001E7A71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E8F2CA15D7AC23001E7A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E8F2C915D7AC23001E7A71 /* opengl_texteditor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E8F2CC15D7AC23001E7A71 /* opengl_texteditor */ = {
+			isa = PBXGroup;
+			children = (
+				04E8F2CD15D7AC23001E7A71 /* main.c */,
+				04E8F2E815D7CA83001E7A71 /* DATA */,
+				04E8F2E615D7C169001E7A71 /* UI */,
+				04E8F2E215D7ADC1001E7A71 /* font_driver.c */,
+				04E8F2E415D7AED6001E7A71 /* keyboard.c */,
+				04E8F2CF15D7AC23001E7A71 /* opengl_texteditor.1 */,
+			);
+			path = opengl_texteditor;
+			sourceTree = "<group>";
+		};
+		04E8F2E615D7C169001E7A71 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				04E8F2DE15D7ACEA001E7A71 /* define_graph.h */,
+				04E8F2E115D7ADA6001E7A71 /* font_8x16.h */,
+				04E8F2DF15D7AD00001E7A71 /* Framework1.c */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		04E8F2E815D7CA83001E7A71 /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				04E8F2E915D7CA9D001E7A71 /* define_data.h */,
+				04E8F2EA15D7CBE4001E7A71 /* data_control.c */,
+			);
+			name = DATA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E8F2C815D7AC23001E7A71 /* opengl_texteditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E8F2D315D7AC23001E7A71 /* Build configuration list for PBXNativeTarget "opengl_texteditor" */;
+			buildPhases = (
+				04E8F2C515D7AC23001E7A71 /* Sources */,
+				04E8F2C615D7AC23001E7A71 /* Frameworks */,
+				04E8F2C715D7AC23001E7A71 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opengl_texteditor;
+			productName = opengl_texteditor;
+			productReference = 04E8F2C915D7AC23001E7A71 /* opengl_texteditor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E8F2C015D7AC23001E7A71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = eamars;
+			};
+			buildConfigurationList = 04E8F2C315D7AC23001E7A71 /* Build configuration list for PBXProject "opengl_texteditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04E8F2BE15D7AC23001E7A71;
+			productRefGroup = 04E8F2CA15D7AC23001E7A71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E8F2C815D7AC23001E7A71 /* opengl_texteditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E8F2C515D7AC23001E7A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E8F2CE15D7AC23001E7A71 /* main.c in Sources */,
+				04E8F2E015D7AD00001E7A71 /* Framework1.c in Sources */,
+				04E8F2E315D7ADC1001E7A71 /* font_driver.c in Sources */,
+				04E8F2E515D7AED6001E7A71 /* keyboard.c in Sources */,
+				04E8F2EB15D7CBE4001E7A71 /* data_control.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04E8F2D115D7AC23001E7A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04E8F2D215D7AC23001E7A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04E8F2D415D7AC23001E7A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04E8F2D515D7AC23001E7A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E8F2C315D7AC23001E7A71 /* Build configuration list for PBXProject "opengl_texteditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E8F2D115D7AC23001E7A71 /* Debug */,
+				04E8F2D215D7AC23001E7A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E8F2D315D7AC23001E7A71 /* Build configuration list for PBXNativeTarget "opengl_texteditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E8F2D415D7AC23001E7A71 /* Debug */,
+				04E8F2D515D7AC23001E7A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E8F2C015D7AC23001E7A71 /* Project object */;
+}

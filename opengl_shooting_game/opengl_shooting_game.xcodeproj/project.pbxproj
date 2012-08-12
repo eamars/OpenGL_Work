@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041F3BA915D214010007D282 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 041F3BA815D214010007D282 /* main.c */; };
+		041F3BAB15D214010007D282 /* opengl_shooting_game.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 041F3BAA15D214010007D282 /* opengl_shooting_game.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		041F3BA215D214010007D282 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				041F3BAB15D214010007D282 /* opengl_shooting_game.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		041F3BA415D214010007D282 /* opengl_shooting_game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengl_shooting_game; sourceTree = BUILT_PRODUCTS_DIR; };
+		041F3BA815D214010007D282 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		041F3BAA15D214010007D282 /* opengl_shooting_game.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = opengl_shooting_game.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041F3BA115D214010007D282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041F3B9915D214010007D282 = {
+			isa = PBXGroup;
+			children = (
+				041F3BA715D214010007D282 /* opengl_shooting_game */,
+				041F3BA515D214010007D282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041F3BA515D214010007D282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041F3BA415D214010007D282 /* opengl_shooting_game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041F3BA715D214010007D282 /* opengl_shooting_game */ = {
+			isa = PBXGroup;
+			children = (
+				041F3BA815D214010007D282 /* main.c */,
+				041F3BAA15D214010007D282 /* opengl_shooting_game.1 */,
+			);
+			path = opengl_shooting_game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041F3BA315D214010007D282 /* opengl_shooting_game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F3BAE15D214010007D282 /* Build configuration list for PBXNativeTarget "opengl_shooting_game" */;
+			buildPhases = (
+				041F3BA015D214010007D282 /* Sources */,
+				041F3BA115D214010007D282 /* Frameworks */,
+				041F3BA215D214010007D282 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opengl_shooting_game;
+			productName = opengl_shooting_game;
+			productReference = 041F3BA415D214010007D282 /* opengl_shooting_game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041F3B9B15D214010007D282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = eamars;
+			};
+			buildConfigurationList = 041F3B9E15D214010007D282 /* Build configuration list for PBXProject "opengl_shooting_game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 041F3B9915D214010007D282;
+			productRefGroup = 041F3BA515D214010007D282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041F3BA315D214010007D282 /* opengl_shooting_game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041F3BA015D214010007D282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F3BA915D214010007D282 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		041F3BAC15D214010007D282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		041F3BAD15D214010007D282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		041F3BAF15D214010007D282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		041F3BB015D214010007D282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041F3B9E15D214010007D282 /* Build configuration list for PBXProject "opengl_shooting_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041F3BAC15D214010007D282 /* Debug */,
+				041F3BAD15D214010007D282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F3BAE15D214010007D282 /* Build configuration list for PBXNativeTarget "opengl_shooting_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041F3BAF15D214010007D282 /* Debug */,
+				041F3BB015D214010007D282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041F3B9B15D214010007D282 /* Project object */;
+}
