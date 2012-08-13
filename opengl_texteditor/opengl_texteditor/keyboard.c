@@ -14,6 +14,7 @@
 #endif
 #include "define_graph.h"
 #include "define_data.h"
+#include "key_map.h"
 int line=0;
 int col=0;
 
@@ -25,9 +26,8 @@ float xf=0.1,yf=4.7;
 void KeyBoard(unsigned char key,int x,int y)
 {
     //printf("key=%d\n",key);
-    
     /* enter */
-    if (key==13)
+    if (key==ENTER)
     {
         //del '_' before print letter
         glColor3f(0, 0, 0);
@@ -47,7 +47,7 @@ void KeyBoard(unsigned char key,int x,int y)
     
     
     /* backspace */
-    else if (key==127)
+    else if (key==BACKSPACE)
     {
         if (xf<0.11 && yf>4.6)
         {
@@ -102,7 +102,7 @@ void KeyBoard(unsigned char key,int x,int y)
     }
     
     /* tab */
-    else if (key==9)
+    else if (key==TAB)
     {
         //del '_' before print letter
         glColor3f(0, 0, 0);
