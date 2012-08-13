@@ -158,7 +158,7 @@ void KeyBoard(unsigned char key,int x,int y)
         }
     }
     dislplayinfo(line, col);
-    printf("line=%d column=%d\n",line,col);
+    //printf("line=%d column=%d\n",line,col);
 }
 
 

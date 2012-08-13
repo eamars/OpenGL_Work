@@ -14,6 +14,7 @@
 #endif
 #include "define_graph.h"
 #include "font_8x16.h"
+#include <string.h>
 
 void disp_font(char *asc,float x,float y,float fs)
 {
@@ -55,5 +56,15 @@ void printc(char c,float x,float y,float fs)
     p = fontdata_8x16+offset;
     
     disp_font(p,x,y,fs);
+}
+
+void prints(const char str[],float x,float y,float fs)
+{
+    float gap=0.08;
+    float xf=x;
+    for (int i=0; i<strlen(str); i++) {
+        printc(str[i], xf, y, fs);
+        xf=xf+gap;
+    }
 }
 

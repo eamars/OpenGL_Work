@@ -16,6 +16,7 @@
 void model1(void);
 void disp_font(char *,float,float,float);// --> print_font.c
 void printc(char,float,float,float);// --> print_font.c
+void prints(const char str[],float,float,float);// --> print_font.c
 void KeyBoard(unsigned char,int,int);
 void SpecialKey(int,int,int);
 void dislplayinfo(int,int);

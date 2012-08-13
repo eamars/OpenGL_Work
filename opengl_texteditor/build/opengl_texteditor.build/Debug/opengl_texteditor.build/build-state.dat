@@ -3,9 +3,9 @@ v5
 r1
 cCheck dependencies
 cCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/data_control.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/data_control.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/mac/Codes/opengl_texteditor/build/Debug/opengl_texteditor normal x86_64
 
@@ -55,27 +55,27 @@ t1343266866
 s187120
 
 N/Users/mac/Codes/opengl_texteditor/build/Debug/opengl_texteditor
-t1344774543
-s21288
+t1344862103
+s21260
 
 N/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o
-t1344773425
-s5600
+t1344862103
+s5268
 
 N/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/data_control.o
 t1344774543
 s3536
 
 N/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.o
-t1344772886
-s8628
+t1344861165
+s9384
 
 N/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.o
-t1344774543
-s9312
+t1344860988
+s9096
 
 N/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.o
-t1344774543
+t1344860988
 s4328
 
 N/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/opengl_texteditor.LinkFileList
@@ -84,9 +84,9 @@ t1344771313
 s645
 
 N/Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c
-c0000000050279D310000000000000668
-t1344773425
-s1640
+c000000005028F797000000000000078D
+t1344862103
+s1933
 
 N/Users/mac/Codes/opengl_texteditor/opengl_texteditor/data_control.c
 c000000005027A18F0000000000000178
@@ -99,9 +99,9 @@ t1344774543
 s296
 
 N/Users/mac/Codes/opengl_texteditor/opengl_texteditor/define_graph.h
-c0000000050279B1600000000000001CF
-t1344772886
-s463
+c000000005028F33C0000000000000213
+t1344860988
+s531
 
 N/Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_8x16.h
 c00000000502784830000000000017B87
@@ -109,14 +109,14 @@ t1344767107
 s97159
 
 N/Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c
-c000000005027767200000000000003CD
-t1344763506
-s973
+c000000005028F3ED00000000000004A5
+t1344861165
+s1189
 
 N/Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.c
-c0000000050279F240000000000001526
-t1344773924
-s5414
+c000000005027A7970000000000001528
+t1344776087
+s5416
 
 N/Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.c
 c000000005027A18F00000000000003DF
@@ -126,6 +126,7 @@ i<stdio.h>
 i<GLUT/GLUT.h>
 i<GL/glut.h>
 i"define_graph.h"
+i"define_data.h"
 
 CBuild AST from /Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c
 r0
@@ -144,11 +145,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5ad522c1d9d7b541^011423c1d9d7b541^---0#1#0#--18"Check dependencies36"F3C76388-DBA4-45DA-879C-303A3CFA663A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2c67a71f2fd9b541^6dfea71f2fd9b541^---0#1#0#--18"Check dependencies36"F90D414D-C7FA-4B92-BECB-284C09E10710-
 
 CCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s366466225.683411
-e366466225.727990
+s366554903.586340
+e366554903.624384
 r1
 xCompileC
 xbuild/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o
@@ -157,7 +158,7 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.ce815afb1d4d7b541^895ebab1d4d7b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c0000000000000000^2575"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o opengl_texteditor/Framework1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o36"4EC1B8CB-5010-4C51-B1C2-F852E053C362-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c863896172fd9b541^e4d79f172fd9b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c0000000000000000^2575"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o opengl_texteditor/Framework1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/Framework1.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/Framework1.o36"7A9E73EA-7197-4B15-BF57-9628AEB44E53-
 
 CCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/data_control.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/data_control.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s366467343.266570
@@ -173,8 +174,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/data_control.ca04f440fd9d7b541^21204b0fd9d7b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/data_control.c0000000000000000^2587"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/data_control.o opengl_texteditor/data_control.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/data_control.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/data_control.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/data_control.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/data_control.o36"8AAFA388-29C2-4E13-BEF0-A64D915C25B7-
 
 CCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s366465686.214640
-e366465686.292765
+s366553965.918591
+e366553965.963016
 r1
 xCompileC
 xbuild/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.o
@@ -183,11 +184,11 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c66103796d2d7b541^53054b96d2d7b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c0000000000000000^2581"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.o opengl_texteditor/font_driver.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.o36"5CE7C5FA-45A8-4E50-A8BC-621CD5461823-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c1b48eb6d2bd9b541^7b88f66d2bd9b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c0000000000000000^2581"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.o opengl_texteditor/font_driver.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/font_driver.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/font_driver.o36"C6E40A6E-26CA-49F1-B278-81DA0655A56B-
 
 CCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s366467343.265463
-e366467343.309576
+s366553788.540936
+e366553788.629176
 r1
 xCompileC
 xbuild/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.o
@@ -196,11 +197,11 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.ca913440fd9d7b541^18414f0fd9d7b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.c0000000000000000^2563"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.o opengl_texteditor/keyboard.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.o36"A622CDE3-17EF-413E-9604-771A5906FA5A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.cfb958abc2ad9b541^cf11a1bc2ad9b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.c0000000000000000^2563"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.o opengl_texteditor/keyboard.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/keyboard.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/keyboard.o36"0891C585-4F6F-4C89-B4CC-0376E8C8D239-
 
 CCompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s366467343.265327
-e366467343.305815
+s366553788.540433
+e366553788.631168
 r1
 xCompileC
 xbuild/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.o
@@ -209,15 +210,15 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.c1008440fd9d7b541^384a4e0fd9d7b541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.c0000000000000000^2539"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.o opengl_texteditor/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.o36"2D778C48-3F4E-4884-AF07-092E026EC5B7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.caf7c8abc2ad9b541^3695a1bc2ad9b541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.c0000000000000000^2539"CompileC build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.o opengl_texteditor/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_texteditor    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-generated-files.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-own-target-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/opengl_texteditor-project-headers.hmap -I/Users/mac/Codes/opengl_texteditor/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/DerivedSources -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -MMD -MT dependencies -MF /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/opengl_texteditor/opengl_texteditor/main.c -o /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/main.o36"CCD820E2-2C32-4C76-BAB2-80653A1C8F99-
 
 CLd /Users/mac/Codes/opengl_texteditor/build/Debug/opengl_texteditor normal x86_64
-s366467343.316431
-e366467343.339861
+s366554903.631248
+e366554903.652071
 r1
 xLd
 x/Users/mac/Codes/opengl_texteditor/build/Debug/opengl_texteditor
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Link /Users/mac/Codes/opengl_texteditor/build/Debug/opengl_texteditora912510fd9d7b541^594d570fd9d7b541^---0#0#0#--770"Ld build/Debug/opengl_texteditor normal x86_64    cd /Users/mac/Codes/opengl_texteditor    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -filelist /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/opengl_texteditor.LinkFileList -mmacosx-version-min=10.8 -framework GLUT -framework OpenGL -o /Users/mac/Codes/opengl_texteditor/build/Debug/opengl_texteditor36"79DBF3DE-EE75-4515-A67A-1E231B183615-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Link /Users/mac/Codes/opengl_texteditor/build/Debug/opengl_texteditore2aba1172fd9b541^e9eea6172fd9b541^---0#0#0#--770"Ld build/Debug/opengl_texteditor normal x86_64    cd /Users/mac/Codes/opengl_texteditor    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor/build/Debug -F/Users/mac/Codes/opengl_texteditor -filelist /Users/mac/Codes/opengl_texteditor/build/opengl_texteditor.build/Debug/opengl_texteditor.build/Objects-normal/x86_64/opengl_texteditor.LinkFileList -mmacosx-version-min=10.8 -framework GLUT -framework OpenGL -o /Users/mac/Codes/opengl_texteditor/build/Debug/opengl_texteditor36"D5851CCF-C9F6-4ED1-91C9-3C425BDCF543-
 

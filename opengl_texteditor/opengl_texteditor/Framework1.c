@@ -20,6 +20,7 @@ void model1()
     glColor3f(1, 1, 1);
     printc('_', 0.1, 4.7, 0.5);
     dislplayinfo(0, 0);
+    prints("ver_alpha", 7.2, 0.13, 0.5);
     glutKeyboardFunc(KeyBoard);
     glutSpecialFunc(SpecialKey);
 }
@@ -35,19 +36,27 @@ void dislplayinfo(int line,int col)
     
     int ten_col=col/10;
     int one_col=col-10*ten_col;
-    
+    /*
     char LINE[]="Line = ";
     for (int i=0; i<sizeof(LINE)-1; i++) {
         glColor3f(1, 1, 1);
         printc(LINE[i], xf, yf, fs);
         xf=xf+0.08;
+    
     }
+     */
+    glColor3f(1, 1, 1);
+    prints("Line=", xf, yf, fs);
+    xf=xf+0.08*5;
     //clear history
     glColor3f(0, 0, 0);
     printc('\000', xf, yf, fs);
     
     glColor3f(1, 1, 1);
-    printc(ten_line+48, xf, yf, fs);
+    if (ten_line!=0) {
+        printc(ten_line+48, xf, yf, fs);
+    }
+    
     xf=xf+0.08;
     
     //clear history
@@ -60,7 +69,7 @@ void dislplayinfo(int line,int col)
     
     xf=xf+0.08*4;
     
-    
+    /*
     char COL[]="Column=";
     for (int i=0; i<sizeof(COL)-1; i++) {
 
@@ -68,12 +77,19 @@ void dislplayinfo(int line,int col)
         printc(COL[i], xf, yf, fs);
         xf=xf+0.08;
     }
+     */
+    glColor3f(1, 1, 1);
+    prints("Column=", xf, yf, fs);
+    xf=xf+0.08*7;
     //clear history
     glColor3f(0, 0, 0);
     printc('\000', xf, yf, fs);
     
     glColor3f(1, 1, 1);
-    printc(ten_col+48, xf, yf, fs);
+    if (ten_col!=0) {
+        printc(ten_col+48, xf, yf, fs);
+    }
+    
     xf=xf+0.08;
     
     //clear history
