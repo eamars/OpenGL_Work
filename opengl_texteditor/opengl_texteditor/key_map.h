@@ -9,10 +9,10 @@
 #ifndef opengl_texteditor_Header_h
 #define opengl_texteditor_Header_h
 
-#ifdef __WIN32__
-#define BACKSPACE 8
+#ifdef __APPLE__
+#define BACKSPACE 127
 #else
-#define	BACKSPACE 127
+#define	BACKSPACE 8
 #endif
 #define ENTER 13
 #define TAB 9
