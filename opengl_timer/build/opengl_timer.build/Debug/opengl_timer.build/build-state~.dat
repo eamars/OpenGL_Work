@@ -1,0 +1,73 @@
+Topengl_timer
+v5
+r1
+cCheck dependencies
+cCompileC build/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_timer/opengl_timer/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005024820B00000000000000AA
+t1344569867
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c000000005010B1830000000000004523
+t1343271299
+s17699
+
+N/Users/mac/Codes/opengl_timer/GLUT.framework/GLUT
+c000000005010A19400000000000FFF10
+t1343267220
+s1048336
+
+N/Users/mac/Codes/opengl_timer/OpenGL.framework/OpenGL
+c000000005010A032000000000002DAF0
+t1343266866
+s187120
+
+N/Users/mac/Codes/opengl_timer/build/Debug/opengl_timer
+t2
+s0
+
+N/Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/opengl_timer.LinkFileList
+c000000005036BBC0000000000000006D
+t1345764288
+s109
+
+N/Users/mac/Codes/opengl_timer/opengl_timer/main.c
+c000000005036BBC0000000000000036B
+t1345764288
+s875
+i<stdio.h>
+
+CBuild AST from /Users/mac/Codes/opengl_timer/opengl_timer/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2a374940f3e6b541^b5dc4d40f3e6b541^---0#1#0#--18"Check dependencies36"39BF14FC-A963-4D97-8B0B-CC588F62EFCC-
+
+CCompileC build/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_timer/opengl_timer/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s367457088.311194
+e367457088.943481
+r0
+xCompileC
+xbuild/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/main.o
+x/Users/mac/Codes/opengl_timer/opengl_timer/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/mac/Codes/opengl_timer/opengl_timer/main.c:10:
+o/Users/mac/Codes/opengl_timer/opengl_timer/define_graph.h:18:10: fatal error: 'define_data.h' file not found
+o#include "define_data.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/mac/Codes/opengl_timer/opengl_timer/main.c90d74f40f3e6b541^9d85f140f3e6b541^-240"In file included from /Users/mac/Codes/opengl_timer/opengl_timer/main.c:10:/Users/mac/Codes/opengl_timer/opengl_timer/define_graph.h:18:10: fatal error: 'define_data.h' file not found#include "define_data.h"         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@30"'define_data.h' file not found-367457088#18446744073709551615#0#1(2@75"In file included from /Users/mac/Codes/opengl_timer/opengl_timer/main.c:10:-367457088#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@65"file://localhost/Users/mac/Codes/opengl_timer/opengl_timer/main.c0000000000000000^9#9#9#9#153#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@73"file://localhost/Users/mac/Codes/opengl_timer/opengl_timer/define_graph.h0000000000000000^17#9#17#9#315#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@65"file://localhost/Users/mac/Codes/opengl_timer/opengl_timer/main.c0000000000000000^2339"CompileC build/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/main.o opengl_timer/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_timer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/opengl_timer-generated-files.hmap -I/Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/opengl_timer-own-target-headers.hmap -I/Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/opengl_timer-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/opengl_timer-project-headers.hmap -I/Users/mac/Codes/opengl_timer/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/DerivedSources -F/Users/mac/Codes/opengl_timer/build/Debug -F/Users/mac/Codes/opengl_timer -MMD -MT dependencies -MF /Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/opengl_timer/opengl_timer/main.c -o /Users/mac/Codes/opengl_timer/build/opengl_timer.build/Debug/opengl_timer.build/Objects-normal/x86_64/main.o36"97C328C0-78BF-48D3-B6E8-DB0CAF0A8F94-
+
+CLd /Users/mac/Codes/opengl_timer/build/Debug/opengl_timer normal x86_64
+r0
+
