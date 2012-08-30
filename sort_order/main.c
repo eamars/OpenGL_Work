@@ -71,7 +71,7 @@ int main(int argc, const char * argv[])
     start=clock();
     //2
     for (int j=0; j<length; j++) {
-     	for (int i=0; i<length-1; i++) {
+     	for (int i=0; i<length-j; i++) {
      		if (sequence2[i]>sequence2[i+1]) {
      			temp=sequence2[i+1];
      			sequence2[i+1]=sequence2[i];
