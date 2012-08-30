@@ -23,6 +23,7 @@ void debug(int sequence[],int length)
 
 
 
+
 int main(int argc, const char * argv[])
 {
 
@@ -55,10 +56,10 @@ int main(int argc, const char * argv[])
             if (sequence1[j]<sequence1[k]) {
                 k=j;
             }
-            temp=sequence1[k];
-            sequence1[k]=sequence1[i];
-            sequence1[i]=temp;
         }
+        temp=sequence1[k];
+        sequence1[k]=sequence1[i];
+        sequence1[i]=temp;
     }
 	end=clock();
     
@@ -81,10 +82,17 @@ int main(int argc, const char * argv[])
      }
     end=clock();
      printf("[ALGOL2=%lfs]\n",(end-start)/(double)CLOCKS_PER_SEC);
+    
+     
     printf("Complete, press any key to exit!\n");
     
     int pause;
     pause=getchar();
+    if (pause==1) {
+        for (int i=0; i<length; i++) {
+            printf("%d ",sequence1[i]);
+        }
+    }
     return 0;
 }
 
