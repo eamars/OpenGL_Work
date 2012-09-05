@@ -28,6 +28,23 @@ int ai_turn_white()
     
 }
 
+int ai_turn_black()
+{
+    int win=0;
+    int x_axis,y_axis;
+    x_axis=ana_x();
+    y_axis=ana_y();
+    
+    
+    steps(x_axis, y_axis, 'b');
+    piece_GL('b', y_axis, x_axis);
+    
+    win=win_check_general(x_axis, y_axis, 'b');
+    //printf("win=%d\n",win);
+	return win;
+    
+}
+
 /* My method to get marks*/
 
 int get_length(int x_axis,int y_axis,char side_before)

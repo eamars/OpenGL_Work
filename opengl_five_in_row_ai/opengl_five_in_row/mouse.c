@@ -17,8 +17,8 @@
 #include <GL/glut.h>
 #endif
 
-
-char side;
+int turns=2;
+char side='b';
 int win;
 
 void MouseAction(int button, int state, int x, int y)
@@ -38,28 +38,60 @@ void MouseAction(int button, int state, int x, int y)
             // black and white take turns
             //printf("x=%d y=%d\n",(int)xf,(int)yf);
             
-            if (board[(int)yf][(int)xf]==blank_board) {
+            /*mode1:Player vs AI*/
+            if (mode==1) {
+                if (board[(int)yf][(int)xf]==blank_board) {
+                    //black human
+                    side='b';
+                    piece_GL(side, (int)xf, (int)yf);
+                    steps((int)yf, (int)xf, side);
+                    win=win_check_general((int)yf, (int)xf, side);
+                    if (win!=0) {
+                        goto loop;
+                    }
+
+                    //white ai
+                    side='w';
+                    win=ai_turn_white();
+                    if (win!=0) {
+                        goto loop;
+                    }
+                }
+            }
+            
+            /*mode2:Player vs Player*/
+            if (mode==2) {
+                if (board[(int)yf][(int)xf]==blank_board) {
+                    piece_GL(side, (int)xf, (int)yf);
+                    steps((int)yf, (int)xf, side);
+                    if(turns%2==0)
+                    {
+                        side='w';
+                    }
+                    else
+                        side='b';
+                    turns++;
+                }
+                
+                win=win_check_general((int)yf, (int)xf, side);
+            }
+
+            /*mode3:AI vs AI*/
+            if (mode==3) {
                 //black human
                 side='b';
-                piece_GL(side, (int)xf, (int)yf);
-                steps((int)yf, (int)xf, side);
-                win=win_check_general((int)yf, (int)xf, side);
+                win=ai_turn_black();
                 if (win!=0) {
                     goto loop;
                 }
                 
-                
-                
-                
                 //white ai
-				side='w';
+                side='w';
                 win=ai_turn_white();
                 if (win!=0) {
                     goto loop;
                 }
             }
-
-            
             
             
             

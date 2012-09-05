@@ -13,7 +13,7 @@
 
 
 char blank_board;
-
+int mode;
 char board[BOARD_SIZE][BOARD_SIZE];
 
 int coordinate_x[BOARD_SIZE];
@@ -48,5 +48,5 @@ int ana_x();
 int ana_y();
 
 int ai_turn_white();
-
+int ai_turn_black();
 #endif
