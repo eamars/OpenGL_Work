@@ -19,11 +19,11 @@
 
 int turns=2;
 char side='b';
-char blank_board='-';
-int win=0;
+int win;
 
 void MouseAction(int button, int state, int x, int y)
 {
+    blank_board='-';
     if(state == GLUT_DOWN)
     {
         if(button == GLUT_LEFT_BUTTON)
@@ -36,43 +36,87 @@ void MouseAction(int button, int state, int x, int y)
             
             
             // black and white take turns
+            //printf("x=%d y=%d\n",(int)xf,(int)yf);
             
-            
-            if (board[(int)yf][(int)xf]==blank_board) {
-                piece_GL(side, (int)xf, (int)yf);
-                steps((int)yf, (int)xf, side);
-                if(turns%2==0)
-                {
-                    side='w';
-                }
-                else
+            /*mode1:Player vs AI*/
+            if (mode==1) {
+                if (board[(int)yf][(int)xf]==blank_board) {
+                    //black human
                     side='b';
-                turns++;
-            }
-            
-            win=win_check_general((int)yf, (int)xf, side);
-            
-            
-            
-            if (win!=0) {
-                if (win==1) {
-                    printf("\n[Black wins]\n");
-                    print_board(1);
-                    glutPassiveMotionFunc(MousePassingEndFrame);
-                    glutMouseFunc(MouseClickEndFrame);
-                    
-                }
-                else if (win==-1)
-                {
-                    printf("\n[White wins]\n");
-                    print_board(1);
-                    glutPassiveMotionFunc(MousePassingEndFrame);
-                    glutMouseFunc(MouseClickEndFrame);
-                    
-                }
-            }
-            
+                    piece_GL(side, (int)xf, (int)yf);
+                    steps((int)yf, (int)xf, side);
+                    win=win_check_general((int)yf, (int)xf, side);
+                    if (win!=0) {
+                        goto loop;
+                    }
 
+                    //white ai
+                    side='w';
+                    win=ai_turn_white();
+                    if (win!=0) {
+                        goto loop;
+                    }
+                }
+            }
+            
+            /*mode2:Player vs Player*/
+            if (mode==2) {
+                if (board[(int)yf][(int)xf]==blank_board) {
+                    piece_GL(side, (int)xf, (int)yf);
+                    steps((int)yf, (int)xf, side);
+                    if(turns%2==0)
+                    {
+                        side='w';
+                    }
+                    else
+                        side='b';
+                    turns++;
+                }
+                
+                win=win_check_general((int)yf, (int)xf, side);
+            }
+
+            /*mode3:AI vs AI*/
+            if (mode==3) {
+                //black human
+                side='b';
+                win=ai_turn_black();
+                if (win!=0) {
+                    goto loop;
+                }
+                
+                //white ai
+                side='w';
+                win=ai_turn_white();
+                if (win!=0) {
+                    goto loop;
+                }
+            }
+            
+            
+            
+            
+        loop:if (win!=0) {
+                if (win==-1) {
+                    print_board(1);
+                    printf("\n[Black wins]\n");
+                    
+                    glutPassiveMotionFunc(MousePassingEndFrame);
+                    glutMouseFunc(MouseClickEndFrame);
+                    
+                }
+                else if (win==1)
+                {
+                    print_board(1);
+                    printf("\n[White wins]\n");
+                    
+                    glutPassiveMotionFunc(MousePassingEndFrame);
+                    glutMouseFunc(MouseClickEndFrame);
+                    
+                }
+            }
+            
+            
             
         }
         else if(button == GLUT_MIDDLE_BUTTON)
@@ -140,7 +184,16 @@ void MousePassingEndFrame(int x,int y)
         glVertex2d(0.8, 0.4);
         glEnd();
         glFlush();
-        YOU_WIN(0.32, 0.51, 1);
+		glColor3f(1, 1, 1);
+        if (win==-1) {
+            prints("Black Win", 0.28, 0.54, 0.3);
+        }
+        else if (win==1)
+        {
+            prints("White Win", 0.28, 0.54, 0.3);
+        }
+        
+        
     }
     else
     {

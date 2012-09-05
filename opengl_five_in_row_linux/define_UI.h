@@ -30,5 +30,8 @@ void Lett_N (float,float,float);
 void Sign_1 (float,float,float);
 
 void YOU_WIN (float,float,float);
+
+void printc(char,float,float,float);// --> print_font.c
+void prints(const char str[],float,float,float);// --> print_font.c
 #endif
 

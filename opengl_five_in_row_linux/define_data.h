@@ -12,7 +12,8 @@
 #define BOARD_SIZE 13
 
 
-
+char blank_board;
+int mode;
 char board[BOARD_SIZE][BOARD_SIZE];
 
 int coordinate_x[BOARD_SIZE];
@@ -38,5 +39,14 @@ void steps(int,int,char);//do the step
 //Win check
 int win_check_general(int,int,char);//general method to check if win >>win_check.c
 
+//My method get length
+int get_length(int,int,char);
+int mark(int);//0,1,10,100,1000,10000
 
+//analysis points
+int ana_x();
+int ana_y();
+
+int ai_turn_white();
+int ai_turn_black();
 #endif
