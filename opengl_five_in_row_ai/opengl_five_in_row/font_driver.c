@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 #ifdef __APPLE__
 #include <GLUT/GLUT.h>
 #else
@@ -14,7 +15,7 @@
 #endif
 #include "define_UI.h"
 #include "font_8x16.h"
-#include <string.h>
+
 
 void disp_font(char *asc,float x,float y,float fs)
 {

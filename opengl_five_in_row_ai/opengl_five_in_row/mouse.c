@@ -11,19 +11,16 @@
 #include "define_data.h"
 #include <stdlib.h>
 
-#ifdef __APPLE__
-#include <GLUT/glut.h>
-#else
-#include <GL/glut.h>
-#endif
+
 
 int turns=2;
 char side='b';
-int win;
+
 
 void MouseAction(int button, int state, int x, int y)
 {
     blank_board='-';
+    
     if(state == GLUT_DOWN)
     {
         if(button == GLUT_LEFT_BUTTON)
@@ -67,13 +64,25 @@ void MouseAction(int button, int state, int x, int y)
                     if(turns%2==0)
                     {
                         side='w';
+                        //debug
+                        //get_length((int)yf, (int)xf, 'b');
                     }
                     else
                         side='b';
+                    
                     turns++;
                 }
                 
                 win=win_check_general((int)yf, (int)xf, side);
+                
+                //reverse black white
+                if (win==1) {
+                    win=-1;
+                }
+                else if (win==-1){
+                    win=1;
+                }
+
             }
 
             /*mode3:AI vs AI*/
@@ -114,6 +123,8 @@ void MouseAction(int button, int state, int x, int y)
                     glutMouseFunc(MouseClickEndFrame);
                     
                 }
+            savelog(1);
+            	
             }
             
             
@@ -122,7 +133,13 @@ void MouseAction(int button, int state, int x, int y)
         else if(button == GLUT_MIDDLE_BUTTON)
         {
             //middle button code
-            print_board(1);
+            if (mode==1) {
+                print_markboard();
+            }
+            else
+            	print_board(1);
+            
+            
         }
         else if(button == GLUT_RIGHT_BUTTON)
         {
@@ -185,6 +202,7 @@ void MousePassingEndFrame(int x,int y)
         glEnd();
         glFlush();
 		glColor3f(1, 1, 1);
+        //printf("win=%d\n",win);
         if (win==-1) {
             prints("Black Win", 0.28, 0.54, 0.3);
         }

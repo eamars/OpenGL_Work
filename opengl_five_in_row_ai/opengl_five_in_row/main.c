@@ -10,11 +10,7 @@
 #include "define_UI.h"
 #include "define_data.h"
 
-#ifdef __APPLE__
-#include <GLUT/glut.h>
-#else
-#include <GL/glut.h>
-#endif
+
 
 float scale_each=0.5/COEI;
 
@@ -23,11 +19,12 @@ int main(int argc,char **argv)
     
     init_board('-');
     //startup
+    
     printf("\n\nWelcome to my 'Five in Row' games!\n\n");
     printf("Press 1 to play with computer\n");
     printf("Press 2 to play with your friends\n");
     printf("Your choice:");
-    char choice;
+    char choice;//default for mode1: player vs ai
     choice=getchar();
     if (choice=='1') {
         mode=1;
@@ -40,6 +37,8 @@ int main(int argc,char **argv)
     {
         mode=3;
     }
+    else
+        mode=1;
     
     //printf("mode=%d\n",mode);
     
@@ -47,18 +46,23 @@ int main(int argc,char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);
     glutInitWindowSize(((int)COEI)*100,((int)COEI)*100);
-    glutInitWindowPosition(100,100);
-    glutCreateWindow("Gomoku");
+    glutInitWindowPosition(10,10);
+    if (mode==1) {
+        glutCreateWindow("Gomoku Challenge");
+    }
+    else if (mode==2){
+        glutCreateWindow("Gomoku Duel");
+    }
+    else if (mode==3){
+        glutCreateWindow("Gomoku AI Versus");
+    }
+    else
+        glutCreateWindow("Gomoku Challenge");
+    
     init();
-    
-    
-
     glutDisplayFunc(model1);
-    
     glutMouseFunc(MouseAction);
-    
     glutMainLoop();
 
-    
     return 0;
 }

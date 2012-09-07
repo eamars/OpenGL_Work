@@ -24,16 +24,10 @@ int win_check_general(int x_axis,int y_axis,char side_code)
     
     //N
     for (N=1; board[x_axis+N][y_axis]==board[x_axis][y_axis]; N++) {
-        if (board[x_axis+N][y_axis]!=board[x_axis][y_axis]) {
-            break;
-        }
     }
     
     //S
     for (S=1; board[x_axis-S][y_axis]==board[x_axis][y_axis]; S++) {
-        if (board[x_axis-S][y_axis]!=board[x_axis][y_axis]) {
-            break;
-        }
     }
     
     //N+S
@@ -44,16 +38,10 @@ int win_check_general(int x_axis,int y_axis,char side_code)
     
     //E
     for (E=1; board[x_axis][y_axis-E]==board[x_axis][y_axis]; E++) {
-        if (board[x_axis][y_axis-E]!=board[x_axis][y_axis]) {
-            break;
-        }
     }
     
     //W
     for (W=1; board[x_axis][y_axis+W]==board[x_axis][y_axis]; W++) {
-        if (board[x_axis][y_axis+W]!=board[x_axis][y_axis]) {
-            break;
-        }
     }
     
     //E+W
@@ -63,16 +51,10 @@ int win_check_general(int x_axis,int y_axis,char side_code)
     
     //NE
     for (NE=1; board[x_axis+NE][y_axis-NE]==board[x_axis][y_axis]; NE++) {
-        if (board[x_axis+NE][y_axis-NE]!=board[x_axis][y_axis]) {
-            break;
-        }
     }
     
     //SW
     for (SW=1; board[x_axis-SW][y_axis+SW]==board[x_axis][y_axis]; SW++) {
-        if (board[x_axis-SW][y_axis+SW]!=board[x_axis][y_axis]) {
-            break;
-        }
     }
     
     //SW+NE
@@ -82,16 +64,10 @@ int win_check_general(int x_axis,int y_axis,char side_code)
     
     //SE
     for (SE=1; board[x_axis-SE][y_axis-SE]==board[x_axis][y_axis]; SE++) {
-        if (board[x_axis-SE][y_axis-SE]!=board[x_axis][y_axis]) {
-            break;
-        }
     }
     
     //NW
     for (NW=1; board[x_axis+NW][y_axis+NW]==board[x_axis][y_axis]; NW++) {
-        if (board[x_axis+NW][y_axis+NW]!=board[x_axis][y_axis]) {
-            break;
-        }
     }
     
     //SE+NW

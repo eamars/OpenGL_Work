@@ -9,12 +9,13 @@
 #ifndef opengl_five_in_row_define_data_h
 #define opengl_five_in_row_define_data_h
 
-#define BOARD_SIZE 13
+#define BOARD_SIZE 15
 
 
 char blank_board;
 int mode;
 char board[BOARD_SIZE][BOARD_SIZE];
+int markboard[BOARD_SIZE][BOARD_SIZE];
 
 int coordinate_x[BOARD_SIZE];
 int coordinate_y[BOARD_SIZE];
@@ -27,7 +28,7 @@ int coordinate_y[BOARD_SIZE];
  0 to turn off coordinate
  */
 void print_board(int);
-
+void print_markboard();
 //initialize the board
 /* input anything to display the blank board
  */
@@ -49,4 +50,8 @@ int ana_y();
 
 int ai_turn_white();
 int ai_turn_black();
+
+
+void savelog(int);
+int win;
 #endif

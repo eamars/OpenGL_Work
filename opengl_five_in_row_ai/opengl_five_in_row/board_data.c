@@ -64,3 +64,21 @@ void init_board(char default_char)
 
     
 }
+
+void print_markboard()
+{
+    printf("\n");
+    for (int i=0; i<BOARD_SIZE; i++) {
+        for (int j=0; j<BOARD_SIZE; j++) {
+            if (board[i][j]!=blank_board) {
+                markboard[i][j]=0;
+            }
+            else
+            	markboard[i][j]=get_length(i, j, 'w')+get_length(i, j, 'b');
+            printf("%4d",markboard[i][j]);
+            
+        }
+        printf("\n\n");
+    }
+    
+}

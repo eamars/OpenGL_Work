@@ -51,6 +51,7 @@ int get_length(int x_axis,int y_axis,char side_before)
 {
     blank_board='-';
     char side;
+    char opposide;
     int total_mark=0;
     int N=1,NE=1,E=1,SE=1,S=1,SW=1,W=1,NW=1;
     int NpS,EpW,SWpNE,SEpNW;
@@ -58,23 +59,25 @@ int get_length(int x_axis,int y_axis,char side_before)
     //convert side to board data
     if (side_before=='b') {
         side='X';
+        opposide='O';
     }
     if (side_before=='w') {
         side='O';
+        opposide='X';
     }
     
     //N
     for (N=1; board[x_axis+N][y_axis]==side; N++) {
-        if (board[x_axis+N][y_axis]!=side) {
-            break;
-        }
+    }
+    if (board[x_axis+N][y_axis]==opposide && side_before=='w') {
+        N--;
     }
     
     //S
     for (S=1; board[x_axis-S][y_axis]==side; S++) {
-        if (board[x_axis-S][y_axis]!=side) {
-            break;
-        }
+    }
+    if (board[x_axis-S][y_axis]==opposide && side_before=='w') {
+        S--;
     }
     
     //N+S
@@ -83,16 +86,16 @@ int get_length(int x_axis,int y_axis,char side_before)
     
     //E
     for (E=1; board[x_axis][y_axis-E]==side; E++) {
-        if (board[x_axis][y_axis-E]!=side) {
-            break;
-        }
+    }
+    if (board[x_axis][y_axis-E]==opposide && side_before=='w') {
+        E--;
     }
     
     //W
     for (W=1; board[x_axis][y_axis+W]==side; W++) {
-        if (board[x_axis][y_axis+W]!=side) {
-            break;
-        }
+    }
+    if (board[x_axis][y_axis+W]==opposide && side_before=='w') {
+        W--;
     }
     
     //E+W
@@ -100,16 +103,16 @@ int get_length(int x_axis,int y_axis,char side_before)
     
     //NE
     for (NE=1; board[x_axis+NE][y_axis-NE]==side; NE++) {
-        if (board[x_axis+NE][y_axis-NE]!=side) {
-            break;
-        }
+    }
+    if (board[x_axis+NE][y_axis-NE]==opposide && side_before=='w') {
+        NE--;
     }
     
     //SW
     for (SW=1; board[x_axis-SW][y_axis+SW]==side; SW++) {
-        if (board[x_axis-SW][y_axis+SW]!=side) {
-            break;
-        }
+    }
+    if (board[x_axis-SW][y_axis+SW]==opposide && side_before=='w') {
+        SW--;
     }
     
     //SW+NE
@@ -117,16 +120,16 @@ int get_length(int x_axis,int y_axis,char side_before)
     
     //SE
     for (SE=1; board[x_axis-SE][y_axis-SE]==side; SE++) {
-        if (board[x_axis-SE][y_axis-SE]!=side) {
-            break;
-        }
+    }
+    if (board[x_axis-SE][y_axis-SE]==opposide && side_before=='w') {
+        SE--;
     }
     
     //NW
     for (NW=1; board[x_axis+NW][y_axis+NW]==side; NW++) {
-        if (board[x_axis+NW][y_axis+NW]!=side) {
-            break;
-        }
+    }
+    if (board[x_axis+NW][y_axis+NW]==opposide && side_before=='w') {
+        NW--;
     }
     
     //SE+NW
@@ -177,7 +180,6 @@ int ana_x()
         for (int j=0; j<BOARD_SIZE; j++) {
             buff=get_length(i, j,'w')+get_length(i, j, 'b');
             if (buff>max && buff>max && board[i][j]==blank_board) {
-                
                 max=buff;
                 x=i;
             }
