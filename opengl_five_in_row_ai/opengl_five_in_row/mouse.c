@@ -20,7 +20,6 @@ char side='b';
 void MouseAction(int button, int state, int x, int y)
 {
     blank_board='-';
-    
     if(state == GLUT_DOWN)
     {
         if(button == GLUT_LEFT_BUTTON)
@@ -204,11 +203,11 @@ void MousePassingEndFrame(int x,int y)
 		glColor3f(1, 1, 1);
         //printf("win=%d\n",win);
         if (win==-1) {
-            prints("Black Win", 0.28, 0.54, 0.3);
+            prints("Black Win", 0.28, 0.54, 0.3,0.05);
         }
         else if (win==1)
         {
-            prints("White Win", 0.28, 0.54, 0.3);
+            prints("White Win", 0.28, 0.54, 0.3,0.05);
         }
         
         
@@ -239,4 +238,5 @@ void MousePassingEndFrame(int x,int y)
     
 
 }
+
 

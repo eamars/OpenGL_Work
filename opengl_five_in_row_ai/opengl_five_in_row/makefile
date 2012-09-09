@@ -7,7 +7,7 @@
 #
 
 # default compiler
-COMP=gcc
+COMP=cc
 ARGU=-std=c99 -O2
 ARGL=-framework GLUT -framework OpenGL
 #

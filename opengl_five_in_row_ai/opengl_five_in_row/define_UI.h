@@ -22,9 +22,11 @@ void grid();
 void init();
 void print_board_UI();
 void model1();
+void startup();
 
 
 void MousePassingEndFrame(int,int);
+void MouseClickStartFrame(int,int,int,int);
 void MouseClickEndFrame(int,int,int,int);
 void MouseAction(int,int,int,int);
 void piece_GL(char,int,int);
@@ -33,6 +35,6 @@ void piece_GL(char,int,int);
 
 
 void printc(char,float,float,float);// --> print_font.c
-void prints(const char str[],float,float,float);// --> print_font.c
+void prints(const char str[],float,float,float,float);// --> print_font.c
 #endif
 

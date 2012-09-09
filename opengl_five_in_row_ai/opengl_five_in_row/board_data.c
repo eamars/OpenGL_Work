@@ -82,3 +82,12 @@ void print_markboard()
     }
     
 }
+
+void create_imboard()
+{
+    for (int i=0; i<BOARD_SIZE; i++) {
+        for (int j=0; j<BOARD_SIZE; j++) {
+            im_board[i][j]=board[i][j];
+        }
+    }
+}

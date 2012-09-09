@@ -21,3 +21,13 @@ void steps(int x,int y,char side)
     
 }
 
+void im_steps(int x,int y,char side)
+{
+    if (side=='b') {
+        im_board[x][y]='X';
+    }
+    
+    if (side=='w') {
+        im_board[x][y]='O';
+    }
+}

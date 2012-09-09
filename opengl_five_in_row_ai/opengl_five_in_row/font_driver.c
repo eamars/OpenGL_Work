@@ -57,9 +57,8 @@ void printc(char c,float x,float y,float fs)
     disp_font(p,x,y,fs);
 }
 
-void prints(const char str[],float x,float y,float fs)
+void prints(const char str[],float x,float y,float fs,float gap)
 {
-    float gap=0.05;
     float xf=x;
     for (int i=0; i<strlen(str); i++) {
         printc(str[i], xf, y, fs);

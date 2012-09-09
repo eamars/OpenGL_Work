@@ -35,12 +35,22 @@ void savelog(int switcher)
      
      */
     //file
+#ifdef __WIN32__
     FILE *fp;
-    if ((fp = fopen("autosav", "w+")) == NULL) 
+    if ((fp = fopen("autosav.txt", "w+")) == NULL)
     {
         printf("OpenError\n");
         exit(0);
     }
+#else
+    FILE *fp;
+    if ((fp = fopen("autosav", "w+")) == NULL)
+    {
+        printf("OpenError\n");
+        exit(0);
+    }
+#endif
+    
     
     //time
     time_t rawtime;
@@ -70,6 +80,7 @@ void savelog(int switcher)
     /* LastPlay:   Thu Sep  6 11:40:50 2012 */
     fwrite("LastPlay:  ", 1, sizeof("LastPlay:  "), fp);
     fwrite(asctime(timeinfo), sizeof(asctime(timeinfo)), sizeof(asctime(timeinfo)), fp);
+    fwrite("\n", 1, 1, fp);
     
     /* Winner:     Black */
     fwrite("Winner:    ", 1, sizeof("Winner:    "), fp);

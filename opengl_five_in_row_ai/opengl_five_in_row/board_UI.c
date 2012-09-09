@@ -7,8 +7,10 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "define_UI.h"
-
+#include "define_data.h"
+#define FRAMEWORK 1
 
 
 
@@ -55,6 +57,9 @@ void model1()
     
     /* print coordinate */
     grid();
+
+    /*Mouse action*/
+    glutMouseFunc(MouseAction);
     
     /* buffer */
     glFlush();
@@ -62,7 +67,80 @@ void model1()
     
 }
 
+void startup()
+{
+    
+    glClear (GL_COLOR_BUFFER_BIT);
+    glColor3f(1, 1, 1);
+    prints("Gomoku", 0.27, 0.9, 0.5,0.08);
+    glBegin(GL_POLYGON);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.1);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.2);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.2);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.1);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.3);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.4);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.4);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.3);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.5);
+    glVertex2f(FRAMEWORK*0.2, FRAMEWORK*0.6);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.6);
+    glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.5);
+    glEnd();
+    glColor3f(0, 0, 0);
+    prints("challenge", 0.29, 0.605, 0.35, 0.05);
+    prints("versus", 0.35, 0.405, 0.35, 0.05);
+    prints("exit", 0.4, 0.205, 0.35, 0.05);
+    glFlush();
+    glutMouseFunc(MouseClickStartFrame);
+}
 
 
+void MouseClickStartFrame(int button, int state, int x, int y)
+{
+    //printf("x=%d y=%d\n",x,y);
+    if(state == GLUT_DOWN && (float)x/100>COEI*0.2&&(float)x/100<COEI*0.8&&(float)y/100>COEI*0.8&&(float)y/100<COEI*0.9)
+    {
+        if(button == GLUT_LEFT_BUTTON || button == GLUT_RIGHT_BUTTON)
+        {
+            //exit
+            
+            exit(0);
+        }
+        
+    }
+    else if(state == GLUT_DOWN && (float)x/100>COEI*0.2&&(float)x/100<COEI*0.8&&(float)y/100>COEI*0.6&&(float)y/100<COEI*0.7)
+    {
+        if(button == GLUT_LEFT_BUTTON || button == GLUT_RIGHT_BUTTON)
+        {
+            
+            //versus
+            
+            mode=2;
+            glutMouseFunc(NULL);//disable mouse
+            model1();
 
+        }
+        
+    }
+    else if(state == GLUT_DOWN && (float)x/100>COEI*0.2&&(float)x/100<COEI*0.8&&(float)y/100>COEI*0.4&&(float)y/100<COEI*0.5)
+    {
+        if(button == GLUT_LEFT_BUTTON || button == GLUT_RIGHT_BUTTON)
+        {
+            
+            //challenge
+            
+            mode=1;
+            glutMouseFunc(NULL);
+            model1();
 
+        }
+        
+    }
+    
+    
+}
