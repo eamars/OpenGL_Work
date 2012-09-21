@@ -11,6 +11,7 @@
 
 void MouseAction(int button,int state,int x,int y)
 {
+    
     //vx
     if(state == GLUT_DOWN && x>301 && x<327 && y>102 && y<119)
     {

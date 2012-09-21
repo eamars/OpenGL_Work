@@ -32,6 +32,8 @@ void startup(void)
     glColor3f(BLACK);
     prints("VY", 6.12, 5.98, 1);
 
+    glColor3f(WHITE);
+    prints("(note:LEFT click the green button to add on, RIGHT click to take away)", 1, 4, 1);
     
     launch(2.5, 3);
     glColor3f(WHITE);

@@ -42,7 +42,7 @@ int main(int argc,char **argv)
     usleep(1000000);
     printf("Start to simulate..\n");
      */
-    
+    vx=10,vy=-5;
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB);
     glutInitWindowSize(1000,500);
