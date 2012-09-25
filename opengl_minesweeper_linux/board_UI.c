@@ -60,6 +60,25 @@ void Mine_sweeper(void)
     glFlush();
 }
 
+void remain_framework()
+{
+    glClear (GL_COLOR_BUFFER_BIT);
+    glClearColor(0.0,0.0,0.0,0.0);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(0.0,1,0.0,1,-1.0,1.0);
+    glLineWidth(1.0f);//default line width =1
+    /* AA */
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
+    
+    
+    remain_mine=MINE_NO-set_mine;
+    
+    printc('1', 0.37, 0.8, 2);
+    glFlush();
+}
+
 void End_frame(int status)
 {
     glColor4f(0, 0, 0, 0.8);
@@ -119,4 +138,242 @@ void startup_frame(void)
     glFlush();
     
     glutMouseFunc(MouseClickStartFrame);
+}
+
+void click_display(int x,int y)
+{
+    //printf("x=%d y=%d\n",x,y);
+    //up
+    for (int i=x-1; i>=0; i--) {
+        if (value_board[i][y]==0) {
+            Piece_With_number(y, i+1, value_board[i][y]);
+            //left
+            for (int j=y+1; j<BOARD_SIZE; j++) {
+                if (value_board[i][j]==0) {
+                    Piece_With_number(j, i+1, value_board[i][j]);
+                    //up again
+                    for (int k=x-1; k>=0; k--) {
+                        if (value_board[k][j]==0) {
+                            Piece_With_number(j, k+1, value_board[k][j]);
+                        }
+                        else{
+                            if (value_board[k][j]!=-1) {
+                                Piece_With_number(j, k+1, value_board[k][j]);
+                            }
+                            break;
+                        }
+                    }
+                    //down again
+                    for (int k=x+1; k<BOARD_SIZE; k++) {
+                        if (value_board[k][j]==0) {
+                            Piece_With_number(j, k+1, value_board[k][j]);
+                        }
+                        else{
+                            if (value_board[k][j]!=-1) {
+                                Piece_With_number(j, k+1, value_board[k][j]);
+                            }
+                            break;
+                        }
+                    }
+                }
+                else{
+                    Piece_With_number(j, i+1, value_board[i][j]);
+                    break;
+                }
+            }
+            //right
+            for (int j=y-1; j>=0; j--) {
+                if (value_board[i][j]==0) {
+                    Piece_With_number(j, i+1, value_board[i][j]);
+                    //up again
+                    for (int k=x-1; k>=0; k--) {
+                        if (value_board[k][j]==0) {
+                            Piece_With_number(j, k+1, value_board[k][j]);
+                        }
+                        else{
+                            if (value_board[k][j]!=-1) {
+                                Piece_With_number(j, k+1, value_board[k][j]);
+                            }
+                            break;
+                        }
+                    }
+                    //down again
+                    for (int k=x+1; k<BOARD_SIZE; k++) {
+                        if (value_board[k][j]==0) {
+                            Piece_With_number(j, k+1, value_board[k][j]);
+                        }
+                        else{
+                            if (value_board[k][j]!=-1) {
+                                Piece_With_number(j, k+1, value_board[k][j]);
+                            }
+                            break;
+                        }
+                    }
+                }
+                else{
+                    Piece_With_number(j, i+1, value_board[i][j]);
+                    break;
+                }
+            }
+        }
+        else{
+            Piece_With_number(y, i+1, value_board[i][y]);
+            break;
+        }
+    }
+    //down
+    for (int i=x+1; i<BOARD_SIZE; i++) {
+        if (value_board[i][y]==0) {
+            Piece_With_number(y, i+1, value_board[i][y]);
+            //left
+            for (int j=y+1; j<BOARD_SIZE; j++) {
+                if (value_board[i][j]==0) {
+                    Piece_With_number(j, i+1, value_board[i][j]);
+                    //up again
+                    for (int k=x-1; k>=0; k--) {
+                        if (value_board[k][j]==0) {
+                            Piece_With_number(j, k+1, value_board[k][j]);
+                        }
+                        else{
+                            if (value_board[k][j]!=-1) {
+                                Piece_With_number(j, k+1, value_board[k][j]);
+                            }
+                            break;
+                        }
+                    }
+                    //down again
+                    for (int k=x+1; k<BOARD_SIZE; k++) {
+                        if (value_board[k][j]==0) {
+                            Piece_With_number(j, k+1, value_board[k][j]);
+                        }
+                        else{
+                            if (value_board[k][j]!=-1) {
+                                Piece_With_number(j, k+1, value_board[k][j]);
+                            }
+                            break;
+                        }
+                    }
+                }
+                else{
+                    Piece_With_number(j, i+1, value_board[i][j]);
+                    break;
+                }
+            }
+            //right
+            for (int j=y-1; j>=0; j--) {
+                if (value_board[i][j]==0) {
+                    Piece_With_number(j, i+1, value_board[i][j]);
+                    //up again
+                    for (int k=x-1; k>=0; k--) {
+                        if (value_board[k][j]==0) {
+                            Piece_With_number(j, k+1, value_board[k][j]);
+                        }
+                        else{
+                            if (value_board[k][j]!=-1) {
+                                Piece_With_number(j, k+1, value_board[k][j]);
+                            }
+                            break;
+                        }
+                    }
+                    //down again
+                    for (int k=x+1; k<BOARD_SIZE; k++) {
+                        if (value_board[k][j]==0) {
+                            Piece_With_number(j, k+1, value_board[k][j]);
+                        }
+                        else{
+                            if (value_board[k][j]!=-1) {
+                                Piece_With_number(j, k+1, value_board[k][j]);
+                            }
+                            break;
+                        }
+                    }
+                }
+                else{
+                    Piece_With_number(j, i+1, value_board[i][j]);
+                    break;
+                }
+            }
+        }
+        else{
+            Piece_With_number(y, i+1, value_board[i][y]);
+            break;
+        }
+    }
+    
+    //where click
+    //left
+    for (int j=y+1; j<BOARD_SIZE; j++) {
+        if (value_board[x][j]==0) {
+            Piece_With_number(j, x+1, value_board[x][j]);
+            //up again
+            for (int k=x-1; k>=0; k--) {
+                if (value_board[k][j]==0) {
+                    Piece_With_number(j, k+1, value_board[k][j]);
+                }
+                else{
+                    if (value_board[k][j]!=-1) {
+                        Piece_With_number(j, k+1, value_board[k][j]);
+                    }
+                    break;
+                }
+            }
+            //down again
+            for (int k=x+1; k<BOARD_SIZE; k++) {
+                if (value_board[k][j]==0) {
+                    Piece_With_number(j, k+1, value_board[k][j]);
+                }
+                else{
+                    if (value_board[k][j]!=-1) {
+                        Piece_With_number(j, k+1, value_board[k][j]);
+                    }
+                    break;
+                }
+            }
+        }
+        else{
+            Piece_With_number(j, x+1, value_board[x][j]);
+            break;
+        }
+    }
+    //right
+    for (int j=y-1; j>=0; j--) {
+        if (value_board[x][j]==0) {
+            Piece_With_number(j, x+1, value_board[x][j]);
+            //up again
+            for (int k=x-1; k>=0; k--) {
+                if (value_board[k][j]==0) {
+                    Piece_With_number(j, k+1, value_board[k][j]);
+                }
+                else{
+                    if (value_board[k][j]!=-1) {
+                        Piece_With_number(j, k+1, value_board[k][j]);
+                    }
+                    break;
+                }
+            }
+            //down again
+            for (int k=x+1; k<BOARD_SIZE; k++) {
+                if (value_board[k][j]==0) {
+                    Piece_With_number(j, k+1, value_board[k][j]);
+                }
+                else{
+                    if (value_board[k][j]!=-1) {
+                        Piece_With_number(j, k+1, value_board[k][j]);
+                    }
+                    break;
+                }
+            }
+        }
+        else{
+            Piece_With_number(j, x+1, value_board[x][j]);
+            break;
+        }
+    }
+    
+    
+}
+
+void click_display_imp(int x,int y)
+{
+    
 }

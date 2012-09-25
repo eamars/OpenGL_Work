@@ -13,6 +13,7 @@
 void grid();
 void init();
 void Mine_sweeper();
+void remain_framework();
 void Blind_piece();
 void Piece_With_number(float,float,int);
 void NumberSet(int,float,float,float);
@@ -20,6 +21,8 @@ void AdvancedNumverSet(int,float,float,float);
 void MouseClick(int,int,int,int);
 void MousePassing(int,int);
 void End_frame(int);
+void click_display(int,int);
+void click_display_imp(int,int);
 
 void printc(char,float,float,float);
 void disp_font(char *,float,float,float);

@@ -83,6 +83,13 @@ void AdvancedNumverSet(int number,float x,float y,float fs)
     //mine
     if (number==-1) {
         glColor3f(1, 1, 1);
-        printc('\03', x, y, fs);
+        //printc('\03', x, y, fs);
+        printc('\13', x, y, fs);
+    }
+    
+    //unknown
+    if (number==-3) {
+        glColor3f(1, 0, 0);
+        printc('?', x, y, fs);
     }
 }
