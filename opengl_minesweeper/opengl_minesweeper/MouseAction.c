@@ -22,16 +22,15 @@ int win_condition[MINE_NO];
 
 void MouseClick(int button, int state, int x, int y)
 {
+    float xf,yf;
+    xf=(float)x/100*BOARD_SIZE/FRAMEWORK;
+    yf=(float)y/100*BOARD_SIZE/FRAMEWORK;
     if(state == GLUT_DOWN)
     {
         if(button == GLUT_LEFT_BUTTON)
         {
-            float xf,yf;
-            xf=(float)x/100*BOARD_SIZE/FRAMEWORK;
-            yf=(float)y/100*BOARD_SIZE/FRAMEWORK;
-            
             if (value_board[(int)yf][(int)xf]==-1) {
-                printf("You Lose!\n");
+                //printf("You Lose!\n");
                 for (int i=0; i<BOARD_SIZE; i++) {
                     for (int j=0; j<BOARD_SIZE; j++) {
                         if (value_board[j][i]==-1) {
@@ -39,23 +38,31 @@ void MouseClick(int button, int state, int x, int y)
                         }
                     }
                 }
-                Piece_With_number((int)xf, (int)yf+1, -1);
+                //Piece_With_number((int)xf, (int)yf+1, -1);
                 End_frame(0);
                 glutMouseFunc(MouseClickEndFrame);
             }
             else if (value_board[(int)yf][(int)xf]!=-1)
             {
                 Piece_With_number((int)xf, (int)yf+1, value_board[(int)yf][(int)xf]);
+                
+                //prepare for click_display
+                if (value_board[(int)yf][(int)xf]==0) {
+                    click_display((int)yf, (int)xf);
+                }
+				
+                
+                
+                
+				//printf("xf=%d yf=%d\n",(int)yf, (int)xf);
+                //unfinished
             }
             
                 
             
         }
         if (button == GLUT_RIGHT_BUTTON) {
-            float xf,yf;
-            xf=(float)x/100*BOARD_SIZE/FRAMEWORK;
-            yf=(float)y/100*BOARD_SIZE/FRAMEWORK;
-            
+            set_mine++;//count mines
             Piece_With_number((int)xf, (int)yf+1, -2);
             
             for (int i=0; i<MINE_NO; i++) {
@@ -69,7 +76,7 @@ void MouseClick(int button, int state, int x, int y)
                 win_state=win_condition[i]+win_state;
                 if (win_state==MINE_NO) {
                     
-                    printf("You Win!\n");
+                    //printf("You Win!\n");
                     End_frame(1);
                     glutMouseFunc(MouseClickEndFrame);
                 }
@@ -79,7 +86,7 @@ void MouseClick(int button, int state, int x, int y)
         else if(button == GLUT_MIDDLE_BUTTON)
         {
             //middle button code
-
+			Piece_With_number((int)xf, (int)yf+1, -3);
             print_board(1);
         }
     }
@@ -159,3 +166,4 @@ void MousePassStartFrame(int x,int y)
 {
     
 }
+

@@ -7,8 +7,8 @@
 //
 
 #include <stdio.h>
-#include <stdlib.h>
 #include "define_data.h"
+#include <stdlib.h>
 #include <time.h>
 #define random(x) (rand()%x)
 

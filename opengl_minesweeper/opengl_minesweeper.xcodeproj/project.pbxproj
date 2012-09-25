@@ -239,6 +239,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -250,6 +251,8 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
