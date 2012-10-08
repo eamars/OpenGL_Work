@@ -7,9 +7,12 @@
 //
 
 #include <stdio.h>
-#include "unistd.h"
+#ifdef __APPLE__
+#include <unistd.h>
+#else
+#include <windows.h>
+#endif
 #include "board.h"
-#include "math.h"
 
 
 void board1(void)
@@ -21,18 +24,27 @@ void board1(void)
     player1_position = 0;
     player2_position = 0;
     
+    //DEBUG TEST
     
     do {
         if (player[1] > 0) {
             player1_turn();
-            sleep(1);
+#ifdef __APPLE__
+			sleep(1);
+#else
+            Sleep(1000);
+#endif
         }
         else
             printf("Player[1] is bankrupted, skip\n\n");
         
         if (player[2] > 0) {
             player2_turn();
-            sleep(1);
+#ifdef __APPLE__
+			sleep(1);
+#else
+            Sleep(1000);
+#endif
         }
         else
             printf("Player[2] is bankrupted, skip\n\n");
