@@ -1,0 +1,335 @@
+Topengl_monopoly
+v5
+r1
+cCheck dependencies
+cCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_ui.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_driver.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/player.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/space.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/Codes/opengl_monopoly/build/Debug/opengl_monopoly normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000506E355D00000000000000AA
+t1349399901
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000505A4CD20000000000004523
+t1348095186
+s17699
+
+N/Users/mac/Codes/opengl_monopoly/GLUT.framework/GLUT
+c000000005010A19400000000000FFF10
+t1343267220
+s1048336
+
+N/Users/mac/Codes/opengl_monopoly/GLUT.framework/Headers/GLUT.h
+c00000000505F8365000000000000586B
+t1348436837
+s22635
+
+N/Users/mac/Codes/opengl_monopoly/OpenGL.framework/Headers/gl.h
+c00000000505F836A0000000000025633
+t1348436842
+s153139
+
+N/Users/mac/Codes/opengl_monopoly/OpenGL.framework/Headers/glext.h
+c00000000505F836A0000000000034A1B
+t1348436842
+s215579
+
+N/Users/mac/Codes/opengl_monopoly/OpenGL.framework/Headers/glu.h
+c00000000505F836A0000000000003F80
+t1348436842
+s16256
+
+N/Users/mac/Codes/opengl_monopoly/OpenGL.framework/OpenGL
+c00000000505A2D9B000000000002DAF0
+t1348087195
+s187120
+
+N/Users/mac/Codes/opengl_monopoly/build/Debug/opengl_monopoly
+t1349690985
+s30440
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/SIDE.o
+t2
+s0
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.o
+t1349690468
+s5072
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.o
+t1349690468
+s4240
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.o
+t1349690468
+s8828
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.o
+t1349690468
+s10348
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.o
+t1349690468
+s4612
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/opengl_monopoly.LinkFileList
+c0000000050728F38000000000000034D
+t1349685048
+s845
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/player.o
+t1349690985
+s8684
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/side.o
+t1349604560
+s3716
+
+N/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/space.o
+t1349690468
+s12112
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/SIDE.c
+c000000005071435E0000000000000092
+t1349600094
+s146
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.c
+c000000005072A3E100000000000004B5
+t1349690337
+s1205
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.h
+c000000005070094E00000000000000F7
+t1349519694
+s247
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/define_UI.h
+c0000000050728F37000000000000020A
+t1349685047
+s522
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice.h
+c000000005064F4D9000000000000018C
+t1348793561
+s396
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_data.c
+c000000005065973A00000000000001FC
+t1348835130
+s508
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_ui.c
+c00000000507148020000000000000AD8
+t1349601282
+s2776
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/font.h
+c0000000050643FC7000000000000014F
+t1348747207
+s335
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_8x16.h
+c00000000502784830000000000017B87
+t1344767107
+s97159
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_driver.c
+c000000005064EBAC0000000000000471
+t1348791212
+s1137
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/main.c
+c000000005071507200000000000003A3
+t1349603442
+s931
+i<stdio.h>
+i"define_UI.h"
+i"dice.h"
+i"board.h"
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.c
+c000000005072A6C90000000000001017
+t1349691081
+s4119
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.h
+c0000000050729C6B0000000000000183
+t1349688427
+s387
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/side.c
+c00000000507144750000000000000121
+t1349600373
+s289
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/side.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.c
+c0000000050728D530000000000002359
+t1349684563
+s9049
+
+N/Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.h
+c000000005072A4640000000000000214
+t1349690468
+s532
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/SIDE.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_data.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_ui.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_driver.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/main.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/side.c
+r0
+
+CBuild AST from /Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3db5da49de22b641^70ebda49de22b641^---0#1#0#--18"Check dependencies36"46103E67-0F5A-45E8-BDAB-8B8D58469839-
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/SIDE.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/SIDE.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371383268.608470
+e371383268.680250
+r1
+xCompileC
+xbuild/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.o
+x/Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.ceeec9be4db22b641^6630aee4db22b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.c0000000000000000^2646"CompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.o opengl_monopoly/board.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_monopoly    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-generated-files.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-own-target-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-project-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -MMD -MT dependencies -MF /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.d --serialize-diagnostics /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.dia -c /Users/mac/Codes/opengl_monopoly/opengl_monopoly/board.c -o /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.o36"94BDB1D4-28DE-4792-BF6A-F77296C4DAD7-
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371383268.522618
+e371383268.638267
+r1
+xCompileC
+xbuild/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.o
+x/Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_data.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_data.c75e785e4db22b641^6669a3e4db22b641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_data.c0000000000000000^2670"CompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.o opengl_monopoly/dice_data.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_monopoly    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-generated-files.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-own-target-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-project-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -MMD -MT dependencies -MF /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.d --serialize-diagnostics /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.dia -c /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_data.c -o /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.o36"4C4D3CB4-E59F-4C75-936A-0A8ED31DA200-
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_ui.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371383268.522393
+e371383268.614254
+r1
+xCompileC
+xbuild/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.o
+x/Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_ui.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_ui.ce4d985e4db22b641^ec4c9de4db22b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_ui.c0000000000000000^2658"CompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.o opengl_monopoly/dice_ui.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_monopoly    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-generated-files.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-own-target-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-project-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -MMD -MT dependencies -MF /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.d --serialize-diagnostics /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.dia -c /Users/mac/Codes/opengl_monopoly/opengl_monopoly/dice_ui.c -o /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.o36"4EB3EC3F-1BA2-4F12-BF89-24D4DF37E55E-
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_driver.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371383268.523022
+e371383268.648082
+r1
+xCompileC
+xbuild/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.o
+x/Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_driver.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_driver.cdffd85e4db22b641^fdfaa5e4db22b641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_driver.c0000000000000000^2682"CompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.o opengl_monopoly/font_driver.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_monopoly    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-generated-files.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-own-target-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-project-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -MMD -MT dependencies -MF /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.d --serialize-diagnostics /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.dia -c /Users/mac/Codes/opengl_monopoly/opengl_monopoly/font_driver.c -o /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.o36"CFA4040E-DBDE-4F51-845F-D4380AE6D3FC-
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371383268.522298
+e371383268.606444
+r1
+xCompileC
+xbuild/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.o
+x/Users/mac/Codes/opengl_monopoly/opengl_monopoly/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/mac/Codes/opengl_monopoly/opengl_monopoly/main.c6fd985e4db22b641^63439be4db22b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/mac/Codes/opengl_monopoly/opengl_monopoly/main.c0000000000000000^2640"CompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.o opengl_monopoly/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_monopoly    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-generated-files.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-own-target-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-project-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -MMD -MT dependencies -MF /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/opengl_monopoly/opengl_monopoly/main.c -o /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.o36"B776881C-DFBD-4EB8-8CAB-DF8EDD846308-
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/player.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371383881.859447
+e371383881.895117
+r1
+xCompileC
+xbuild/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/player.o
+x/Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.c4e28dc49de22b641^9626e549de22b641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.c0000000000000000^2652"CompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/player.o opengl_monopoly/player.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_monopoly    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-generated-files.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-own-target-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-project-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -MMD -MT dependencies -MF /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/player.d --serialize-diagnostics /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/player.dia -c /Users/mac/Codes/opengl_monopoly/opengl_monopoly/player.c -o /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/player.o36"E277DE78-1CC5-4368-8754-159900A24841-
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/side.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/side.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371297360.337838
+e371297360.390630
+r1
+xCompileC
+xbuild/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/side.o
+x/Users/mac/Codes/opengl_monopoly/opengl_monopoly/side.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/mac/Codes/opengl_monopoly/opengl_monopoly/side.cdca056508c21b641^efff63508c21b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/mac/Codes/opengl_monopoly/opengl_monopoly/side.c0000000000000000^2640"CompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/side.o opengl_monopoly/side.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_monopoly    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-generated-files.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-own-target-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-project-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -MMD -MT dependencies -MF /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/side.d --serialize-diagnostics /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/side.dia -c /Users/mac/Codes/opengl_monopoly/opengl_monopoly/side.c -o /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/side.o36"AFC3A956-3C50-4B0E-8520-77C77B01B942-
+
+CCompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/space.o /Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371383268.615479
+e371383268.680258
+r1
+xCompileC
+xbuild/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/space.o
+x/Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.c63b59de4db22b641^2f35aee4db22b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.c0000000000000000^2646"CompileC build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/space.o opengl_monopoly/space.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/opengl_monopoly    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-generated-files.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-own-target-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-all-target-headers.hmap -iquote /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/opengl_monopoly-project-headers.hmap -I/Users/mac/Codes/opengl_monopoly/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources/x86_64 -I/Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/DerivedSources -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -MMD -MT dependencies -MF /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/space.d --serialize-diagnostics /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/space.dia -c /Users/mac/Codes/opengl_monopoly/opengl_monopoly/space.c -o /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/space.o36"C2F97E4C-B2D2-4E65-A144-C0CBB6F1D82A-
+
+CLd /Users/mac/Codes/opengl_monopoly/build/Debug/opengl_monopoly normal x86_64
+s371383881.901567
+e371383881.931452
+r1
+xLd
+x/Users/mac/Codes/opengl_monopoly/build/Debug/opengl_monopoly
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Link /Users/mac/Codes/opengl_monopoly/build/Debug/opengl_monopoly2c81e849de22b641^8482ee49de22b641^---0#0#0#--748"Ld build/Debug/opengl_monopoly normal x86_64    cd /Users/mac/Codes/opengl_monopoly    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly/build/Debug -F/Users/mac/Codes/opengl_monopoly -filelist /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/opengl_monopoly.LinkFileList -mmacosx-version-min=10.8 -framework GLUT -framework OpenGL -o /Users/mac/Codes/opengl_monopoly/build/Debug/opengl_monopoly36"965C2A39-1597-46EB-BED4-E45F6A035619-
+

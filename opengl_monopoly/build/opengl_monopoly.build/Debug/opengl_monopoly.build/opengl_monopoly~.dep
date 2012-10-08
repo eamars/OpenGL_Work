@@ -1,0 +1,6 @@
+ffffffffffffffffffffffffffffffff 9cda816d56f47c0f9d28b690e0ad4b33 ffffffffffffffffffffffffffffffff 0 /Users/mac/Codes/opengl_monopoly/build/Debug/opengl_monopoly
+0000000050643f2000000000000000e7 b2d6342cddf3ea7aa340cf532d0f05d1 ffffffffffffffffffffffffffffffff 0 /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/board.o
+0000000050643eca000000000000044f 165cb0e2e4dd20d3b6631650a9a14da6 ffffffffffffffffffffffffffffffff 0 /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/font_driver.o
+0000000050643e5e000000000000023e 895bcd0280ede9d5e0e06ed4d9c2494d ffffffffffffffffffffffffffffffff 0 /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_data.o
+00000000505a4ba400000000000046ab cd9b39616fb4777b32e788fd9ff9463c ffffffffffffffffffffffffffffffff 0 /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/main.o
+00000000506435790000000000000096 9a671aea82d5e2c1107117a3beaaee45 ffffffffffffffffffffffffffffffff 0 /Users/mac/Codes/opengl_monopoly/build/opengl_monopoly.build/Debug/opengl_monopoly.build/Objects-normal/x86_64/dice_ui.o
