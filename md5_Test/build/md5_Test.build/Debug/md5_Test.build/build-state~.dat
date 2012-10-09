@@ -1,0 +1,84 @@
+Tmd5_Test
+v5
+r1
+cCheck dependencies
+cCompileC build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/main.o /Users/mac/Codes/md5_Test/md5_Test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/Codes/md5_Test/build/Debug/md5_Test normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000506E355D00000000000000AA
+t1349399901
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000505A4CD20000000000004523
+t1348095186
+s17699
+
+N/Users/mac/Codes/md5_Test/build/Debug/md5_Test
+t2
+s0
+
+N/Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/md5_Test.LinkFileList
+c000000005072CABF0000000000000061
+t1349700287
+s97
+
+N/Users/mac/Codes/md5_Test/md5_Test/main.c
+c000000005072CABF00000000000001CB
+t1349700287
+s459
+i<stdio.h>
+
+CBuild AST from /Users/mac/Codes/md5_Test/md5_Test/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1aa6923f0223b641^6747963f0223b641^---0#1#0#--18"Check dependencies36"0C355DC4-B2AF-433B-8D13-5F99C055C063-
+
+CCompileC build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/main.o /Users/mac/Codes/md5_Test/md5_Test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371393087.588707
+e371393088.325367
+r1
+xCompileC
+xbuild/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/main.o
+x/Users/mac/Codes/md5_Test/md5_Test/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/mac/Codes/md5_Test/md5_Test/main.c:18:5: warning: 'MD5' is deprecated [-Wdeprecated-declarations]
+o    MD5(string, strlen(*string), result);
+o    ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/openssl/md5.h:116:16: note: 'MD5' declared here
+ounsigned char *MD5(const unsigned char *d, size_t n, unsigned char *md) DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER;
+o               ^
+o/Users/mac/Codes/md5_Test/md5_Test/main.c:18:24: warning: incompatible integer to pointer conversion passing 'const unsigned char' to parameter of type 'const char *'; 
+o    MD5(string, strlen(*string), result);
+o                       ^~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h:92:28: note: passing argument to parameter here
+osize_t   strlen(const char *);
+o                            ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/mac/Codes/md5_Test/md5_Test/main.c44de963f0223b641^564a53400223b641^-941"/Users/mac/Codes/md5_Test/md5_Test/main.c:18:5: warning: 'MD5' is deprecated [-Wdeprecated-declarations]    MD5(string, strlen(*string), result);    ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/openssl/md5.h:116:16: note: 'MD5' declared hereunsigned char *MD5(const unsigned char *d, size_t n, unsigned char *md) DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER;               ^/Users/mac/Codes/md5_Test/md5_Test/main.c:18:24: warning: incompatible integer to pointer conversion passing 'const unsigned char' to parameter of type 'const char *';     MD5(string, strlen(*string), result);                       ^~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h:92:28: note: passing argument to parameter heresize_t   strlen(const char *);                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@19"'MD5' is deprecated-371393088#18446744073709551615#0#1(2@19"'MD5' declared here-371393088#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@140"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/openssl/md5.h0000000000000000^115#15#115#15#4788#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/mac/Codes/md5_Test/md5_Test/main.c0000000000000000^17#4#17#4#341#0#12"Deprecations--2@110"Incompatible integer to pointer conversion passing 'const unsigned char' to parameter of type 'const char *'; -371393088#18446744073709551615#0#1(2@34"Passing argument to parameter here-371393088#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@135"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h0000000000000000^91#27#91#27#3646#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/mac/Codes/md5_Test/md5_Test/main.c0000000000000000^17#23#17#23#360#0#14"Semantic Issue1(3@57"file://localhost/Users/mac/Codes/md5_Test/md5_Test/main.c0000000000000000^17#23#17#30#360#1#-0#0#0#-19%DVTDocumentLocation4@57"file://localhost/Users/mac/Codes/md5_Test/md5_Test/main.c0000000000000000^2332"CompileC build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/main.o md5_Test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/md5_Test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/md5_Test-generated-files.hmap -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/md5_Test-own-target-headers.hmap -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/md5_Test-all-target-headers.hmap -iquote /Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/md5_Test-project-headers.hmap -I/Users/mac/Codes/md5_Test/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/DerivedSources/x86_64 -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/DerivedSources -F/Users/mac/Codes/md5_Test/build/Debug -MMD -MT dependencies -MF /Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/md5_Test/md5_Test/main.c -o /Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/main.o36"189EECD4-9258-406A-B5F8-E8896EAE5E60-
+
+CLd /Users/mac/Codes/md5_Test/build/Debug/md5_Test normal x86_64
+s371393088.332285
+e371393088.671126
+r0
+xLd
+x/Users/mac/Codes/md5_Test/build/Debug/md5_Test
+xnormal
+xx86_64
+oUndefined symbols for architecture x86_64:
+o  "_MD5", referenced from:
+o      _main in main.o
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Link /Users/mac/Codes/md5_Test/build/Debug/md5_Test362155400223b641^52d2ab400223b641^-220"Undefined symbols for architecture x86_64:  "_MD5", referenced from:      _main in main.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@24""_MD5", referenced from:-371393088#43#27#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-371393088#70#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-371393088#92#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-371393088#140#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--609"Ld build/Debug/md5_Test normal x86_64    cd /Users/mac/Codes/md5_Test    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/md5_Test/build/Debug -F/Users/mac/Codes/md5_Test/build/Debug -filelist /Users/mac/Codes/md5_Test/build/md5_Test.build/Debug/md5_Test.build/Objects-normal/x86_64/md5_Test.LinkFileList -mmacosx-version-min=10.8 -o /Users/mac/Codes/md5_Test/build/Debug/md5_Test36"D029DC77-EAE7-48DD-922C-90D0D39932DC-
+
