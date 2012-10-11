@@ -1,0 +1,150 @@
+Tmd5_Test
+v5
+r1
+cCheck dependencies
+cCompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/main.o /Users/mac/Codes/md5_Test/md5_Test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5.o /Users/mac/Codes/md5_Test/md5_Test/md5.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_hash.o /Users/mac/Codes/md5_Test/md5_Test/md5_hash.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/Codes/md5_Test/build/Release/md5_Test normal x86_64
+cGenerateDSYMFile /Users/mac/Codes/md5_Test/build/Release/md5_Test.dSYM /Users/mac/Codes/md5_Test/build/Release/md5_Test
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000506E355D00000000000000AA
+t1349399901
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000505A4CD20000000000004523
+t1348095186
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000505A4CD20000000000001A3A
+t1348095186
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/time.h
+c00000000505A4CD2000000000000178E
+t1348095186
+s6030
+
+N/Users/mac/Codes/md5_Test/build/Release/md5_Test
+t2
+s0
+
+N/Users/mac/Codes/md5_Test/build/Release/md5_Test.dSYM
+t2
+s0
+
+N/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5.o
+t2
+s0
+
+N/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_Test.LinkFileList
+c0000000050749925000000000000012C
+t1349818661
+s300
+
+N/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_hash.o
+t2
+s0
+
+N/Users/mac/Codes/md5_Test/md5_Test/main.c
+c000000005073D6CE0000000000000B45
+t1349768910
+s2885
+i<stdio.h>
+i<string.h>
+i<time.h>
+i"md5_hash.h"
+
+N/Users/mac/Codes/md5_Test/md5_Test/md5.c
+c000000003CB884FC0000000000003092
+t1018725628
+s12434
+
+N/Users/mac/Codes/md5_Test/md5_Test/md5_hash.c
+c000000005073C58700000000000007C5
+t1349764487
+s1989
+
+N/Users/mac/Codes/md5_Test/md5_Test/md5_hash.h
+c000000005073B554000000000000016B
+t1349760340
+s363
+
+CBuild AST from /Users/mac/Codes/md5_Test/md5_Test/main.c
+r0
+
+CBuild AST from /Users/mac/Codes/md5_Test/md5_Test/md5.c
+r0
+
+CBuild AST from /Users/mac/Codes/md5_Test/md5_Test/md5_hash.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9b378ea5d024b641^0de1b0a5d024b641^---0#1#0#--18"Check dependencies36"3F4AB010-AD3C-49A0-A826-9C61648B8F9E-
+
+CCompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/main.o /Users/mac/Codes/md5_Test/md5_Test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371511461.693088
+e371511462.530236
+r1
+xCompileC
+xbuild/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/main.o
+x/Users/mac/Codes/md5_Test/md5_Test/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/mac/Codes/md5_Test/md5_Test/main.cc497b1a5d024b641^9dbd87a6d024b641^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Users/mac/Codes/md5_Test/md5_Test/main.c0000000000000000^2366"CompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/main.o md5_Test/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/md5_Test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-generated-files.hmap -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-own-target-headers.hmap -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-all-target-headers.hmap -iquote /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-project-headers.hmap -I/Users/mac/Codes/md5_Test/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/DerivedSources/x86_64 -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/DerivedSources -F/Users/mac/Codes/md5_Test/build/Release -MMD -MT dependencies -MF /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/md5_Test/md5_Test/main.c -o /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/main.o36"BE38B997-99BB-4612-B438-5A9F35DBF837-
+
+CCompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5.o /Users/mac/Codes/md5_Test/md5_Test/md5.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371511461.693101
+e371511462.580805
+r1
+xCompileC
+xbuild/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5.o
+x/Users/mac/Codes/md5_Test/md5_Test/md5.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Compile /Users/mac/Codes/md5_Test/md5_Test/md5.ce198b1a5d024b641^e27595a6d024b641^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Users/mac/Codes/md5_Test/md5_Test/md5.c0000000000000000^2360"CompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5.o md5_Test/md5.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/md5_Test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-generated-files.hmap -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-own-target-headers.hmap -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-all-target-headers.hmap -iquote /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-project-headers.hmap -I/Users/mac/Codes/md5_Test/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/DerivedSources/x86_64 -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/DerivedSources -F/Users/mac/Codes/md5_Test/build/Release -MMD -MT dependencies -MF /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5.d --serialize-diagnostics /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5.dia -c /Users/mac/Codes/md5_Test/md5_Test/md5.c -o /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5.o36"ED5200D4-A01F-471D-A458-14740F439A5A-
+
+CCompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_hash.o /Users/mac/Codes/md5_Test/md5_Test/md5_hash.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371511461.693108
+e371511462.538209
+r1
+xCompileC
+xbuild/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_hash.o
+x/Users/mac/Codes/md5_Test/md5_Test/md5_hash.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/mac/Codes/md5_Test/md5_Test/md5_hash.c6799b1a5d024b641^efc789a6d024b641^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/mac/Codes/md5_Test/md5_Test/md5_hash.c0000000000000000^2390"CompileC build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_hash.o md5_Test/md5_hash.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/md5_Test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-generated-files.hmap -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-own-target-headers.hmap -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-all-target-headers.hmap -iquote /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/md5_Test-project-headers.hmap -I/Users/mac/Codes/md5_Test/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/DerivedSources/x86_64 -I/Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/DerivedSources -F/Users/mac/Codes/md5_Test/build/Release -MMD -MT dependencies -MF /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_hash.d --serialize-diagnostics /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_hash.dia -c /Users/mac/Codes/md5_Test/md5_Test/md5_hash.c -o /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_hash.o36"EDDE20B9-567A-48E3-888F-1C39690161E9-
+
+CGenerateDSYMFile /Users/mac/Codes/md5_Test/build/Release/md5_Test.dSYM /Users/mac/Codes/md5_Test/build/Release/md5_Test
+s371511463.038389
+e371511463.091555
+r1
+xGenerateDSYMFile
+x/Users/mac/Codes/md5_Test/build/Release/md5_Test.dSYM
+x/Users/mac/Codes/md5_Test/build/Release/md5_Test
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Generating /Users/mac/Codes/md5_Test/build/Release/md5_Test.dSYM7bf509a7d024b641^227117a7d024b641^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/mac/Codes/md5_Test/build/Release/md5_Test.dSYM000000000080d041^307"GenerateDSYMFile build/Release/md5_Test.dSYM build/Release/md5_Test    cd /Users/mac/Codes/md5_Test    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mac/Codes/md5_Test/build/Release/md5_Test -o /Users/mac/Codes/md5_Test/build/Release/md5_Test.dSYM36"D5FCAE26-7D77-4A4C-A562-0A91231611C9-
+
+CLd /Users/mac/Codes/md5_Test/build/Release/md5_Test normal x86_64
+s371511462.587067
+e371511463.031223
+r1
+xLd
+x/Users/mac/Codes/md5_Test/build/Release/md5_Test
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Link /Users/mac/Codes/md5_Test/build/Release/md5_Testd55c96a6d024b641^7aff07a7d024b641^---0#0#0#--619"Ld build/Release/md5_Test normal x86_64    cd /Users/mac/Codes/md5_Test    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/md5_Test/build/Release -F/Users/mac/Codes/md5_Test/build/Release -filelist /Users/mac/Codes/md5_Test/build/md5_Test.build/Release/md5_Test.build/Objects-normal/x86_64/md5_Test.LinkFileList -mmacosx-version-min=10.8 -o /Users/mac/Codes/md5_Test/build/Release/md5_Test36"BF2794C6-C4A0-4255-8E53-B5F267EFB35C-
+
