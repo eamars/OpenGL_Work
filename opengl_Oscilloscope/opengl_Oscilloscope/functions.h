@@ -18,6 +18,7 @@ void testfunc(float);
 void testfunc2(long);
 void displaytime(long);
 void displayPercentage(long);
+void printLinkLine(void);
 
 struct type_points {
     float x;

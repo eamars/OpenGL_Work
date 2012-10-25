@@ -146,7 +146,7 @@ void readfromWave(void)
     
     for (int i = 0; i<header.DATACOUNT/bit_per_sample; i++) {
         fread(&wavebuffer[i], bit_per_sample, 1, fp);
-        fbuffer[i] = (float)wavebuffer[i]/100;
+        fbuffer[i] = 1.5*(float)wavebuffer[i]/100;
         //printf("%f, ",buffer[i]);
     }
     fclose(fp);
