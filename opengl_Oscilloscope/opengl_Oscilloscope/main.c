@@ -21,7 +21,7 @@ void init(void)
     y -4,4
     z -1,1
      */
-    glOrtho(-5.0,5.0,-4.0,4.0,-1.0,1.0);
+    glOrtho(-5.0,5.0,-5.0,5.0,-1.0,1.0);
     /* AA */
     
     glEnable(GL_BLEND);
@@ -34,12 +34,12 @@ void init(void)
 int main(int argc, char **argv)
 {
     readfromWave();
-    readfromfile();
+
     
     // insert code here...
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB);
-    glutInitWindowSize(501,401);
+    glutInitWindowSize(501,501);
     glutInitWindowPosition(100,0);
     glutCreateWindow("Oscilloscope");
     init();

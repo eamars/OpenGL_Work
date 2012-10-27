@@ -9,20 +9,26 @@
 #ifndef opengl_Oscilloscope_wave_h
 #define opengl_Oscilloscope_wave_h
 
+
+
+
 struct HeaderType {
-    char RIFF[5];//0,4
-    int Byte; //4,4
-    char WAVE[5]; //8,4
-    char FMT[5]; //12,4
-    int FILTER; //16,4
-    int PCM; //20,2
-    int CHANNELS; //22,2
-    int SampleRate; //24,4
-    int byte_rate; //28,4
-    int block_align; //32,2
-    int SampleDigits; //34,2
-    char DATASIGN[5]; //36,4
-    int DATACOUNT; //40,4
+    char ChunkID[5];//0,4
+    uint32 ChunkSize; //4,4
+    char Format[5]; //8,4
+    char Subchunk1ID[5]; //12,4
+    uint32 Subchunk1Size; //16,4
+    uint16 AudioFormat; //20,2
+    uint16 Channels; //22,2
+    uint32 SampleRate; //24,4
+    uint32 ByteRate; //28,4
+    uint16 BlockAlign; //32,2
+    uint16 BitsPerSample; //34,2
+    char Subchunk2ID[5]; //36,4
+    uint32 Subchunk2Size; //40,4
 };
 
+struct HeaderType header;
+
+long DataLength;
 #endif

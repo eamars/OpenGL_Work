@@ -31,7 +31,7 @@ double CalFrequency()
 
 void display_FPS()
 {
-    float x = -4.95,y = 4,FS = 0.6;
+    float x = -4.95,y = 5,FS = 1;
     int fps=CalFrequency();
     
     glColor3f(CYAN);

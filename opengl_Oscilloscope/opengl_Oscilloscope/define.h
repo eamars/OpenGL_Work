@@ -31,6 +31,13 @@ double CalFrequency();
 #define GREY 0.618,0.618,0.618
 #define Oscilloscope_GREEN 0.518,0.969,0.678
 
+typedef unsigned char uint8; //1
+typedef unsigned short uint16; //2
+typedef unsigned int uint32; //4
+typedef unsigned long uint64; //8
+typedef char int8;
+typedef short int16;
+
 #include "font.h"
 #include "screen.h"
 #include "functions.h"

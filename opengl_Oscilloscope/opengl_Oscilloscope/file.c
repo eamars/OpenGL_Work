@@ -13,62 +13,61 @@
 #include "file.h"
 #include "wave.h"
 
-void readfromfile(void)
+uint16 uEndian_16(uint16 n)
 {
-    FILE *fp;
-    char filename[]={"wave.dat"};
-    if ((fp=fopen(filename, "r"))==NULL)
-    {
-        printf("No Wave File Founded!\nPlease Check If There Is A File Named <wave.dat> and Run Again\n");
-        sleep(10);
-        exit(0);
-    }
     
-    for (int i = 0; i<1000000; i++) {
-        fscanf(fp, "%f, ", &buffer[i]);
-    }
-    fclose(fp);
+    // You can do this with unions but...
+    uint8 a[2], *pn;
+    
+    pn = (uint8*)&n;
+    a[1] = *(pn+0);
+    a[0] = *(pn+1);
+    return *(uint16 *)&a;
+}
+
+int16 Endian_16(int16 n)
+{
+    int8 a[2], *pn;
+    
+    pn = (int8*)&n;
+    a[1] = *(pn+0);
+    a[0] = *(pn+1);
+    return *(int16 *)&a;
 }
 
 
-long getHeader(struct HeaderType *header, char Filename[])
+long getHeader(struct HeaderType *header, FILE *fp)
 {
-    FILE *fp;
-    if ((fp=fopen(Filename, "rb"))==NULL)
-    {
-        printf("No Wave File Founded!\nPlease Check If There Is A File Named <sample.wav> and Run Again\n");
-        sleep(10);
-        exit(0);
-    }
+    
     //0
 
-    fread(&header->RIFF, 4, 1, fp);
-    header->RIFF[4] = '\0';
+    fread(&header->ChunkID, 4, 1, fp);
+    header->ChunkID[4] = '\0';
     //4
 
-    fread(&header->Byte, 4, 1, fp);
+    fread(&header->ChunkSize, 4, 1, fp);
     
     //8
 
-    fread(&header->WAVE, 4, 1, fp);
-    header->WAVE[4] = '\0';
+    fread(&header->Format, 4, 1, fp);
+    header->Format[4] = '\0';
     
     //12
 
-    fread(&header->FMT, 4, 1, fp);
-    header->FMT[4] = '\0';
+    fread(&header->Subchunk1ID, 4, 1, fp);
+    header->Subchunk1ID[4] = '\0';
     
     //16
 
-    fread(&header->FILTER, 4, 1, fp);
+    fread(&header->Subchunk1Size, 4, 1, fp);
     
     //20
 
-    fread(&header->PCM, 2, 1, fp);
+    fread(&header->AudioFormat, 2, 1, fp);
     
     //22
 
-    fread(&header->CHANNELS, 2, 1, fp);
+    fread(&header->Channels, 2, 1, fp);
     
     //24
 
@@ -76,108 +75,123 @@ long getHeader(struct HeaderType *header, char Filename[])
     
     //28
 
-    fread(&header->byte_rate, 4, 1, fp);
+    fread(&header->ByteRate, 4, 1, fp);
     
     //32
 
-    fread(&header->block_align, 2, 1, fp);
+    fread(&header->BlockAlign, 2, 1, fp);
     
     //34
 
-    fread(&header->SampleDigits, 2, 1, fp);
+    fread(&header->BitsPerSample, 2, 1, fp);
     
     //36
 
-    fread(&header->DATASIGN, 4, 1, fp);
-    header->DATASIGN[4] = '\0';
+    fread(&header->Subchunk2ID, 4, 1, fp);
+    header->Subchunk2ID[4] = '\0';
     
     //40
 
-    fread(&header->DATACOUNT, 4, 1, fp);
+    fread(&header->Subchunk2Size, 4, 1, fp);
     
-    fclose(fp);
-    return header->DATACOUNT;
+    return header->Subchunk2Size;
 }
 
 
 void readfromWave(void)
 {
-    struct HeaderType header;
     
-    getHeader(&header, "sample.wav");
     
-    /*
-    if (header.PCM != 1) {
-        printf("Must be a PCM type!\n");
-        exit(0);
-    }
-    if (header.CHANNELS != 1) {
-        printf("Must be a mono channel wave file!\n");
-        exit(0);
-    }
-    if (header.SampleDigits != 8) {
-        printf("Must be a 8bit wave file!\n");
-        exit(0);
-    }
-    */
-    
-    //readin
+    /* read from sample.wav*/
     FILE *fp;
-    fp = fopen("sample.wav", "rb");
+    if ((fp=fopen("sample.wav", "rb"))==NULL)
+    {
+        printf("ERROR while reading, exit!\n");
+        exit(0);
+    }
     
-    int bit_per_sample = header.SampleDigits/8;
+    //get wav's header from sample.wav
+    getHeader(&header, fp);
     
-    //find "data" offset
-    long offset;
-    char head[5];
-    head[4] = '\0';
-    for (long i = 30; i<45; i++) {
-        fseek(fp, i, 0);
-        fread(head, 4, 1, fp);
-        if (!strcmp(head, "data")) {
-            //printf("i = %ld\n",i);
-            offset = i + 8;
+    //Stereo Wave Not support at current stage
+    if (header.Channels != 1 || header.AudioFormat != 1) {
+        printf("The program only support Mono Wave at current stage\n");
+        exit(0);
+    }
+    /*
+    printf("ChunkID = %s\n",header.ChunkID);
+    printf("ChunkSize = %d\n",header.ChunkSize);
+    printf("Format = %s\n",header.Format);
+    printf("Subchunk1ID = %s\n",header.Subchunk1ID);
+    printf("Subchunk1Size = %d\n",header.Subchunk1Size);
+    printf("AudioFormat = %d\n",header.AudioFormat);
+    printf("Channels = %d\n",header.Channels);
+    printf("SampleRate = %d\n",header.SampleRate);
+    printf("ByteRate = %d\n",header.ByteRate);
+    printf("BlockAlign = %d\n",header.BlockAlign);
+    printf("BitsPerSample = %d\n",header.BitsPerSample);
+    printf("Subchunk2ID = %s\n",header.Subchunk2ID);
+    printf("Subchunk2Size = %d\n",header.Subchunk2Size);
+    */
+    int byte_per_sample = header.BitsPerSample/8;//16bit->2 or 8bit->1
+    //printf("byte_per_sample = %d\n",byte_per_sample);
+    DataLength = header.Subchunk2Size/byte_per_sample;
+    
+    
+    //locate to 44
+    long offset = 0;
+    for (int i = 36; i<50; i++) {
+        if (!strcmp(header.Subchunk2ID, "data")) {
+            offset = i+8;
             break;
         }
     }
     
-    int wavebuffer[header.DATACOUNT/bit_per_sample];
-    float fbuffer[header.DATACOUNT/bit_per_sample];
+    fseek(fp, offset, SEEK_SET);
     
-    for (int i = 0; i<header.DATACOUNT/bit_per_sample; i++) {
-        fread(&wavebuffer[i], bit_per_sample, 1, fp);
-        fbuffer[i] = 1.5*(float)wavebuffer[i]/100;
-        //printf("%f, ",buffer[i]);
+
+    
+    /*read data chunk*/
+    
+    
+    //8bit Mono
+    if (byte_per_sample == 1) {
+        //read data
+        uint8 w_buffer[DataLength];//1byte, 8bit wave
+        for (int i = 0; i<DataLength; i++) {
+            fread(&w_buffer[i], 1, 1, fp);
+            //printf("%X, ",w_buffer[i]);
+        }
+        //transfer
+        for (int i = 0; i<DataLength; i++) {
+            buffer[i] = AMP*(float)w_buffer[i]/256 + 1;
+        }
     }
+    
+    
+    //16bit Mono
+    else if (byte_per_sample == 2){
+        int16 w_buffer[DataLength];//2byte, 16bit wave
+        for (int i = 0; i<DataLength; i++) {
+            fread(&w_buffer[i], 2, 1, fp);
+            //printf("%X\n",w_buffer[i]);
+        }
+        for (int i = 0; i<DataLength; i++) {
+            buffer[i] = AMP*(float)w_buffer[i]/65536 + 2;
+            //printf("%f\n",buffer[i]);
+        }
+    }
+    
+    
+    //24bit
+        
+    
+    
+    
     fclose(fp);
-    //writeout
-    FILE *out;
-    if ((out = fopen("wave.dat", "wb")) == NULL) {
-    	printf("ERROR while writing, exit!\n");
-        exit (0);
-    }
-    for (int i = 0; i<header.DATACOUNT/bit_per_sample; i++,offset = offset + bit_per_sample) {
-        fprintf(out, "%f, ",fbuffer[i]);
-    }
-    fclose(out);
-    
-    
-     printf("RIFF = %s\n",header.RIFF);
-     printf("TotalByte = %d\n",header.Byte);
-     printf("WAVE = %s\n",header.WAVE);
-     printf("FMT = %s\n",header.FMT);
-     printf("FILTER = %d\n",header.FILTER);
-     printf("PCM = %d\n",header.PCM);
-     printf("CHANNEL = %d\n",header.CHANNELS);
-     printf("SAMPLEFREQ = %d\n",header.SampleRate);
-     printf("Byte rate = %d\n",header.byte_rate);
-     printf("ADJDATA = %d\n",header.block_align);
-     printf("SampleDigits = %d\n",header.SampleDigits);
-     printf("DataSign = %s\n",header.DATASIGN);
-     printf("TotalData = %d\n",header.DATACOUNT);
-     
+    /*read finish*/
     
     
     
-    fclose(fp);
+    
 }

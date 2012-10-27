@@ -7,9 +7,11 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
 #include <math.h>
 #include "screen.h"
+#include "wave.h"
 
 void init_var(void)
 {
@@ -22,10 +24,17 @@ void displayfunc(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
     coordinates();
+    testfunc2(inttime);
     display_FPS();
     displaytime(inttime);
-    testfunc2(inttime);
-    inttime++;
+    displayPercentage(inttime);
+    printWavdata();
+    printSettings();
+    if (inttime < DataLength) {
+        inttime++;
+    }
+    else
+        exit(0);
     
     
     
@@ -67,33 +76,43 @@ void coordinates(void)
     }
     
     //smaller coordinates
-    glColor3f(GREY);
+    glLineWidth(1.0f);
+    glColor3f(GREEN);
     //x
     for (float i = -4; i<=4; i = i+0.2) {
         glBegin(GL_LINES);
-        glVertex2f(-0.05, i);
-        glVertex2f(0.05, i);
+        glVertex2f(-4.95, i);
+        glVertex2f(-4.85, i);
         glEnd();
     }
     //y
     for (float i = -5; i<=5; i = i+0.2) {
         glBegin(GL_LINES);
-        glVertex2f(i, -0.05);
-        glVertex2f(i, 0.05);
+        glVertex2f(i, 2.05);
+        glVertex2f(i, 1.95);
+        
+        glVertex2f(i, -2.05);
+        glVertex2f(i, -1.95);
         glEnd();
     }
     
-    // main coordinates x,y
-    glColor3f(GREY);
-    //x
+
+    
+    
+    //edge
+    glColor3f(WHITE);
+    glLineWidth(1.0f);
     glBegin(GL_LINES);
+    glVertex2f(-5.0, 4.0);
+    glVertex2f(5.0, 4.0);
+    
+    glVertex2f(-5.0, -4.0);
+    glVertex2f(5.0, -4.0);
+    
+    glColor3f(GREY);
     glVertex2f(-5.0, 0.0);
     glVertex2f(5.0, 0.0);
-    glEnd();
-    //y
-    glBegin(GL_LINES);
-    glVertex2f(0.0, -4.0);
-    glVertex2f(0.0, 4.0);
+    
     glEnd();
 	
     glFlush();
