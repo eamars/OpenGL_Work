@@ -98,7 +98,7 @@ long getHeader(struct HeaderType *header, FILE *fp)
 }
 
 
-void readfromWave(void)
+int readfromWave(void)
 {
     
     
@@ -107,18 +107,36 @@ void readfromWave(void)
     if ((fp=fopen("sample.wav", "rb"))==NULL)
     {
         printf("ERROR while reading, exit!\n");
-        exit(0);
+        return 0;
     }
     
     //get wav's header from sample.wav
     getHeader(&header, fp);
     
-    //Stereo Wave Not support at current stage
-    if (header.Channels != 1 || header.AudioFormat != 1) {
-        printf("The program only support Mono Wave at current stage\n");
-        exit(0);
+    //Only support wave format
+    if (strcmp(header.Format, "WAVE") != 0) {
+        printf("The program only support wave file\n");
+        return 0;
     }
-    /*
+    
+    //Only support PCM
+    if (header.AudioFormat != 1) {
+        printf("The program only support PCM.\n");
+        return 0;
+    }
+    
+    //Only support 8bit and 16bit waves
+    if (header.Channels > 16) {
+        printf("Wave more than 2 Channels is not supported at current stage.\n");
+        return 0;
+    }
+    
+    //Not support BIG file
+    if (header.Subchunk2Size > 16700000) { //bigger than 16.5MB
+        printf("The file is Tooooooo big!\n");
+        return 0;
+    }
+    
     printf("ChunkID = %s\n",header.ChunkID);
     printf("ChunkSize = %d\n",header.ChunkSize);
     printf("Format = %s\n",header.Format);
@@ -132,11 +150,13 @@ void readfromWave(void)
     printf("BitsPerSample = %d\n",header.BitsPerSample);
     printf("Subchunk2ID = %s\n",header.Subchunk2ID);
     printf("Subchunk2Size = %d\n",header.Subchunk2Size);
-    */
-    int byte_per_sample = header.BitsPerSample/8;//16bit->2 or 8bit->1
-    //printf("byte_per_sample = %d\n",byte_per_sample);
-    DataLength = header.Subchunk2Size/byte_per_sample;
     
+    
+    int byte_per_sample = header.BitsPerSample/8;//16bit->2 or 8bit->1
+    //printf("byte_per_sample = %d\n",header.BlockAlign);
+    
+    DataLength = header.Subchunk2Size/header.BlockAlign;
+    //printf("datalength = %ld\n",DataLength);
     
     //locate to 44
     long offset = 0;
@@ -146,46 +166,71 @@ void readfromWave(void)
             break;
         }
     }
-    
+    //printf("offset = %ld\n",offset);
     fseek(fp, offset, SEEK_SET);
     
-
     
     /*read data chunk*/
     
     
     //8bit Mono
-    if (byte_per_sample == 1) {
+    if (byte_per_sample == 1 && header.Channels == 1) {
         //read data
         uint8 w_buffer[DataLength];//1byte, 8bit wave
-        for (int i = 0; i<DataLength; i++) {
+        for (long i = 0; i<DataLength; i++) {
             fread(&w_buffer[i], 1, 1, fp);
             //printf("%X, ",w_buffer[i]);
         }
         //transfer
-        for (int i = 0; i<DataLength; i++) {
-            buffer[i] = AMP*(float)w_buffer[i]/256 + 1;
+        for (long i = 0; i<DataLength; i++) {
+            L_buffer[i] = AMP*(float)w_buffer[i]/256 + -0.5*AMP+2;
         }
     }
     
     
     //16bit Mono
-    else if (byte_per_sample == 2){
+    else if (byte_per_sample == 2 && header.Channels == 1){
         int16 w_buffer[DataLength];//2byte, 16bit wave
-        for (int i = 0; i<DataLength; i++) {
+        for (long i = 0; i<DataLength; i++) {
             fread(&w_buffer[i], 2, 1, fp);
             //printf("%X\n",w_buffer[i]);
         }
-        for (int i = 0; i<DataLength; i++) {
-            buffer[i] = AMP*(float)w_buffer[i]/65536 + 2;
+        for (long i = 0; i<DataLength; i++) {
+            L_buffer[i] = AMP*(float)w_buffer[i]/65536 + 2;
             //printf("%f\n",buffer[i]);
         }
     }
     
     
-    //24bit
-        
+    //8bit Stereo
+    else if (byte_per_sample == 1 && header.Channels == 2) {
+        //read data
+        uint8 w_buffer[DataLength];//1byte, 8bit wave
+        for (long i = 0; i<DataLength; i++) {
+            fread(&w_buffer[i], 1, 1, fp);
+            //printf("%X, ",w_buffer[i]);
+        }
+        //transfer
+        for (long i = 0, j = 0; j<DataLength; i++, j = j+2) {
+            L_buffer[i] = AMP*(float)w_buffer[j]/256 + -0.5*AMP+2;
+            R_buffer[i] = AMP*(float)w_buffer[j+1]/256 + -0.5*AMP+2;
+        }
+    }
     
+    //16bit Stereo
+    else if (byte_per_sample == 2 && header.Channels == 2){
+        int16 w_buffer[DataLength];//2byte, 16bit wave
+        for (uint64 i = 0; i<DataLength; i++) {
+            //printf("[%ld]\n",ftell(fp));
+            fread(&w_buffer[i], 2, 1, fp);
+            //printf("%X\n",w_buffer[i]);
+        }
+        for (uint64 i = 0, j = 0; j<DataLength; i++, j = j+2) {
+            L_buffer[i] = AMP*(float)w_buffer[j]/65536 + 2; //even frame to LEFT channel
+            R_buffer[i] = AMP*(float)w_buffer[j+1]/65536 + 2; //odd frame to RIGHT channel
+            //printf("[%lld]L = %f R = %f\n",i,L_buffer[i],R_buffer[i]);
+        }
+    }
     
     
     fclose(fp);
@@ -193,5 +238,5 @@ void readfromWave(void)
     
     
     
-    
+    return 1;
 }

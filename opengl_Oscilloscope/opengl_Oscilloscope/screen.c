@@ -30,18 +30,14 @@ void displayfunc(void)
     displayPercentage(inttime);
     printWavdata();
     printSettings();
+    printChannels();
     if (inttime < DataLength) {
         inttime++;
     }
+    
     else
         exit(0);
     
-    
-    
-    //testfunc(floattime);
-    //displaytime(floattime);
-    //floattime = floattime + 0.01;
-    usleep(1000);
     glutSwapBuffers();
 }
 

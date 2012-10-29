@@ -12,7 +12,7 @@
 #include "define.h"
 
 
-
+uint32 inttime;
 void scope(void);
 void coordinates(void);
 

@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "define.h"
 
 
@@ -33,17 +34,18 @@ void init(void)
 
 int main(int argc, char **argv)
 {
-    readfromWave();
-
+    if (!readfromWave()) {
+        printf("Failed to read,exit\n");
+        exit(0);
+    }
     
     // insert code here...
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB);
     glutInitWindowSize(501,501);
-    glutInitWindowPosition(100,0);
-    glutCreateWindow("Oscilloscope");
+    glutInitWindowPosition(200,0);
+    glutCreateWindow("Oscilloscope Build v1.01");
     init();
-    
     glutDisplayFunc(scope);
     glutMainLoop();
      

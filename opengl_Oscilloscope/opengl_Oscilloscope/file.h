@@ -11,7 +11,7 @@
 
 #include "define.h"
 
-void readfromWave(void);
-float buffer[1000000];
-
+int readfromWave(void);
+float L_buffer[100000000];
+float R_buffer[100000000];
 #endif
