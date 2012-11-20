@@ -92,9 +92,9 @@ void startup()
     glVertex2f(FRAMEWORK*0.8, FRAMEWORK*0.5);
     glEnd();
     glColor3f(0, 0, 0);
-    prints("challenge", 0.29, 0.605, 0.35, 0.05);
-    prints("versus", 0.35, 0.405, 0.35, 0.05);
-    prints("exit", 0.4, 0.205, 0.35, 0.05);
+    prints("challenge", 0.26, 0.605, 0.35, 0.055);
+    prints("versus", 0.34, 0.405, 0.35, 0.055);
+    prints("exit", 0.4, 0.20, 0.35, 0.055);
     glFlush();
     glutMouseFunc(MouseClickStartFrame);
 }

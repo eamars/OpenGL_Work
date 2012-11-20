@@ -22,7 +22,7 @@ OUTPUT=five_in_row
 
 
 
-objects=main.o functions.o ai_function.o steps.o versus.o
+objects=main.o functions.o ai_function.o steps.o versus.o save_log.c
 
 $(OUTPUT):$(objects)
 	$(COMP) -o $(OUTPUT) $(objects)
@@ -39,6 +39,9 @@ steps.o:steps.c define.h
        
 versus.o:versus.c define.h
 	$(COMP) -c versus.c $(ARGU)
+    
+save_log.o:save_log.c define.h
+	$(COMP) -c save_log.c $(ARGU)
     
 main.o:main.c define.h
 	$(COMP) -c main.c $(ARGU)

@@ -37,14 +37,14 @@ void savelog(int switcher)
     //file
 #ifdef __WIN32__
     FILE *fp;
-    if ((fp = fopen("autosav.txt", "w+")) == NULL)
+    if ((fp = fopen("autosav.txt", "w")) == NULL)
     {
         printf("OpenError\n");
         exit(0);
     }
 #else
     FILE *fp;
-    if ((fp = fopen("autosav", "w+")) == NULL)
+    if ((fp = fopen("autosav", "w")) == NULL)
     {
         printf("OpenError\n");
         exit(0);
@@ -59,41 +59,40 @@ void savelog(int switcher)
     timeinfo = localtime ( &rawtime );
     
     /* Gamemode:   Challenge */
-    fwrite("Gamemode:  ", 1, sizeof("Gamemode:  "), fp);
+    fwrite("GameMode:  ", sizeof("GameMode:  "), 1, fp);
     if (mode==1) {
-        fwrite("Challenge", 1, sizeof("Challenge"), fp);
+        fwrite("Challenge", sizeof("Challenge"), 1, fp);
         fwrite("\n", 1, 1, fp);
     }
     else if (mode==2){
-        fwrite("Duel", 1, sizeof("Duel"), fp);
+        fwrite("Duel", sizeof("Duel"), 1, fp);
         fwrite("\n", 1, 1, fp);
     }
     else if (mode==3){
-        fwrite("AI Versus", 1, sizeof("AI Versus"), fp);
+        fwrite("AI Versus", sizeof("AI Versus"), 1, fp);
         fwrite("\n", 1, 1, fp);
     }
     else{
-        fwrite("Challenge", 1, sizeof("Challenge"), fp);
+        fwrite("Challenge", sizeof("Challenge"), 1, fp);
         fwrite("\n", 1, 1, fp);
     }
     
     /* LastPlay:   Thu Sep  6 11:40:50 2012 */
-    fwrite("LastPlay:  ", 1, sizeof("LastPlay:  "), fp);
-    fwrite(asctime(timeinfo), sizeof(asctime(timeinfo)), sizeof(asctime(timeinfo)), fp);
-    fwrite("\n", 1, 1, fp);
+    fwrite("LastPlay:  ", sizeof("LastPlay:  "), 1, fp);
+    fwrite(asctime(timeinfo), sizeof("Thu Sep  6 11:40:50 2012"), 1, fp);
     
     /* Winner:     Black */
-    fwrite("Winner:    ", 1, sizeof("Winner:    "), fp);
+    fwrite("Winner:    ", sizeof("Winner:    "), 1, fp);
     if (win==-1) {
-        fwrite("Black", 1, sizeof("Black"), fp);
+        fwrite("Black", sizeof("Black"), 1, fp);
         fwrite("\n", 1, 1, fp);
     }
     else if (win==1){
-        fwrite("White", 1, sizeof("White"), fp);
+        fwrite("White", sizeof("White"), 1, fp);
         fwrite("\n", 1, 1, fp);
     }
     else{
-        fwrite("None", 1, sizeof("None"), fp);
+        fwrite("None", sizeof("None"), 1, fp);
         fwrite("\n", 1, 1, fp);
     }
     

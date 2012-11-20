@@ -1,0 +1,204 @@
+Tfive_in_row
+v5
+r1
+cCheck dependencies
+cCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/main.o /Users/mac/Codes/five_in_row/five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/functions.o /Users/mac/Codes/five_in_row/five_in_row/functions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/steps.o /Users/mac/Codes/five_in_row/five_in_row/steps.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/versus.o /Users/mac/Codes/five_in_row/five_in_row/versus.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/ai_function.o /Users/mac/Codes/five_in_row/five_in_row/ai_function.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/Codes/five_in_row/build/Debug/five_in_row normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005024820B00000000000000AA
+t1344569867
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c000000005010B1830000000000004523
+t1343271299
+s17699
+
+N/Users/mac/Codes/five_in_row/build/Debug/five_in_row
+t2
+s0
+
+N/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/ai_function.o
+t2
+s0
+
+N/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/five_in_row.LinkFileList
+c00000000503DBF390000000000000221
+t1346223929
+s545
+
+N/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/functions.o
+t2
+s0
+
+N/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/steps.o
+t2
+s0
+
+N/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/versus.o
+t2
+s0
+
+N/Users/mac/Codes/five_in_row/five_in_row/ai_function.c
+c00000000500A84190000000000001952
+t1342866457
+s6482
+
+N/Users/mac/Codes/five_in_row/five_in_row/define.h
+c0000000050179FA20000000000000795
+t1343725474
+s1941
+
+N/Users/mac/Codes/five_in_row/five_in_row/functions.c
+c000000005007F65D0000000000001B0E
+t1342699101
+s6926
+
+N/Users/mac/Codes/five_in_row/five_in_row/main.c
+c000000005005329700000000000002C9
+t1342517911
+s713
+i<stdio.h>
+i"define.h"
+
+N/Users/mac/Codes/five_in_row/five_in_row/steps.c
+c00000000500A847D0000000000000AD9
+t1342866557
+s2777
+
+N/Users/mac/Codes/five_in_row/five_in_row/versus.c
+c00000000500533A4000000000000076E
+t1342518180
+s1902
+
+CBuild AST from /Users/mac/Codes/five_in_row/five_in_row/ai_function.c
+r0
+
+CBuild AST from /Users/mac/Codes/five_in_row/five_in_row/functions.c
+r0
+
+CBuild AST from /Users/mac/Codes/five_in_row/five_in_row/main.c
+r0
+
+CBuild AST from /Users/mac/Codes/five_in_row/five_in_row/steps.c
+r0
+
+CBuild AST from /Users/mac/Codes/five_in_row/five_in_row/versus.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd141fbb9f6edb541^9e41ffb9f6edb541^-119"warning: no rule to process file '$(PROJECT_DIR)/five_in_row/makefile' of type sourcecode.make for architecture x86_641(21%IDEActivityLogMessage2@118"Warning: no rule to process file '$(PROJECT_DIR)/five_in_row/makefile' of type sourcecode.make for architecture x86_64-367916729#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"038D6442-140B-4692-B065-1CECA722F98A-
+
+CCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/ai_function.o /Users/mac/Codes/five_in_row/five_in_row/ai_function.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s367916730.101350
+e367916730.136926
+r1
+xCompileC
+xbuild/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/ai_function.o
+x/Users/mac/Codes/five_in_row/five_in_row/ai_function.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:185:9: warning: unused variable 'h_length' [-Wunused-variable]
+o    int h_length=0;
+o        ^
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:186:9: warning: unused variable 'd_plength' [-Wunused-variable]
+o    int d_plength=0;
+o        ^
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:187:9: warning: unused variable 'd_mlength' [-Wunused-variable]
+o    int d_mlength=0;
+o        ^
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:193:9: warning: unused variable 'x_h' [-Wunused-variable]
+o    int x_h=x;
+o        ^
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:194:9: warning: unused variable 'y_h' [-Wunused-variable]
+o    int y_h=y;
+o        ^
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:196:9: warning: unused variable 'x_dp' [-Wunused-variable]
+o    int x_dp=x;
+o        ^
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:197:9: warning: unused variable 'y_dp' [-Wunused-variable]
+o    int y_dp=y;
+o        ^
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:199:9: warning: unused variable 'x_dm' [-Wunused-variable]
+o    int x_dm=x;
+o        ^
+o/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:200:9: warning: unused variable 'y_dm' [-Wunused-variable]
+o    int y_dm=y;
+o        ^
+o9 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/mac/Codes/five_in_row/five_in_row/ai_function.c90131abaf6edb541^200d23baf6edb541^-1306"/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:185:9: warning: unused variable 'h_length' [-Wunused-variable]    int h_length=0;        ^/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:186:9: warning: unused variable 'd_plength' [-Wunused-variable]    int d_plength=0;        ^/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:187:9: warning: unused variable 'd_mlength' [-Wunused-variable]    int d_mlength=0;        ^/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:193:9: warning: unused variable 'x_h' [-Wunused-variable]    int x_h=x;        ^/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:194:9: warning: unused variable 'y_h' [-Wunused-variable]    int y_h=y;        ^/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:196:9: warning: unused variable 'x_dp' [-Wunused-variable]    int x_dp=x;        ^/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:197:9: warning: unused variable 'y_dp' [-Wunused-variable]    int y_dp=y;        ^/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:199:9: warning: unused variable 'x_dm' [-Wunused-variable]    int x_dm=x;        ^/Users/mac/Codes/five_in_row/five_in_row/ai_function.c:200:9: warning: unused variable 'y_dm' [-Wunused-variable]    int y_dm=y;        ^9 warnings generated.9(36%IDEClangDiagnosticActivityLogMessage2@26"Unused variable 'h_length'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^184#8#184#8#3694#0#19"Unused Entity Issue--2@27"Unused variable 'd_plength'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^185#8#185#8#3714#0#19"Unused Entity Issue--2@27"Unused variable 'd_mlength'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^186#8#186#8#3735#0#19"Unused Entity Issue--2@21"Unused variable 'x_h'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^192#8#192#8#3806#0#19"Unused Entity Issue--2@21"Unused variable 'y_h'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^193#8#193#8#3821#0#19"Unused Entity Issue--2@22"Unused variable 'x_dp'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^195#8#195#8#3841#0#19"Unused Entity Issue--2@22"Unused variable 'y_dp'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^196#8#196#8#3857#0#19"Unused Entity Issue--2@22"Unused variable 'x_dm'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^198#8#198#8#3878#0#19"Unused Entity Issue--2@22"Unused variable 'y_dm'-367916730#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^199#8#199#8#3894#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@70"file://localhost/Users/mac/Codes/five_in_row/five_in_row/ai_function.c0000000000000000^2310"CompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/ai_function.o five_in_row/ai_function.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-generated-files.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-own-target-headers.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-project-headers.hmap -I/Users/mac/Codes/five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources -F/Users/mac/Codes/five_in_row/build/Debug -MMD -MT dependencies -MF /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/ai_function.d --serialize-diagnostics /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/ai_function.dia -c /Users/mac/Codes/five_in_row/five_in_row/ai_function.c -o /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/ai_function.o36"C02D9B2E-CA7C-4264-BCA6-EE518A3532DC-
+
+CCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/functions.o /Users/mac/Codes/five_in_row/five_in_row/functions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s367916729.999734
+e367916730.100951
+r1
+xCompileC
+xbuild/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/functions.o
+x/Users/mac/Codes/five_in_row/five_in_row/functions.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/mac/Codes/five_in_row/five_in_row/functions.c1a1900baf6edb541^c7d819baf6edb541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/mac/Codes/five_in_row/five_in_row/functions.c0000000000000000^2298"CompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/functions.o five_in_row/functions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-generated-files.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-own-target-headers.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-project-headers.hmap -I/Users/mac/Codes/five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources -F/Users/mac/Codes/five_in_row/build/Debug -MMD -MT dependencies -MF /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/functions.d --serialize-diagnostics /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/functions.dia -c /Users/mac/Codes/five_in_row/five_in_row/functions.c -o /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/functions.o36"A1E3DA9B-3873-4649-B0DB-312A49FF366C-
+
+CCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/main.o /Users/mac/Codes/five_in_row/five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s367916729.999729
+e367916730.099798
+r1
+xCompileC
+xbuild/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/main.o
+x/Users/mac/Codes/five_in_row/five_in_row/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/mac/Codes/five_in_row/five_in_row/main.cc61400baf6edb541^c68b19baf6edb541^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/mac/Codes/five_in_row/five_in_row/main.c0000000000000000^2268"CompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/main.o five_in_row/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-generated-files.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-own-target-headers.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-project-headers.hmap -I/Users/mac/Codes/five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources -F/Users/mac/Codes/five_in_row/build/Debug -MMD -MT dependencies -MF /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/five_in_row/five_in_row/main.c -o /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/main.o36"FCE20119-50BF-4542-A370-EAB546D87BC9-
+
+CCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/steps.o /Users/mac/Codes/five_in_row/five_in_row/steps.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s367916729.999773
+e367916730.100156
+r1
+xCompileC
+xbuild/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/steps.o
+x/Users/mac/Codes/five_in_row/five_in_row/steps.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/mac/Codes/five_in_row/five_in_row/steps.c791e00baf6edb541^6ea319baf6edb541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/mac/Codes/five_in_row/five_in_row/steps.c0000000000000000^2274"CompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/steps.o five_in_row/steps.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-generated-files.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-own-target-headers.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-project-headers.hmap -I/Users/mac/Codes/five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources -F/Users/mac/Codes/five_in_row/build/Debug -MMD -MT dependencies -MF /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/steps.d --serialize-diagnostics /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/steps.dia -c /Users/mac/Codes/five_in_row/five_in_row/steps.c -o /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/steps.o36"4B88C10C-590A-4DF0-90AD-CCB6576391C8-
+
+CCompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/versus.o /Users/mac/Codes/five_in_row/five_in_row/versus.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s367916730.000013
+e367916730.100513
+r1
+xCompileC
+xbuild/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/versus.o
+x/Users/mac/Codes/five_in_row/five_in_row/versus.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/mac/Codes/five_in_row/five_in_row/versus.c723700baf6edb541^49bb19baf6edb541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/mac/Codes/five_in_row/five_in_row/versus.c0000000000000000^2280"CompileC build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/versus.o five_in_row/versus.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/five_in_row    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-generated-files.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-own-target-headers.hmap -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-all-target-headers.hmap -iquote /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/five_in_row-project-headers.hmap -I/Users/mac/Codes/five_in_row/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources/x86_64 -I/Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/DerivedSources -F/Users/mac/Codes/five_in_row/build/Debug -MMD -MT dependencies -MF /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/versus.d --serialize-diagnostics /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/versus.dia -c /Users/mac/Codes/five_in_row/five_in_row/versus.c -o /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/versus.o36"06E20B68-A7F8-453B-B86A-9BDB51204DBA-
+
+CLd /Users/mac/Codes/five_in_row/build/Debug/five_in_row normal x86_64
+s367916730.143514
+e367916730.162996
+r1
+xLd
+x/Users/mac/Codes/five_in_row/build/Debug/five_in_row
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Link /Users/mac/Codes/five_in_row/build/Debug/five_in_row96cd24baf6edb541^0ebd29baf6edb541^---0#0#0#--639"Ld build/Debug/five_in_row normal x86_64    cd /Users/mac/Codes/five_in_row    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/five_in_row/build/Debug -F/Users/mac/Codes/five_in_row/build/Debug -filelist /Users/mac/Codes/five_in_row/build/five_in_row.build/Debug/five_in_row.build/Objects-normal/x86_64/five_in_row.LinkFileList -mmacosx-version-min=10.8 -o /Users/mac/Codes/five_in_row/build/Debug/five_in_row36"C415837C-EDC3-4D39-B52A-9367BFAF9A98-
+

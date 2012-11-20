@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'More_on_class' target in the 'More_on_class' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Complex_number' target in the 'Complex_number' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

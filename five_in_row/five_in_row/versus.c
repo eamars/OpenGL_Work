@@ -29,6 +29,7 @@ void player_vs_player(int switcher)
         if (win==-1) {
             printf("\n[White wins]\n");
         }
+        savelog(1);
         
     }
     else
@@ -59,7 +60,7 @@ void player_vs_ai(int switcher)
         if (win==-1) {
             printf("\n[White wins]\n");
         }
-
+		savelog(2);
     }
     else
         printf("\n[ERROR!]\nVersus with computer is not available now\n");
@@ -91,6 +92,7 @@ void ai_vs_ai(int switcher)
             printf("\n[White wins]\n");
         }
         printf("It takes %d times to win\n",count_times);
+        savelog(3);
     }
     else
         printf("\n[ERROR!]\nnot available now\n");

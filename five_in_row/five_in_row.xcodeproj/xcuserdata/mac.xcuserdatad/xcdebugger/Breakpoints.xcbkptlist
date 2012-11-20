@@ -8,13 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "five_in_row/functions.c"
-         timestampString = "364209880.249651"
+         timestampString = "368781371.667637"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "288"
-         endingLineNumber = "288"
-         landmarkName = "win_check_general()"
-         landmarkType = "7">
+         startingLineNumber = "263"
+         endingLineNumber = "263">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

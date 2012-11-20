@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		040464BB15B545BC00B25038 /* versus.c in Sources */ = {isa = PBXBuildFile; fileRef = 040464BA15B545BC00B25038 /* versus.c */; };
+		040D61FE164E2F6A00F3EEE4 /* save_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 040D61FD164E2F6A00F3EEE4 /* save_log.c */; };
 		040E626D15B82DBA002351AE /* ai_function.c in Sources */ = {isa = PBXBuildFile; fileRef = 040E626C15B82DBA002351AE /* ai_function.c */; };
-		041D66D115C544A9008F52CE /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 041D66D015C544A9008F52CE /* makefile */; };
 		0471C29715B2D7A900424B54 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0471C29615B2D7A900424B54 /* main.c */; };
 		0471C29915B2D7A900424B54 /* five_in_row.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0471C29815B2D7A900424B54 /* five_in_row.1 */; };
 		0471C2A415B2D95E00424B54 /* functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 0471C2A315B2D95E00424B54 /* functions.c */; };
@@ -31,8 +31,8 @@
 
 /* Begin PBXFileReference section */
 		040464BA15B545BC00B25038 /* versus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = versus.c; sourceTree = "<group>"; };
+		040D61FD164E2F6A00F3EEE4 /* save_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = save_log.c; sourceTree = "<group>"; };
 		040E626C15B82DBA002351AE /* ai_function.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ai_function.c; sourceTree = "<group>"; };
-		041D66D015C544A9008F52CE /* makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = makefile; sourceTree = "<group>"; };
 		0471C29215B2D7A900424B54 /* five_in_row */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = five_in_row; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471C29615B2D7A900424B54 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0471C29815B2D7A900424B54 /* five_in_row.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = five_in_row.1; sourceTree = "<group>"; };
@@ -75,10 +75,10 @@
 				040464BA15B545BC00B25038 /* versus.c */,
 				0471C2A315B2D95E00424B54 /* functions.c */,
 				040E626C15B82DBA002351AE /* ai_function.c */,
-				041D66D015C544A9008F52CE /* makefile */,
 				0471C2A915B2F37500424B54 /* steps.c */,
 				0471C29F15B2D82F00424B54 /* define.h */,
 				0471C29815B2D7A900424B54 /* five_in_row.1 */,
+				040D61FD164E2F6A00F3EEE4 /* save_log.c */,
 			);
 			path = five_in_row;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 				0471C2AA15B2F37500424B54 /* steps.c in Sources */,
 				040464BB15B545BC00B25038 /* versus.c in Sources */,
 				040E626D15B82DBA002351AE /* ai_function.c in Sources */,
-				041D66D115C544A9008F52CE /* makefile in Sources */,
+				040D61FE164E2F6A00F3EEE4 /* save_log.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

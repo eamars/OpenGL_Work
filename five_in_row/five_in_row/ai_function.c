@@ -11,246 +11,104 @@
 
 /* the following are for ai use*/
 
-//get length for marking use
-int get_length_vertical(int x_i,int y_i) //i stand for initial
-{
-    int length=1;
-    
-    //vertical
-    for (int x_a=x_i+1; x_a<BOARD_SIZE&&x_a<=x_i+4; x_a++) {
-        
-        if (board[x_a][y_i]==board[x_i][y_i]) {
-            length++;
-        }
-        else if (board[x_a][y_i]!=board[x_i][y_i]){
-            length--;
-            break;
-        }
-        else
-        {
-            length--;
-        }
-        
-        
-    }
-    
-    for (int x_a=x_i-1; x_a>=0&&x_a>=x_i-4; x_a--) {
-        if (board[x_a][y_i]==board[x_i][y_i]) {
-            length++;
-        }
-        else if (board[x_a][y_i]!=board[x_i][y_i]){
-            length--;
-            break;
-        }
-        else
-        {
-            length--;
-        }
-        
-        
-    }
-    length=0.5*(length-1);
-    return length;
-}
-
-int get_length_horizontal(int x_i,int y_i) //i stand for initial
-{
-    int length=1;
-    
-    //horizontal
-    for (int y_a=y_i+1; y_a<BOARD_SIZE&&y_a<=y_i+4; y_a++) {
-        if (board[x_i][y_a]==board[x_i][y_i]) {
-            length++;
-        }
-        else if (board[x_i][y_a]!=board[x_i][y_i]){
-            length--;
-            break;
-        }
-        else
-        {
-            length--;
-        }
-        
-        
-    }
-    
-    for (int y_a=y_i-1; y_a>=0&&y_a>=y_i-4; y_a--) {
-        if (board[x_i][y_a]==board[x_i][y_i]) {
-            length++;
-        }
-        else if (board[x_i][y_a]!=board[x_i][y_i]){
-            length--;
-            break;
-        }
-        else
-        {
-            length--;
-        }
-        
-        
-    }
-    length=0.5*(length-1);
-    return length;
-}
-
-int get_length_diagonal_p(int x_i,int y_i)
-{
-    int length=1;
-    
-    //plus diagonal
-    for (int x_a=x_i+1,y_a=y_i-1; x_a<BOARD_SIZE&&y_a>=0&&x_a<=x_i+4&&y_a>=y_i-4; x_a++,y_a--) {
-        if (board[x_a][y_a]==board[x_i][y_i]) {
-            length++;
-        }
-        else if (board[x_a][y_a]!=board[x_i][y_i]){
-            length--;
-            break;
-        }
-        else
-        {
-            length--;
-        }
-        
-        
-    }
-    
-    for (int x_a=x_i-1,y_a=y_i+1; x_a>=0&&y_a<BOARD_SIZE&&x_a>=x_i-4&&y_a<=y_i+4; x_a--,y_a++) {
-        if (board[x_a][y_a]==board[x_i][y_i]) {
-            length++;
-        }
-        else if (board[x_a][y_a]!=board[x_i][y_i]){
-            length--;
-            break;
-        }
-        else
-        {
-            length--;
-        }
-        
-        
-    }
-    length=0.5*(length-1);
-    return length;
-}
-
-int get_length_diagonal_m(int x_i,int y_i)
-{
-    int length=1;
-    
-    //minus diagonal
-    for (int x_a=x_i+1,y_a=y_i+1; x_a<BOARD_SIZE&&y_a<BOARD_SIZE&&x_a<=x_i+4&&y_a<=y_i+4; x_a++,y_a++) {
-        if (board[x_a][y_a]==board[x_i][y_i]) {
-            length++;
-        }
-        else if (board[x_a][y_a]!=board[x_i][y_i]){
-            length--;
-            break;
-        }
-        else
-        {
-            length--;
-        }
-        
-        
-    }
-    
-    for (int x_a=x_i-1,y_a=y_i-1; x_a>=0&&y_a>=0&&x_a>=x_i-4&&y_a>=y_i-4; x_a--,y_a--) {
-        if (board[x_a][y_a]==board[x_i][y_i]) {
-            length++;
-        }
-        else if (board[x_a][y_a]!=board[x_i][y_i]){
-            length--;
-            break;
-        }
-        else
-        {
-            length--;
-        }
-        
-        
-    }
-    
-    length=0.5*(length-1);
-    return length;
-}
 
 /* My method to get marks*/
 
-int get_length(int x,int y)
+int get_length(int x_axis,int y_axis,char side_before)
 {
+    blank_board='-';
+    char side;
+    char opposide;
     int total_mark=0;
+    int N=1,NE=1,E=1,SE=1,S=1,SW=1,W=1,NW=1;
+    int NpS,EpW,SWpNE,SEpNW;
     
-    //length
-    int v_length=0;
-    int h_length=0;
-    int d_plength=0;
-    int d_mlength=0;
-    
-    //x-y
-    int x_v=x;
-    int y_v=y;
-    
-    int x_h=x;
-    int y_h=y;
-    
-    int x_dp=x;
-    int y_dp=y;
-    
-    int x_dm=x;
-    int y_dm=y;
-    
-    
-    
-    //vertical
-    for (; x_v+2<BOARD_SIZE; ) {
-        while (board[x_v+1][y_v]==board[x][y]||(board[x_v+1][y_v]==blank_board&&board[x_v+2][y_v]==board[x][y]))
-        {
-            x_v++;
-            if (board[x_v+1][y_v]==blank_board&&board[x_v+2][y_v]==board[x][y]) {
-                x_v++;
-            }
-            v_length++;
-        }
-        if ((board[x_v+1][y_v]==blank_board)&&(board[x_v+2][y_v]==blank_board)) {
-            v_length++;
-            break;
-        }
-        else if ((board[x_v+1][y_v]==blank_board)&&(board[x_v+2][y_v])!=blank_board&&(board[x_v+2][y_v])!=(board[x][y]))
-        {
-            v_length--;
-            break;
-        }
-        else
-            break;
+    //convert side to board data
+    if (side_before=='b') {
+        side='X';
+        opposide='O';
     }
-    for (; x_v-2>=0; ) {
-        while (board[x_v-1][y_v]==board[x][y]||(board[x_v-1][y_v]==blank_board&&board[x_v-2][y_v]==board[x][y]))
-        {
-            x_v--;
-            if (board[x_v-1][y_v]==blank_board&&board[x_v-2][y_v]==board[x][y]) {
-                x_v--;
-            }
-            v_length++;
-        }
-        if ((board[x_v-1][y_v]==blank_board)&&(board[x_v-2][y_v]==blank_board)) {
-            v_length++;
-            break;
-        }
-        else if ((board[x_v-1][y_v]==blank_board)&&(board[x_v-2][y_v])!=blank_board&&(board[x_v-2][y_v])!=(board[x][y]))
-        {
-            v_length--;
-            break;
-        }
-        else
-            break;
+    if (side_before=='w') {
+        side='O';
+        opposide='X';
     }
-    v_length=v_length*0.5;
     
-    //honzontal
+    //N
+    for (N=1; board[x_axis+N][y_axis]==side; N++) {
+    }
+    if (board[x_axis+N][y_axis]==opposide && side_before=='w') {
+        N--;
+    }
+    
+    //S
+    for (S=1; board[x_axis-S][y_axis]==side; S++) {
+    }
+    if (board[x_axis-S][y_axis]==opposide && side_before=='w') {
+        S--;
+    }
+    
+    //N+S
+    NpS=N+S-1;
     
     
+    //E
+    for (E=1; board[x_axis][y_axis-E]==side; E++) {
+    }
+    if (board[x_axis][y_axis-E]==opposide && side_before=='w') {
+        E--;
+    }
     
-    total_mark=mark(v_length);
+    //W
+    for (W=1; board[x_axis][y_axis+W]==side; W++) {
+    }
+    if (board[x_axis][y_axis+W]==opposide && side_before=='w') {
+        W--;
+    }
+    
+    //E+W
+    EpW=E+W-1;
+    
+    //NE
+    for (NE=1; board[x_axis+NE][y_axis-NE]==side; NE++) {
+    }
+    if (board[x_axis+NE][y_axis-NE]==opposide && side_before=='w') {
+        NE--;
+    }
+    
+    //SW
+    for (SW=1; board[x_axis-SW][y_axis+SW]==side; SW++) {
+    }
+    if (board[x_axis-SW][y_axis+SW]==opposide && side_before=='w') {
+        SW--;
+    }
+    
+    //SW+NE
+    SWpNE=SW+NE-1;
+    
+    //SE
+    for (SE=1; board[x_axis-SE][y_axis-SE]==side; SE++) {
+    }
+    if (board[x_axis-SE][y_axis-SE]==opposide && side_before=='w') {
+        SE--;
+    }
+    
+    //NW
+    for (NW=1; board[x_axis+NW][y_axis+NW]==side; NW++) {
+    }
+    if (board[x_axis+NW][y_axis+NW]==opposide && side_before=='w') {
+        NW--;
+    }
+    
+    //SE+NW
+    SEpNW=SE+NW-1;
+    
+    //mark
+    total_mark=mark(NpS)+mark(EpW)+mark(SWpNE)+mark(SEpNW);
+    
+    
+	//printf("NpS=%d EpW=%d SWpNE=%d SEpNW=%d \n",NpS,EpW,SWpNE,SEpNW);
+    //printf("MarkforCurrentStep=%d\n",total_mark);
+    
     return total_mark;
 }
 
@@ -287,11 +145,11 @@ int ana_x()
     int max=0,buff;
     for (int i=0; i<BOARD_SIZE; i++) {
         for (int j=0; j<BOARD_SIZE; j++) {
-            buff=get_length(i, j);
-            if (buff>max) {
+            buff=get_length(i, j,'w')+get_length(i, j, 'b');
+            if (buff>max && board[i][j]==blank_board) {
+                
                 max=buff;
                 x=i;
-                continue;
             }
         }
     }
@@ -306,11 +164,10 @@ int ana_y()
     int max=0,buff;
     for (int i=0; i<BOARD_SIZE; i++) {
         for (int j=0; j<BOARD_SIZE; j++) {
-            buff=get_length(i, j);
-            if (buff>max) {
+            buff=get_length(i, j,'w')+get_length(i, j, 'b');
+            if (buff>max && board[i][j]==blank_board) {
                 max=buff;
                 y=j;
-                continue;
             }
         }
     }

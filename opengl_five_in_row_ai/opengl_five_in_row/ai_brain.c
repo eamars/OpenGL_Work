@@ -171,7 +171,7 @@ int mark(int length)
         mark_value=1000;
     }
     else if (length==5) {
-        mark_value=10000;
+        mark_value=100000;
     }
     else
         mark_value=0;

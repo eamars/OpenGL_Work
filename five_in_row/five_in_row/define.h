@@ -8,7 +8,7 @@
 
 #ifndef five_in_row_define_h
 #define five_in_row_define_h
-#define BOARD_SIZE 11
+#define BOARD_SIZE 13
 
 char welcome();
 
@@ -23,6 +23,13 @@ char blank_board;//default for '-'
  win=0  no one win
  */
 int win;
+
+/*gamemode:
+ 1 for ai vs player
+ 2 for player vs player
+ 3 for ai vs ai
+ */
+
 
 //  history
 //int history_x[MAX_HISTORY];
@@ -93,18 +100,17 @@ int white_score;
 int board_value_player[BOARD_SIZE][BOARD_SIZE];
 int board_value_ai[BOARD_SIZE][BOARD_SIZE];
 
-//get length
-int get_length_horizontal(int,int);//x-y
-int get_length_vertical(int,int);
-int get_length_diagonal_p(int,int);
-int get_length_diagonal_m(int,int);
+
 
 //My method get length
-int get_length(int,int);
+int get_length(int,int,char);
 int mark(int);//0,1,10,100,1000,10000
 
 //analysis points
 int ana_x();
 int ana_y();
+
+//save the gameplay
+void savelog(int);
 
 #endif
