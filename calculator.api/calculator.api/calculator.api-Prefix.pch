@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'calculator.api' target in the 'calculator.api' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

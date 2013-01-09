@@ -1,0 +1,334 @@
+TMyFirstApp
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Info.plist MyFirstApp/MyFirstApp-Info.plist
+cProcessPCH /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch.pth MyFirstApp/MyFirstApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/ViewController.o /Users/mac/Codes/MyFirstApp/MyFirstApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/AppDelegate.o /Users/mac/Codes/MyFirstApp/MyFirstApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/main.o /Users/mac/Codes/MyFirstApp/MyFirstApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp normal i386
+cGenerateDSYMFile /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app.dSYM /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp
+cCpResource MyFirstApp/Default@2x.png build/Debug-iphonesimulator/MyFirstApp.app/Default@2x.png
+cCpResource MyFirstApp/Default.png build/Debug-iphonesimulator/MyFirstApp.app/Default.png
+cCopyStringsFile /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/InfoPlist.strings MyFirstApp/en.lproj/InfoPlist.strings
+cCpResource MyFirstApp/Default-568h@2x.png build/Debug-iphonesimulator/MyFirstApp.app/Default-568h@2x.png
+cCompileStoryboard /Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPad.storyboard
+cTouch /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c000000005098621D0000000000000110
+t1352163869
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000505A4CB10000000000228FD0
+t1348095153
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505A4CB200000000003DCEF0
+t1348095154
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000505A4CB200000000000015F7
+t1348095154
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000505A4CB50000000000000E8D
+t1348095157
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505A4CB70000000000AB3D60
+t1348095159
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000505A4CC10000000000001B54
+t1348095169
+s6996
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/AppDelegate.m
+c0000000050C2F62700000000000007D0
+t1354954279
+s2000
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/MyFirstApp-Prefix.pch
+c0000000050C2F6270000000000000143
+t1354954279
+s323
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/ViewController.m
+c0000000050C2F80B000000000000023E
+t1354954763
+s574
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/InfoPlist.strings
+c0000000050C2F627000000000000002D
+t1354954279
+s45
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPad.storyboard
+c0000000050C2F627000000000000061D
+t1354954279
+s1565
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPhone.storyboard
+c0000000050C2F80B0000000000001563
+t1354954763
+s5475
+
+N/Users/mac/Codes/MyFirstApp/MyFirstApp/main.m
+c0000000050C2F6270000000000000149
+t1354954279
+s329
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app.dSYM
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Default.png
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Default@2x.png
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Info.plist
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/PkgInfo
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/MyFirstApp.LinkFileList
+c0000000050C2F80B0000000000000170
+t1354954763
+s368
+
+N/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch.pth
+t2
+s0
+
+NMyFirstApp/MyFirstApp-Info.plist
+c0000000050C2F627000000000000063F
+t1354954279
+s1599
+
+CBuild AST from /Users/mac/Codes/MyFirstApp/MyFirstApp/AppDelegate.m
+r0
+
+CBuild AST from /Users/mac/Codes/MyFirstApp/MyFirstApp/ViewController.m
+r0
+
+CBuild AST from /Users/mac/Codes/MyFirstApp/MyFirstApp/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1c613d8b2f73b641^959f408b2f73b641^---0#1#0#--18"Check dependencies36"9BD07CF7-EDCE-4D82-BB6F-B4774DE4C480-
+
+CCompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/AppDelegate.o /Users/mac/Codes/MyFirstApp/MyFirstApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376647563.774092
+e376647564.068347
+r1
+xCompileC
+xbuild/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/AppDelegate.o
+x/Users/mac/Codes/MyFirstApp/MyFirstApp/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/mac/Codes/MyFirstApp/MyFirstApp/AppDelegate.m2e58c68b2f73b641^2f8b118c2f73b641^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/mac/Codes/MyFirstApp/MyFirstApp/AppDelegate.m0000000000000000^3462"CompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/AppDelegate.o MyFirstApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/MyFirstApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-generated-files.hmap -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-own-target-headers.hmap -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-all-target-headers.hmap -iquote /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-project-headers.hmap -I/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/DerivedSources/i386 -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/DerivedSources -F/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator -include /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch -MMD -MT dependencies -MF /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/AppDelegate.dia -c /Users/mac/Codes/MyFirstApp/MyFirstApp/AppDelegate.m -o /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/AppDelegate.o36"CB2B2E62-01CB-4AE5-8D74-886D564E6F78-
+
+CCompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/ViewController.o /Users/mac/Codes/MyFirstApp/MyFirstApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376647563.773059
+e376647564.071989
+r1
+xCompileC
+xbuild/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/ViewController.o
+x/Users/mac/Codes/MyFirstApp/MyFirstApp/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/mac/Codes/MyFirstApp/MyFirstApp/ViewController.m2f16c68b2f73b641^7a6d128c2f73b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/mac/Codes/MyFirstApp/MyFirstApp/ViewController.m0000000000000000^3480"CompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/ViewController.o MyFirstApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/MyFirstApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-generated-files.hmap -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-own-target-headers.hmap -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-all-target-headers.hmap -iquote /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-project-headers.hmap -I/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/DerivedSources/i386 -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/DerivedSources -F/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator -include /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch -MMD -MT dependencies -MF /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/ViewController.dia -c /Users/mac/Codes/MyFirstApp/MyFirstApp/ViewController.m -o /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/ViewController.o36"B5F12DE2-2132-48D4-91E8-51FC8E3AFC93-
+
+CCompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/main.o /Users/mac/Codes/MyFirstApp/MyFirstApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376647563.775396
+e376647564.048776
+r1
+xCompileC
+xbuild/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/main.o
+x/Users/mac/Codes/MyFirstApp/MyFirstApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/mac/Codes/MyFirstApp/MyFirstApp/main.m7fa6c68b2f73b641^747c0c8c2f73b641^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/mac/Codes/MyFirstApp/MyFirstApp/main.m0000000000000000^3420"CompileC build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/main.o MyFirstApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/MyFirstApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-generated-files.hmap -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-own-target-headers.hmap -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-all-target-headers.hmap -iquote /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-project-headers.hmap -I/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/DerivedSources/i386 -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/DerivedSources -F/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator -include /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch -MMD -MT dependencies -MF /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/main.dia -c /Users/mac/Codes/MyFirstApp/MyFirstApp/main.m -o /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/main.o36"80D74D54-C9A2-42C5-91E9-666EC8AAED66-
+
+CCompileStoryboard /Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPad.storyboard
+s376647564.835568
+e376647565.509204
+r1
+xCompileStoryboard
+x/Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPad.storyboard
+o2012-12-08 21:19:25.440 Interface Builder Cocoa Touch Tool[831:f07] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard MyFirstApp/en.lproj/MainStoryboard_iPad.storyboardecf6d58c2f73b641^fb5b828d2f73b641^-234"2012-12-08 21:19:25.440 Interface Builder Cocoa Touch Tool[831:f07] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^935"CompileStoryboard MyFirstApp/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/mac/Codes/MyFirstApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"F2A232EC-2548-4EB5-8C67-D559B1BD045C-
+
+CCompileStoryboard /Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPhone.storyboard
+s376647564.834512
+e376647564.993635
+r1
+xCompileStoryboard
+x/Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CompileStoryboard MyFirstApp/en.lproj/MainStoryboard_iPhone.storyboard45bcd58c2f73b641^0ab9fe8c2f73b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^941"CompileStoryboard MyFirstApp/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/mac/Codes/MyFirstApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"11B16C93-9C17-4CE7-AAFB-637D33EBF9F2-
+
+CCopyStringsFile /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/InfoPlist.strings MyFirstApp/en.lproj/InfoPlist.strings
+s376647564.830717
+e376647564.871236
+r1
+xCopyStringsFile
+x/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/InfoPlist.strings
+xMyFirstApp/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy MyFirstApp/en.lproj/InfoPlist.strings47c8d48c2f73b641^40f6de8c2f73b641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mac/Codes/MyFirstApp/MyFirstApp/en.lproj/InfoPlist.strings0000000000000000^565"CopyStringsFile build/Debug-iphonesimulator/MyFirstApp.app/en.lproj/InfoPlist.strings MyFirstApp/en.lproj/InfoPlist.strings    cd /Users/mac/Codes/MyFirstApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/en.lproj -- MyFirstApp/en.lproj/InfoPlist.strings36"FD63C51A-9254-4966-B944-DF5DA208C5FF-
+
+CCpResource MyFirstApp/Default-568h@2x.png build/Debug-iphonesimulator/MyFirstApp.app/Default-568h@2x.png
+s376647564.830906
+e376647564.834371
+r1
+xCpResource
+xMyFirstApp/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/MyFirstApp.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/MyFirstApp.app/Default-568h@2x.pngeeccd48c2f73b641^9a99d58c2f73b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Default-568h@2x.png000000000080d041^583"CpResource "MyFirstApp/Default-568h@2x.png" "build/Debug-iphonesimulator/MyFirstApp.app/Default-568h@2x.png"    cd /Users/mac/Codes/MyFirstApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mac/Codes/MyFirstApp/MyFirstApp/Default-568h@2x.png" /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app36"E862C70A-2C9C-4467-8619-2001776BFE70-
+
+CCpResource MyFirstApp/Default.png build/Debug-iphonesimulator/MyFirstApp.app/Default.png
+s376647564.830710
+e376647564.833280
+r1
+xCpResource
+xMyFirstApp/Default.png
+xbuild/Debug-iphonesimulator/MyFirstApp.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/MyFirstApp.app/Default.png8fc7d48c2f73b641^7e52d58c2f73b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Default.png000000000080d041^553"CpResource MyFirstApp/Default.png build/Debug-iphonesimulator/MyFirstApp.app/Default.png    cd /Users/mac/Codes/MyFirstApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mac/Codes/MyFirstApp/MyFirstApp/Default.png /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app36"CD654660-BD74-493D-9841-F7DF6233AAC0-
+
+CCpResource MyFirstApp/Default@2x.png build/Debug-iphonesimulator/MyFirstApp.app/Default@2x.png
+s376647564.830702
+e376647564.836668
+r1
+xCpResource
+xMyFirstApp/Default@2x.png
+xbuild/Debug-iphonesimulator/MyFirstApp.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/MyFirstApp.app/Default@2x.png8fc7d48c2f73b641^8830d68c2f73b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Default@2x.png000000000080d041^568"CpResource "MyFirstApp/Default@2x.png" "build/Debug-iphonesimulator/MyFirstApp.app/Default@2x.png"    cd /Users/mac/Codes/MyFirstApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mac/Codes/MyFirstApp/MyFirstApp/Default@2x.png" /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app36"28AD2063-8A39-458F-9B7C-756C2DDDB68D-
+
+CGenerateDSYMFile /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app.dSYM /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp
+s376647564.730612
+e376647564.822725
+r1
+xGenerateDSYMFile
+x/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app.dSYM
+x/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generating /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app.dSYM2a39bb8c2f73b641^e49ed28c2f73b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app.dSYM000000000080d041^610"GenerateDSYMFile build/Debug-iphonesimulator/MyFirstApp.app.dSYM build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp    cd /Users/mac/Codes/MyFirstApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp -o /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app.dSYM36"1EDD044A-A799-484C-9D6F-811B670A7BB9-
+
+CLd /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp normal i386
+s376647564.078196
+e376647564.723453
+r1
+xLd
+x/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp8028148c2f73b641^c137b98c2f73b641^---0#0#0#--1113"Ld build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp normal i386    cd /Users/mac/Codes/MyFirstApp    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator -F/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator -filelist /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/Objects-normal/i386/MyFirstApp.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/MyFirstApp36"62FF9B9B-D918-48DE-933E-23EF96EA91FD-
+
+CProcessInfoPlistFile /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Info.plist MyFirstApp/MyFirstApp-Info.plist
+s376647563.260908
+e376647563.264918
+r1
+xProcessInfoPlistFile
+x/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Info.plist
+xMyFirstApp/MyFirstApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process MyFirstApp/MyFirstApp-Info.plistf3e4428b2f73b641^5edb438b2f73b641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/mac/Codes/MyFirstApp/MyFirstApp/MyFirstApp-Info.plist0000000000000000^638"ProcessInfoPlistFile build/Debug-iphonesimulator/MyFirstApp.app/Info.plist MyFirstApp/MyFirstApp-Info.plist    cd /Users/mac/Codes/MyFirstApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MyFirstApp/MyFirstApp-Info.plist -genpkginfo /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app/Info.plist36"237A616A-C4B4-42E5-85D8-6727249EE62A-
+
+CProcessPCH /Users/mac/Library/Developer/Xcode/DerivedData/MyFirstApp-etcteglvlqrkdvgrciraurkolzpn/Index/PrecompiledHeaders/MyFirstApp-Prefix-batrmsqyfdnsajcwnupinvlmfrgy_ast/MyFirstApp-Prefix.pch.pth MyFirstApp/MyFirstApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch.pth MyFirstApp/MyFirstApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376647563.273285
+e376647563.766233
+r1
+xProcessPCH
+x/var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch.pth
+xMyFirstApp/MyFirstApp-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile MyFirstApp/MyFirstApp-Prefix.pchd61e468b2f73b641^9221cb8b2f73b641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/mac/Codes/MyFirstApp/MyFirstApp/MyFirstApp-Prefix.pch0000000000000000^3511"ProcessPCH /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch.pth MyFirstApp/MyFirstApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/MyFirstApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-generated-files.hmap -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-own-target-headers.hmap -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-all-target-headers.hmap -iquote /Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/MyFirstApp-project-headers.hmap -I/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/DerivedSources/i386 -I/Users/mac/Codes/MyFirstApp/build/MyFirstApp.build/Debug-iphonesimulator/MyFirstApp.build/DerivedSources -F/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch.dia -c /Users/mac/Codes/MyFirstApp/MyFirstApp/MyFirstApp-Prefix.pch -o /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFirstApp-Prefix-aoklazwrbfpbuhewltvssrscxxou/MyFirstApp-Prefix.pch.d36"F17C26AE-2695-4221-9096-E8D554BE902E-
+
+CTouch /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app
+s376647565.516707
+e376647565.576183
+r1
+xTouch
+x/Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app465c848d2f73b641^4181938d2f73b641^---0#0#0#--372"Touch build/Debug-iphonesimulator/MyFirstApp.app    cd /Users/mac/Codes/MyFirstApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mac/Codes/MyFirstApp/build/Debug-iphonesimulator/MyFirstApp.app36"99319A8C-C94B-400C-9CCF-85202DEFF9B6-
+

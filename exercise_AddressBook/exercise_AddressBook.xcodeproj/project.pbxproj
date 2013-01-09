@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04843155165F89030051E773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04843154165F89030051E773 /* Foundation.framework */; };
+		04843158165F89030051E773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04843157165F89030051E773 /* main.m */; };
+		0484315C165F89030051E773 /* exercise_AddressBook.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0484315B165F89030051E773 /* exercise_AddressBook.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0484314E165F89030051E773 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0484315C165F89030051E773 /* exercise_AddressBook.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04843150165F89030051E773 /* exercise_AddressBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise_AddressBook; sourceTree = BUILT_PRODUCTS_DIR; };
+		04843154165F89030051E773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04843157165F89030051E773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0484315A165F89030051E773 /* exercise_AddressBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exercise_AddressBook-Prefix.pch"; sourceTree = "<group>"; };
+		0484315B165F89030051E773 /* exercise_AddressBook.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = exercise_AddressBook.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0484314D165F89030051E773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04843155165F89030051E773 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04843145165F89030051E773 = {
+			isa = PBXGroup;
+			children = (
+				04843156165F89030051E773 /* exercise_AddressBook */,
+				04843153165F89030051E773 /* Frameworks */,
+				04843151165F89030051E773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04843151165F89030051E773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04843150165F89030051E773 /* exercise_AddressBook */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04843153165F89030051E773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04843154165F89030051E773 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04843156165F89030051E773 /* exercise_AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				04843157165F89030051E773 /* main.m */,
+				0484315B165F89030051E773 /* exercise_AddressBook.1 */,
+				04843159165F89030051E773 /* Supporting Files */,
+			);
+			path = exercise_AddressBook;
+			sourceTree = "<group>";
+		};
+		04843159165F89030051E773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0484315A165F89030051E773 /* exercise_AddressBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0484314F165F89030051E773 /* exercise_AddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0484315F165F89030051E773 /* Build configuration list for PBXNativeTarget "exercise_AddressBook" */;
+			buildPhases = (
+				0484314C165F89030051E773 /* Sources */,
+				0484314D165F89030051E773 /* Frameworks */,
+				0484314E165F89030051E773 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exercise_AddressBook;
+			productName = exercise_AddressBook;
+			productReference = 04843150165F89030051E773 /* exercise_AddressBook */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04843147165F89030051E773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = eamars;
+			};
+			buildConfigurationList = 0484314A165F89030051E773 /* Build configuration list for PBXProject "exercise_AddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04843145165F89030051E773;
+			productRefGroup = 04843151165F89030051E773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0484314F165F89030051E773 /* exercise_AddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0484314C165F89030051E773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04843158165F89030051E773 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0484315D165F89030051E773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0484315E165F89030051E773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04843160165F89030051E773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "exercise_AddressBook/exercise_AddressBook-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04843161165F89030051E773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "exercise_AddressBook/exercise_AddressBook-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0484314A165F89030051E773 /* Build configuration list for PBXProject "exercise_AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0484315D165F89030051E773 /* Debug */,
+				0484315E165F89030051E773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0484315F165F89030051E773 /* Build configuration list for PBXNativeTarget "exercise_AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04843160165F89030051E773 /* Debug */,
+				04843161165F89030051E773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04843147165F89030051E773 /* Project object */;
+}
