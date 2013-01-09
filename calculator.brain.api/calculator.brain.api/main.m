@@ -47,7 +47,7 @@ int main(int argc, const char * argv[])
         else
             NSLog(@"%@", [myCalc2 getError]);
         
-        
+        NSLog(@"%@", [myCalc2 returnEquationAsAString]);
     }
     return 0;
 }

@@ -17,7 +17,7 @@
  		set the equation with a given set of array.
  
  	- (void) pushToEquationStack: (id)operand
-        push a single element into equation stack.
+		push a single element into equation stack.
  
  	- (NSMutableArray *) returnEquation;
  		return the equation as a set of array.
@@ -53,10 +53,12 @@
 
 @property (nonatomic, strong) NSMutableArray *equation;
 
+// Public methods
 - (void) setEquation:(NSMutableArray *)equation;
 - (void) pushToEquationStack: (id)operand;
 - (void) cleanEquation;
 - (NSMutableArray *) returnEquation;
+- (NSString *) returnEquationAsAString;
 - (NSNumber *) calculation;
 - (BOOL) equationIsValid;
 - (NSString *) getError;

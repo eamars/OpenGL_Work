@@ -3,8 +3,8 @@ v5
 r1
 cCheck dependencies
 cProcessPCH /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calculator.brain.api-Prefix-gsvocloyprwqeteadlclnubnunpk/calculator.brain.api-Prefix.pch.pth calculator.brain.api/calculator.brain.api-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o /Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.o /Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o /Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/mac/Codes/calculator.brain.api/build/Debug/calculator.brain.api normal x86_64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
@@ -23,12 +23,12 @@ t1348095181
 s5623
 
 N/Users/mac/Codes/calculator.brain.api/build/Debug/calculator.brain.api
-t1357734270
-s36420
+t1357765891
+s36972
 
 N/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.o
-t1357734270
-s52596
+t1357765891
+s56128
 
 N/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/calculator.brain.api.LinkFileList
 c0000000050ECB0C50000000000000110
@@ -36,18 +36,18 @@ t1357689029
 s272
 
 N/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o
-t1357733165
-s6800
+t1357765255
+s6696
 
 N/Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.h
-c0000000050ED31D60000000000000608
-t1357722070
-s1544
+c0000000050EDDA72000000000000063C
+t1357765234
+s1596
 
 N/Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.m
-c0000000050ED617E00000000000043A5
-t1357734270
-s17317
+c0000000050EDDDC200000000000045B3
+t1357766082
+s17843
 
 N/Users/mac/Codes/calculator.brain.api/calculator.brain.api/calculator.brain.api-Prefix.pch
 c0000000050ECB00E00000000000000B5
@@ -56,9 +56,9 @@ s181
 i<Foundation/Foundation.h>
 
 N/Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m
-c0000000050ED62B40000000000000749
-t1357734580
-s1865
+c0000000050EDDA870000000000000779
+t1357765255
+s1913
 
 N/var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calculator.brain.api-Prefix-gsvocloyprwqeteadlclnubnunpk/calculator.brain.api-Prefix.pch.pth
 t1357689029
@@ -72,11 +72,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies49f6c0349a9db641^d845c1349a9db641^---0#1#0#--18"Check dependencies36"6F6CABC1-5F9B-4F1F-A1B3-9A410924C91A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies054d2342159eb641^4d842542159eb641^---0#1#0#--18"Check dependencies36"86B7D0DA-1465-4C68-AC5C-BF1191A9A1FC-
 
 CCompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.o /Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379427070.093218
-e379427070.155287
+s379458882.169934
+e379458882.245321
 r1
 xCompileC
 xbuild/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.o
@@ -85,11 +85,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.m7afb17fe989db641^cec127fe989db641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.m0000000000000000^3410"CompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.o calculator.brain.api/Calculator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/calculator.brain.api    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-generated-files.hmap -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-own-target-headers.hmap -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-all-target-headers.hmap -iquote /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-project-headers.hmap -I/Users/mac/Codes/calculator.brain.api/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/DerivedSources/x86_64 -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/DerivedSources -F/Users/mac/Codes/calculator.brain.api/build/Debug -include /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calculator.brain.api-Prefix-gsvocloyprwqeteadlclnubnunpk/calculator.brain.api-Prefix.pch -MMD -MT dependencies -MF /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.d --serialize-diagnostics /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.dia -c /Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.m -o /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.o36"BDF2EB6F-9FC9-4AFE-B395-4A5ADA5AD651-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.mf59d2b42159eb641^c8ea4242159eb641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.m0000000000000000^3410"CompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.o calculator.brain.api/Calculator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/calculator.brain.api    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-generated-files.hmap -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-own-target-headers.hmap -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-all-target-headers.hmap -iquote /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-project-headers.hmap -I/Users/mac/Codes/calculator.brain.api/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/DerivedSources/x86_64 -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/DerivedSources -F/Users/mac/Codes/calculator.brain.api/build/Debug -include /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calculator.brain.api-Prefix-gsvocloyprwqeteadlclnubnunpk/calculator.brain.api-Prefix.pch -MMD -MT dependencies -MF /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.d --serialize-diagnostics /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.dia -c /Users/mac/Codes/calculator.brain.api/calculator.brain.api/Calculator.m -o /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/Calculator.o36"7455F78D-DDEF-49DC-8C1E-95AF56D487FE-
 
 CCompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o /Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379427380.789835
-e379427380.834891
+s379458055.479155
+e379458055.508035
 r1
 xCompileC
 xbuild/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o
@@ -98,17 +98,17 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m8254ca349a9db641^dacbd6349a9db641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m0000000000000000^3374"CompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o calculator.brain.api/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/calculator.brain.api    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-generated-files.hmap -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-own-target-headers.hmap -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-all-target-headers.hmap -iquote /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-project-headers.hmap -I/Users/mac/Codes/calculator.brain.api/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/DerivedSources/x86_64 -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/DerivedSources -F/Users/mac/Codes/calculator.brain.api/build/Debug -include /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calculator.brain.api-Prefix-gsvocloyprwqeteadlclnubnunpk/calculator.brain.api-Prefix.pch -MMD -MT dependencies -MF /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m -o /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o36"5EF382C4-B4AF-4798-B4B1-999EECAFFFCA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.me1d17a07129eb641^630e8207129eb641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m0000000000000000^3374"CompileC build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o calculator.brain.api/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mac/Codes/calculator.brain.api    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-generated-files.hmap -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-own-target-headers.hmap -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-all-target-headers.hmap -iquote /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/calculator.brain.api-project-headers.hmap -I/Users/mac/Codes/calculator.brain.api/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/DerivedSources/x86_64 -I/Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/DerivedSources -F/Users/mac/Codes/calculator.brain.api/build/Debug -include /var/folders/xy/8jtfj_010p3bmv96xcsjv5_m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calculator.brain.api-Prefix-gsvocloyprwqeteadlclnubnunpk/calculator.brain.api-Prefix.pch -MMD -MT dependencies -MF /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.dia -c /Users/mac/Codes/calculator.brain.api/calculator.brain.api/main.m -o /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/main.o36"36D44604-79F2-4332-A162-119AE8566FF6-
 
 CLd /Users/mac/Codes/calculator.brain.api/build/Debug/calculator.brain.api normal x86_64
-s379427380.841499
-e379427380.877485
+s379458882.252135
+e379458882.283273
 r1
 xLd
 x/Users/mac/Codes/calculator.brain.api/build/Debug/calculator.brain.api
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Link /Users/mac/Codes/calculator.brain.api/build/Debug/calculator.brain.api7c7fd7349a9db641^48a9e0349a9db641^---0#0#0#--782"Ld build/Debug/calculator.brain.api normal x86_64    cd /Users/mac/Codes/calculator.brain.api    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/calculator.brain.api/build/Debug -F/Users/mac/Codes/calculator.brain.api/build/Debug -filelist /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/calculator.brain.api.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework Foundation -o /Users/mac/Codes/calculator.brain.api/build/Debug/calculator.brain.api36"275F1976-F9E7-4644-A347-C85D192D1A64-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Link /Users/mac/Codes/calculator.brain.api/build/Debug/calculator.brain.api0b9c4042159eb641^e8844842159eb641^---0#0#0#--782"Ld build/Debug/calculator.brain.api normal x86_64    cd /Users/mac/Codes/calculator.brain.api    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mac/Codes/calculator.brain.api/build/Debug -F/Users/mac/Codes/calculator.brain.api/build/Debug -filelist /Users/mac/Codes/calculator.brain.api/build/calculator.brain.api.build/Debug/calculator.brain.api.build/Objects-normal/x86_64/calculator.brain.api.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework Foundation -o /Users/mac/Codes/calculator.brain.api/build/Debug/calculator.brain.api36"B2ECC4CF-6DD9-4CD6-B19F-5512D177AC22-
 
 CProcessPCH /Users/mac/Library/Developer/Xcode/DerivedData/calculator.brain.api-gdpowdpamwpxxvaajzdomqxwmhjn/Index/PrecompiledHeaders/calculator.brain.api-Prefix-cvdhosornklzqneaqsqmbiuixbou_ast/calculator.brain.api-Prefix.pch.pth calculator.brain.api/calculator.brain.api-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
