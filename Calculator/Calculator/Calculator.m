@@ -26,13 +26,14 @@
 - (BOOL) replaceSingleEquation: (NSInteger) index;
 
 @property (nonatomic, strong) NSString *errorInfo;
+@property (nonatomic, strong) NSString *equationString;
 
 // Math misc.
-/*
+/* 
  degree YES
  radian NO
  */
-@property (nonatomic, strong) NSDictionary *CalculatorStatus;
+@property (nonatomic, strong) NSDictionary *calculatorStatus;
 
 @end
 
@@ -43,8 +44,9 @@
 }
 
 @synthesize equation = _equation;
-@synthesize CalculatorStatus = _CalculatorStatus;
+@synthesize calculatorStatus = _calculatorStatus;
 @synthesize errorInfo = _errorInfo;
+@synthesize equationString = _equationString;
 
 /* incompletement */
 - (void) set:(NSString *)argu :(NSString *)param
@@ -52,12 +54,12 @@
     
 }
 
-- (NSDictionary *) CalculatorStatus
+- (NSDictionary *) calculatorStatus
 {
-    if (!_CalculatorStatus) {
-        _CalculatorStatus = [[NSDictionary alloc] init];
+    if (!_calculatorStatus) {
+        _calculatorStatus = [[NSDictionary alloc] init];
     }
-    return _CalculatorStatus;
+    return _calculatorStatus;
 }
 
 - (id) init
@@ -83,7 +85,18 @@
     return self.equation;
 }
 
+- (NSString *) equationString
+{
+    if (!_equationString) {
+        _equationString = [[NSString alloc] init];
+    }
+    return _equationString;
+}
 
+- (NSString *) returnEquationAsAString
+{
+    return self.equationString;
+}
 
 - (void) setEquation:(NSMutableArray *)equation
 {
@@ -98,7 +111,12 @@
 - (void) cleanEquation
 {
     if (self.equation != nil) {
+        // clean stack
         [self.equation removeAllObjects];
+        
+        // clean string
+        self.equationString = @"";
+        
     }
 }
 
@@ -555,6 +573,11 @@
 
 - (BOOL) equationIsValid
 {
+    // make string copy
+    for (id object in self.equation) {
+        self.equationString = [self.equationString stringByAppendingFormat:@"%@ ", object];
+    }
+    
     // have equation in stack
     if ([self.equation count] == 0) {
         self.errorInfo = @"#1:no target equation";
@@ -648,33 +671,33 @@
     }
     
     /*
-     localIndex = 0;
-     for (id object in self.equation) {
-     ++ localIndex;
-     if ([object isKindOfClass:[NSNumber class]]) {
-     NSLog(@"%@", object);
-     // first number
-     if (localIndex == 1) {
-     if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex]] == NO) {
-     self.errorInfo = @"#6:no operator follow";
-     return NO;
-     }
-     }
-     else if (localIndex == self.equation.count){
-     return YES;
-     }
-     else{
-     if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex]] == NO) {
-     self.errorInfo = @"#7:no operator follow";
-     return NO;
-     }
-     else if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex - 2]] == NO) {
-     self.errorInfo = @"#8:no operator follow";
-     return NO;
-     }
-     }
-     }
-     }
+    localIndex = 0;
+    for (id object in self.equation) {
+        ++ localIndex;
+        if ([object isKindOfClass:[NSNumber class]]) {
+            NSLog(@"%@", object);
+            // first number
+            if (localIndex == 1) {
+                if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex]] == NO) {
+                    self.errorInfo = @"#6:no operator follow";
+                    return NO;
+                }
+            }
+            else if (localIndex == self.equation.count){
+                return YES;
+            }
+            else{
+                if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex]] == NO) {
+                    self.errorInfo = @"#7:no operator follow";
+                    return NO;
+                }
+                else if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex - 2]] == NO) {
+                    self.errorInfo = @"#8:no operator follow";
+                    return NO;
+                }
+            }
+        }
+    }
      */
     
     

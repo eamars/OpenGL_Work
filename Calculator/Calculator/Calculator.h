@@ -10,29 +10,29 @@
  The Calculator Brain only accepts NSNumber and NSString as the array stored in it's stack;
  
  Pubic Methods:
- N(d):
- convert a double value into a NSNumber type.
+ 	N(d): 
+ 		convert a double value into a NSNumber type.
  
- - (void) setEquation:(NSMutableArray *)equation
- set the equation with a given set of array.
+ 	- (void) setEquation:(NSMutableArray *)equation
+ 		set the equation with a given set of array.
  
- - (void) pushToEquationStack: (id)operand
- push a single element into equation stack.
+ 	- (void) pushToEquationStack: (id)operand
+		push a single element into equation stack.
  
- - (NSMutableArray *) returnEquation;
- return the equation as a set of array.
+ 	- (NSMutableArray *) returnEquation;
+ 		return the equation as a set of array.
  
- - (NSNumber *) calculation;
- do the calculation steps, must have an equation in stack.
+ 	- (NSNumber *) calculation;
+ 		do the calculation steps, must have an equation in stack.
  
- - (void) cleanEquation;
- remove all objects in equation.
+ 	- (void) cleanEquation;
+ 		remove all objects in equation.
  
- - (BOOL) equationIsValid;
- verify if the equation is valid, return an boolean value.
+ 	- (BOOL) equationIsValid;
+ 		verify if the equation is valid, return an boolean value.
  
- - (NSString *) getError;
- return the reason for why the equation is invalid.
+ 	- (NSString *) getError;
+ 		return the reason for why the equation is invalid.
  */
 
 #import <Foundation/Foundation.h>
@@ -53,10 +53,12 @@
 
 @property (nonatomic, strong) NSMutableArray *equation;
 
+// Public methods
 - (void) setEquation:(NSMutableArray *)equation;
 - (void) pushToEquationStack: (id)operand;
 - (void) cleanEquation;
 - (NSMutableArray *) returnEquation;
+- (NSString *) returnEquationAsAString;
 - (NSNumber *) calculation;
 - (BOOL) equationIsValid;
 - (NSString *) getError;

@@ -204,11 +204,10 @@
         self.resultDisplay.text = [NSString stringWithFormat:@"%0.8g", result];
     }
     else{
-        NSLog(@"%@", [self.myCalculator returnEquation]);
+        NSLog(@"%@", [self.myCalculator returnEquationAsAString]);
         // display error
         self.resultDisplay.text = [self.myCalculator getError];
     }
-    
     
     
     // clean equation
