@@ -23,6 +23,7 @@
 		049CEAE1169CE8E9005342EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049CEABC169CE8E9005342EB /* Foundation.framework */; };
 		049CEAE9169CE8E9005342EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 049CEAE7169CE8E9005342EB /* InfoPlist.strings */; };
 		049CEAEC169CE8E9005342EB /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CEAEB169CE8E9005342EB /* CalculatorTests.m */; };
+		049CEAFB169CFAF2005342EB /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CEAFA169CFAF2005342EB /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		049CEAE8169CE8E9005342EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		049CEAEA169CE8E9005342EB /* CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
 		049CEAEB169CE8E9005342EB /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		049CEAF9169CFAF2005342EB /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		049CEAFA169CFAF2005342EB /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				049CEAC9169CE8E9005342EB /* AppDelegate.h */,
 				049CEACA169CE8E9005342EB /* AppDelegate.m */,
 				049CEAD2169CE8E9005342EB /* MainStoryboard.storyboard */,
+				049CEAF9169CFAF2005342EB /* Calculator.h */,
+				049CEAFA169CFAF2005342EB /* Calculator.m */,
 				049CEAD5169CE8E9005342EB /* ViewController.h */,
 				049CEAD6169CE8E9005342EB /* ViewController.m */,
 				049CEAC1169CE8E9005342EB /* Supporting Files */,
@@ -273,6 +278,7 @@
 				049CEAC7169CE8E9005342EB /* main.m in Sources */,
 				049CEACB169CE8E9005342EB /* AppDelegate.m in Sources */,
 				049CEAD7169CE8E9005342EB /* ViewController.m in Sources */,
+				049CEAFB169CFAF2005342EB /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

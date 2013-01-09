@@ -20,8 +20,19 @@
 
 - (BOOL) isKindOfOperator: (NSString *)op;
 - (BOOL) isKindOfSpecialOperator: (NSString *)op;
+- (BOOL) isKindOfBasicOperator: (NSString *)op;
+- (BOOL) isKindOfBracket: (NSString *)op;
 - (BOOL) isMostSimpleFormat;
 - (BOOL) replaceSingleEquation: (NSInteger) index;
+
+@property (nonatomic, strong) NSString *errorInfo;
+
+// Math misc.
+/*
+ degree YES
+ radian NO
+ */
+@property (nonatomic, strong) NSDictionary *CalculatorStatus;
 
 @end
 
@@ -32,6 +43,22 @@
 }
 
 @synthesize equation = _equation;
+@synthesize CalculatorStatus = _CalculatorStatus;
+@synthesize errorInfo = _errorInfo;
+
+/* incompletement */
+- (void) set:(NSString *)argu :(NSString *)param
+{
+    
+}
+
+- (NSDictionary *) CalculatorStatus
+{
+    if (!_CalculatorStatus) {
+        _CalculatorStatus = [[NSDictionary alloc] init];
+    }
+    return _CalculatorStatus;
+}
 
 - (id) init
 {
@@ -56,14 +83,23 @@
     return self.equation;
 }
 
-- (void) pushEquation:(NSMutableArray *)targetEquation
-{
-    self.equation = targetEquation;
-}
+
 
 - (void) setEquation:(NSMutableArray *)equation
 {
     _equation = equation;
+}
+
+- (void) pushToEquationStack:(id)operand
+{
+    [self.equation addObject:operand];
+}
+
+- (void) cleanEquation
+{
+    if (self.equation != nil) {
+        [self.equation removeAllObjects];
+    }
 }
 
 - (BOOL) isKindOfOperator:(NSString *)op
@@ -101,6 +137,9 @@
     else if ([op isEqualToString:@"tan"] == YES){
         return YES;
     }
+    else if ([op isEqualToString:@"neg"] == YES){
+        return YES;
+    }
     else
         return NO;
 }
@@ -117,6 +156,9 @@
         return YES;
     }
     else if ([op isEqualToString:@"tan"] == YES){
+        return YES;
+    }
+    else if ([op isEqualToString:@"neg"] == YES){
         return YES;
     }
     else
@@ -163,7 +205,7 @@
      "*", "/"
      
      3:
-     "sqrt", "sin", "cos", "tan"
+     "sqrt", "sin", "cos", "tan", "neg"
      
      4:
      "^"
@@ -187,6 +229,9 @@
     else if ([op isEqualToString:@"tan"] == YES){
         return 3;
     }
+    else if ([op isEqualToString:@"neg"] == YES){
+        return 3;
+    }
     else if ([op isEqualToString:@"*"] || [op isEqualToString:@"/"]){
         return 2;
     }
@@ -203,9 +248,8 @@
     
     // get signs in equation
     [self seekOperatorOfEquation];
-    
     // check if the bracket is valid
-    unsigned int leftBracketCount = 0, rightBracketCount = 0;
+    unsigned short int leftBracketCount = 0, rightBracketCount = 0;
     for (NSString *op in operators) {
         if ([op isEqualToString:@"("] == YES) {
             ++ leftBracketCount;
@@ -214,6 +258,7 @@
             ++ rightBracketCount;
         }
     }
+    //NSLog(@"left = %d, right = %d", leftBracketCount, rightBracketCount);
     if (leftBracketCount != rightBracketCount) {
         /* when the equation is invalid
          such as the miss of one bracket, return an error value
@@ -286,8 +331,9 @@
         return INFINITY;
     }
     
+    
+    
     op = [NSString stringWithString:[self.equation objectAtIndex:index - 1]];
-    //NSLog(@"index %ld is %@",index, op);
     
     // Check if it's special operator
     if ([self isKindOfSpecialOperator:op] == NO) {
@@ -348,6 +394,9 @@
         }
         else if ([op isEqualToString:@"tan"] == YES){
             return tan(f1);
+        }
+        else if ([op isEqualToString:@"neg"] == YES){
+            return -f1;
         }
         else
             return INFINITY;
@@ -426,6 +475,10 @@
 
 - (NSNumber *) calculation
 {
+    if (self.equation == nil) {
+        return nil;
+    }
+    
     NSInteger index;
     while ([self isMostSimpleFormat] == NO) {
         index = [self seekIndexOfInterest];
@@ -438,6 +491,201 @@
     return result;
 }
 
+- (BOOL) isKindOfBasicOperator:(NSString *)op
+{
+    if ([op isEqualToString:@"+"] == YES) {
+        return YES;
+    }
+    else if ([op isEqualToString:@"-"] == YES){
+        return YES;
+    }
+    else if ([op isEqualToString:@"*"] == YES){
+        return YES;
+    }
+    else if ([op isEqualToString:@"/"] == YES){
+        return YES;
+    }
+    else if ([op isEqualToString:@"^"] == YES){
+        return YES;
+    }
+    else
+        return NO;
+}
 
+- (BOOL) isKindOfBracket:(NSString *)op
+{
+    NSLog(@"op is %@", op);
+    if ([op isEqualToString:@"("] == YES){
+        return YES;
+    }
+    else if ([op isEqualToString:@")"] == YES){
+        return YES;
+    }
+    else
+        return NO;
+}
+
+- (NSString *) errorInfo
+{
+    if (!_errorInfo) {
+        _errorInfo = [[NSString alloc] init];
+        _errorInfo = @"#0:NO ERROR";
+    }
+    return _errorInfo;
+}
+
+- (BOOL) isKindOfSet1: (id)object
+{
+    if ([object isKindOfClass:[NSNumber class]] == YES) {
+        return YES;
+    }
+    else if ([object isKindOfClass:[NSString class]] == YES){
+        if ([object isEqualToString:@"("] == YES) {
+            return YES;
+        }
+        else if ([object isEqualToString:@")"] == YES) {
+            return YES;
+        }
+        else
+            return NO;
+    }
+    else
+        return NO;
+}
+
+- (BOOL) equationIsValid
+{
+    // have equation in stack
+    if ([self.equation count] == 0) {
+        self.errorInfo = @"#1:no target equation";
+        return NO;
+    }
+    // equal bracket
+    unsigned short int leftBracketCount = 0, rightBracketCount = 0;
+    for (id object in self.equation) {
+        if ([object isKindOfClass:[NSString class]]) {
+            if ([object isEqualToString:@"("] == YES) {
+                ++ leftBracketCount;
+            }
+            if ([object isEqualToString:@")"] == YES) {
+                ++ rightBracketCount;
+            }
+        }
+    }
+    if (leftBracketCount != rightBracketCount) {
+        self.errorInfo = @"#2:unpaired bracket";
+        return NO;
+    }
+    
+    NSInteger leftIndex = 0, rightIndex = 0, localIndex = 0;
+    
+    // no sign in paired bracket
+    for (id object in self.equation) {
+        ++ localIndex;
+        if ([object isKindOfClass:[NSString class]]) {
+            if ([object isEqualToString:@"("] == YES) {
+                leftIndex = localIndex;
+            }
+            if ([object isEqualToString:@")"] == YES) {
+                rightIndex = localIndex;
+            }
+            if (rightIndex - leftIndex < 4 && rightIndex - leftIndex > 0) {
+                self.errorInfo = @"#3:sign error";
+                return NO;
+            }
+        }
+    }
+    
+    // connected signs
+    leftIndex = 0;
+    rightIndex = 0;
+    localIndex = 0;
+    
+    for (id object in self.equation) {
+        ++ localIndex;
+        if ([object isKindOfClass:[NSString class]]) {
+            if ([self isKindOfBasicOperator:object]) {
+                leftIndex = localIndex;
+                if (leftIndex - rightIndex < 2) {
+                    self.errorInfo = @"#4:sign error";
+                    return NO;
+                }
+                rightIndex = leftIndex;
+            }
+        }
+    }
+    
+    // no argument for special operator
+    localIndex = 0;
+    
+    for (id object in self.equation) {
+        ++ localIndex;
+        if ([object isKindOfClass:[NSString class]]) {
+            if ([self isKindOfSpecialOperator:object]) {
+                if ([self isKindOfSet1:[self.equation objectAtIndex:localIndex]] == NO) {
+                    self.errorInfo = @"#5:no argument";
+                    return NO;
+                }
+            }
+        }
+    }
+    
+    
+    // pass
+    NSInteger numberCount = 0, basicOperatorCount = 0;
+    for (id object in self.equation) {
+        if ([object isKindOfClass:[NSNumber class]] == YES) {
+            ++ numberCount;
+        }
+        else if ([object isKindOfClass:[NSString class]] == YES) {
+            if ([self isKindOfBasicOperator:object] == YES) {
+                ++ basicOperatorCount;
+            }
+        }
+    }
+    if (numberCount - basicOperatorCount == 1) {
+        return YES;
+    }
+    
+    /*
+     localIndex = 0;
+     for (id object in self.equation) {
+     ++ localIndex;
+     if ([object isKindOfClass:[NSNumber class]]) {
+     NSLog(@"%@", object);
+     // first number
+     if (localIndex == 1) {
+     if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex]] == NO) {
+     self.errorInfo = @"#6:no operator follow";
+     return NO;
+     }
+     }
+     else if (localIndex == self.equation.count){
+     return YES;
+     }
+     else{
+     if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex]] == NO) {
+     self.errorInfo = @"#7:no operator follow";
+     return NO;
+     }
+     else if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex - 2]] == NO) {
+     self.errorInfo = @"#8:no operator follow";
+     return NO;
+     }
+     }
+     }
+     }
+     */
+    
+    
+    
+    self.errorInfo = @"#9:unknown error";
+    return NO;
+}
+
+- (NSString *) getError
+{
+    return self.errorInfo;
+}
 
 @end

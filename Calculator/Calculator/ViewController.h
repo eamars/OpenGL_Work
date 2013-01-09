@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *display;
+@property (weak, nonatomic) IBOutlet UILabel *resultDisplay;
+@property (weak, nonatomic) IBOutlet UILabel *statusBar;
 
 @end
