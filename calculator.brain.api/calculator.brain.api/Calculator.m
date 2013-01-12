@@ -8,11 +8,25 @@
 
 
 #import <math.h>
+#import "Math_Extented.h"
 #import "Calculator.h"
+
+#define PI 3.141592654
+#define EXP 2.718281828
+#define DEFAULT_CAPACITY 60
+
+// old version
+#define FLOAT_NUM(d) [NSNumber numberWithDouble:d]
+
+// new version
+#define N(d) [NSNumber numberWithDouble:d]
+
+#define ERROR_INDEX -1
+#define ERROR_PRIORITY -1
 
 @interface Calculator ()
 
-// private
+// private methods
 - (void) seekOperatorOfEquation;
 - (NSInteger) seekIndexOfInterest;
 - (unsigned int) getPriorityOfOperator: (NSString *)op;
@@ -25,6 +39,7 @@
 - (BOOL) isMostSimpleFormat;
 - (BOOL) replaceSingleEquation: (NSInteger) index;
 
+// Output misc.
 @property (nonatomic, strong) NSString *errorInfo;
 @property (nonatomic, strong) NSString *equationString;
 
@@ -33,9 +48,13 @@
  degree YES
  radian NO
  */
-@property (nonatomic, strong) NSDictionary *calculatorStatus;
+@property (readonly, strong) NSDictionary *defaultCalculatorSettings;
+@property (nonatomic, strong) NSMutableDictionary *myCalculatorSettings;
 
 @end
+
+
+
 
 @implementation Calculator
 {
@@ -44,22 +63,43 @@
 }
 
 @synthesize equation = _equation;
-@synthesize calculatorStatus = _calculatorStatus;
+@synthesize myCalculatorSettings = _myCalculatorSettings;
 @synthesize errorInfo = _errorInfo;
 @synthesize equationString = _equationString;
+@synthesize defaultCalculatorSettings = _defaultCalculatorSettings;
 
-/* incompletement */
-- (void) set:(NSString *)argu :(NSString *)param
+- (NSDictionary *) defaultCalculatorSettings
 {
-    
+	if (!_defaultCalculatorSettings) {
+		_defaultCalculatorSettings = [[NSDictionary alloc] initWithObjectsAndKeys:@"radian", @"angle", @"standard", @"mode", nil];
+		
+	}
+	return _defaultCalculatorSettings;
 }
 
-- (NSDictionary *) calculatorStatus
+- (NSDictionary *) myCalculatorSettings
 {
-    if (!_calculatorStatus) {
-        _calculatorStatus = [[NSDictionary alloc] init];
-    }
-    return _calculatorStatus;
+	if (!_myCalculatorSettings) {
+		_myCalculatorSettings = [[NSMutableDictionary alloc] initWithDictionary:self.defaultCalculatorSettings copyItems:YES];
+	}
+	return _myCalculatorSettings;
+}
+
+- (BOOL) setCalculatorArgument:(NSString *)argu WithValue:(NSString *)value
+{
+	NSArray *allKeys = [self.myCalculatorSettings allKeys];
+	for (NSString *key in allKeys) {
+		if ([argu isEqualToString:key]) {
+			[self.myCalculatorSettings setValue:value forKey:argu];
+			return YES;
+		}
+	}
+	return NO;
+}
+
+- (NSDictionary *) returnCalculatorSettings
+{
+	return [self.myCalculatorSettings copy];
 }
 
 - (id) init
@@ -82,7 +122,8 @@
 
 - (NSMutableArray *) returnEquation
 {
-    return self.equation;
+	// the returned equation cannot be modified
+    return [self.equation copy];
 }
 
 - (NSString *) equationString
@@ -158,6 +199,15 @@
     else if ([op isEqualToString:@"neg"] == YES){
         return YES;
     }
+	else if ([op isEqualToString:@"log"] == YES){
+        return YES;
+    }
+	else if ([op isEqualToString:@"ln"] == YES){
+        return YES;
+    }
+	else if ([op isEqualToString:@"fac"] == YES){
+        return YES;
+    }
     else
         return NO;
 }
@@ -177,6 +227,15 @@
         return YES;
     }
     else if ([op isEqualToString:@"neg"] == YES){
+        return YES;
+    }
+	else if ([op isEqualToString:@"log"] == YES){
+        return YES;
+    }
+	else if ([op isEqualToString:@"ln"] == YES){
+        return YES;
+    }
+	else if ([op isEqualToString:@"fac"] == YES){
         return YES;
     }
     else
@@ -223,7 +282,7 @@
      "*", "/"
      
      3:
-     "sqrt", "sin", "cos", "tan", "neg"
+     "sqrt", "sin", "cos", "tan", "neg", "log", "ln", "fac"
      
      4:
      "^"
@@ -250,6 +309,15 @@
     else if ([op isEqualToString:@"neg"] == YES){
         return 3;
     }
+	else if ([op isEqualToString:@"log"] == YES){
+        return 3;
+    }
+	else if ([op isEqualToString:@"ln"] == YES){
+        return 3;
+    }
+	else if ([op isEqualToString:@"fac"] == YES){
+        return 3;
+    }
     else if ([op isEqualToString:@"*"] || [op isEqualToString:@"/"]){
         return 2;
     }
@@ -266,26 +334,7 @@
     
     // get signs in equation
     [self seekOperatorOfEquation];
-    // check if the bracket is valid
-    unsigned short int leftBracketCount = 0, rightBracketCount = 0;
-    for (NSString *op in operators) {
-        if ([op isEqualToString:@"("] == YES) {
-            ++ leftBracketCount;
-        }
-        if ([op isEqualToString:@")"] == YES) {
-            ++ rightBracketCount;
-        }
-    }
-    //NSLog(@"left = %d, right = %d", leftBracketCount, rightBracketCount);
-    if (leftBracketCount != rightBracketCount) {
-        /* when the equation is invalid
-         such as the miss of one bracket, return an error value
-         */
-        return ERROR_INDEX;
-    }
-    
-    //NSLog(@"left = %u, right = %u", leftBracket, rightBracket);
-    
+	
     /* get marks of each operator
      Operator "("         = 10 * n
      Operator "sqrt"      = 3
@@ -345,13 +394,14 @@
     NSString *op;
     
     //check if operator is valid
-    if ([[self.equation objectAtIndex:index - 1] isKindOfClass:[NSString class]] == NO) {
-        return INFINITY;
-    }
-    
-    
-    
-    op = [NSString stringWithString:[self.equation objectAtIndex:index - 1]];
+	if (index >= 1) {
+		if ([[self.equation objectAtIndex:index - 1] isKindOfClass:[NSString class]] == NO) {
+			return INFINITY;
+		}
+		op = [NSString stringWithString:[self.equation objectAtIndex:index - 1]];
+	}
+	else
+		return INFINITY;
     
     // Check if it's special operator
     if ([self isKindOfSpecialOperator:op] == NO) {
@@ -362,8 +412,13 @@
          */
         
         //process
-        n1 = [self.equation objectAtIndex:index - 2];
-        n2 = [self.equation objectAtIndex:index];
+		if (index >= 2) {
+			n1 = [self.equation objectAtIndex:index - 2];
+			n2 = [self.equation objectAtIndex:index];
+		}
+		else
+			return INFINITY;
+        
         //NSLog(@"n1 = %@ n2 = %@", n1, n2);
         
         f1 = [n1 doubleValue];
@@ -397,24 +452,71 @@
          */
         
         // process
-        n1 = [self.equation objectAtIndex:index];
-        f1 = [n1 doubleValue];
+		if (index >= 0) {
+			n1 = [self.equation objectAtIndex:index];
+			f1 = [n1 doubleValue];
+		}
+		else
+			return INFINITY;
         
         // sqrt
         if ([op isEqualToString:@"sqrt"] == YES) {
             return sqrt(f1);
         }
+		
+		// negative
+		else if ([op isEqualToString:@"neg"] == YES){
+            return - f1;
+        }
+		
+		// log2(f1)
+		else if ([op isEqualToString:@"log"] == YES){
+			return log10(f1);
+		}
+		
+		// loge(f1)
+		else if ([op isEqualToString:@"ln"] == YES){
+			return log(f1);
+		}
+		
+		// fac(f1)
+		else if ([op isEqualToString:@"fac"] == YES){
+			return fac(f1);
+		}
+		
+		// trigonometric function
         else if ([op isEqualToString:@"sin"] == YES){
-            return sin(f1);
+			if ([[self.myCalculatorSettings objectForKey:@"angle"] isEqualToString:@"degree"] == YES) {
+				// convert f1 to degrees
+				f1 = f1 * (PI / 180.0);
+			}
+			else if ([[self.myCalculatorSettings objectForKey:@"angle"] isEqualToString:@"grad"] == YES) {
+				// convert f1 to grads
+				f1 = f1 * (PI / 200.0);
+			}
+			return sin(f1);
         }
         else if ([op isEqualToString:@"cos"] == YES){
+			if ([[self.myCalculatorSettings objectForKey:@"angle"] isEqualToString:@"degree"] == YES) {
+				// convert f1 to degrees
+				f1 = f1 * (PI / 180.0);
+			}
+			else if ([[self.myCalculatorSettings objectForKey:@"angle"] isEqualToString:@"grad"] == YES) {
+				// convert f1 to grads
+				f1 = f1 * (PI / 200.0);
+			}
             return cos(f1);
         }
         else if ([op isEqualToString:@"tan"] == YES){
+			if ([[self.myCalculatorSettings objectForKey:@"angle"] isEqualToString:@"degree"] == YES) {
+				// convert f1 to degrees
+				f1 = f1 * (PI / 180.0);
+			}
+			else if ([[self.myCalculatorSettings objectForKey:@"angle"] isEqualToString:@"grad"] == YES) {
+				// convert f1 to grads
+				f1 = f1 * (PI / 200.0);
+			}
             return tan(f1);
-        }
-        else if ([op isEqualToString:@"neg"] == YES){
-            return -f1;
         }
         else
             return INFINITY;
@@ -426,7 +528,6 @@
 
 - (BOOL) replaceSingleEquation:(NSInteger) index
 {
-    
     result = [NSNumber numberWithDouble:[self processSingleEquation:index]];
     BOOL isEnclosedBracket = NO;
     
@@ -434,7 +535,12 @@
     
     // Check if special operator
     NSString *op;
-    op = [NSString stringWithString:[self.equation objectAtIndex:index - 1]];
+	if (index >= 1) {
+		op = [NSString stringWithString:[self.equation objectAtIndex:index - 1]];
+	}
+	else
+		return NO;
+    
     
     if ([self isKindOfSpecialOperator:op] == NO) {
         
@@ -451,13 +557,23 @@
         //remove previous equation
         if (isEnclosedBracket == YES) {
             for (int i = 0; i < 5; i++) {
-                [self.equation removeObjectAtIndex:index - 3];
+				if (index >= 3) {
+					[self.equation removeObjectAtIndex:index - 3];
+				}
+				else
+					return NO;
+            
             }
             [self.equation insertObject:result atIndex:index - 3];
         }
         else{
             for (int i = 0; i < 3; i++) {
-                [self.equation removeObjectAtIndex:index - 2];
+				if (index >= 2) {
+					[self.equation removeObjectAtIndex:index - 2];
+				}
+				else
+					return NO;
+            
             }
             [self.equation insertObject:result atIndex:index - 2];
         }
@@ -474,13 +590,23 @@
         //remove previous equation
         if (isEnclosedBracket == YES) {
             for (int i = 0; i < 4; i++) {
-                [self.equation removeObjectAtIndex:index - 2];
+				if (index >= 2) {
+					[self.equation removeObjectAtIndex:index - 2];
+				}
+				else
+					return NO;
+            
             }
             [self.equation insertObject:result atIndex:index - 2];
         }
         else{
             for (int i = 0; i < 2; i++) {
-                [self.equation removeObjectAtIndex:index - 1];
+				if (index >= 1) {
+					[self.equation removeObjectAtIndex:index - 1];
+				}
+				else
+					return NO;
+            
             }
             [self.equation insertObject:result atIndex:index - 1];
         }
@@ -504,7 +630,10 @@
             NSLog(@"ERROR_INDEX");
             return nil;
         }
-        [self replaceSingleEquation:index];
+		if (![self replaceSingleEquation:index]) {
+			NSLog(@"ERROR ARRAY");
+			return nil;
+		}
     }
     return result;
 }
@@ -532,7 +661,7 @@
 
 - (BOOL) isKindOfBracket:(NSString *)op
 {
-    NSLog(@"op is %@", op);
+    //NSLog(@"op is %@", op);
     if ([op isEqualToString:@"("] == YES){
         return YES;
     }

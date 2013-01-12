@@ -33,20 +33,32 @@
  
  	- (NSString *) getError;
  		return the reason for why the equation is invalid.
+ 
+ 	- (BOOL) setCalculatorArgument:(NSString *)argu WithValue:(NSString *)value;
+ 		set the argument of calculator. eg: the radian and degree.
+ 		if not set, use the default configuration.
+ 		default keys and values
+ 			key = "angle"    value = "radian"
+			key = "mode"     value = "standard"
+ 
+ 	- (NSDictionary *) returnCalculatorSettings;
+		return the configuration of calculator. if not set, use the default configuration.
+ 
+ Update log:
+	11-Jan-2013
+ 		Affect: - (NSMutableArray *) returnEquation;
+ 		Description: Return the copy of equation not the equation itself (an inmutable array).
+ 
+		Add: - (BOOL) setCalculatorArgument:(NSString *)argu WithValue:(NSString *)value;
+ 			- (NSDictionary *) returnCalculatorSettings;
+ 
+		Remove:
+ 			remove some verification check inside the core - now which is replaced by external methods
  */
 
 #import <Foundation/Foundation.h>
-
-#define DEFAULT_CAPACITY 60
-
-// old version
-#define FLOAT_NUM(d) [NSNumber numberWithDouble:d]
-
-// new version
 #define N(d) [NSNumber numberWithDouble:d]
 
-#define ERROR_INDEX -1
-#define ERROR_PRIORITY -1
 
 
 @interface Calculator : NSObject
@@ -54,14 +66,21 @@
 @property (nonatomic, strong) NSMutableArray *equation;
 
 // Public methods
+
+// done with equation
 - (void) setEquation:(NSMutableArray *)equation;
 - (void) pushToEquationStack: (id)operand;
 - (void) cleanEquation;
 - (NSMutableArray *) returnEquation;
 - (NSString *) returnEquationAsAString;
+
+// done with calculation
 - (NSNumber *) calculation;
 - (BOOL) equationIsValid;
 - (NSString *) getError;
-- (void) set:(NSString *) argu :(NSString *) param;
+
+// set parameters
+- (BOOL) setCalculatorArgument:(NSString *)argu WithValue:(NSString *)value;
+- (NSDictionary *) returnCalculatorSettings;
 
 @end

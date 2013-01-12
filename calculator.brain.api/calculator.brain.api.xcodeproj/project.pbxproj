@@ -11,6 +11,7 @@
 		049CEA9A169CE78E005342EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CEA99169CE78E005342EB /* main.m */; };
 		049CEA9E169CE78E005342EB /* calculator_brain_api.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 049CEA9D169CE78E005342EB /* calculator_brain_api.1 */; };
 		049CEAA6169CE7A7005342EB /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CEAA5169CE7A7005342EB /* Calculator.m */; };
+		B92FDDD016A01AC20004D97E /* Math_Extented.c in Sources */ = {isa = PBXBuildFile; fileRef = B92FDDCF16A01AC20004D97E /* Math_Extented.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		049CEA9D169CE78E005342EB /* calculator_brain_api.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = calculator_brain_api.1; sourceTree = "<group>"; };
 		049CEAA4169CE7A7005342EB /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = calculator.brain.api/Calculator.h; sourceTree = "<group>"; };
 		049CEAA5169CE7A7005342EB /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculator.m; path = calculator.brain.api/Calculator.m; sourceTree = "<group>"; };
+		B92FDDCD16A01AB10004D97E /* Math_Extented.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Math_Extented.h; sourceTree = "<group>"; };
+		B92FDDCF16A01AC20004D97E /* Math_Extented.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Math_Extented.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,8 @@
 			children = (
 				049CEAA4169CE7A7005342EB /* Calculator.h */,
 				049CEAA5169CE7A7005342EB /* Calculator.m */,
+				B92FDDCD16A01AB10004D97E /* Math_Extented.h */,
+				B92FDDCF16A01AC20004D97E /* Math_Extented.c */,
 				049CEA98169CE78E005342EB /* calculator.brain.api */,
 				049CEA95169CE78E005342EB /* Frameworks */,
 				049CEA93169CE78E005342EB /* Products */,
@@ -146,6 +151,7 @@
 			files = (
 				049CEA9A169CE78E005342EB /* main.m in Sources */,
 				049CEAA6169CE7A7005342EB /* Calculator.m in Sources */,
+				B92FDDD016A01AC20004D97E /* Math_Extented.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 				049CEAA3169CE78E005342EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

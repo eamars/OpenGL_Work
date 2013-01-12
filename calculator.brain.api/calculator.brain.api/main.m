@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Calculator.h"
+#import "Math_Extented.h"
 
 int main(int argc, const char * argv[])
 {
@@ -37,17 +38,26 @@ int main(int argc, const char * argv[])
         */
         
         Calculator *myCalc2 = [[Calculator alloc] init];
-        [myCalc2 pushToEquationStack:@"sqrt"];
-        [myCalc2 pushToEquationStack:N(7)];
-        NSLog(@"%@", [myCalc2 returnEquation]);
-        if ([myCalc2 equationIsValid]) {
-            double result = [[myCalc2 calculation] doubleValue];
-            NSLog(@"result %0.8f", result);
-        }
-        else
-            NSLog(@"%@", [myCalc2 getError]);
-        
-        NSLog(@"%@", [myCalc2 returnEquationAsAString]);
+        [myCalc2 setCalculatorArgument:@"angle" WithValue:@"degree"];
+		
+		[myCalc2 pushToEquationStack:@"ln"];
+		[myCalc2 pushToEquationStack:N(5)];
+		
+		NSLog(@"%@", [myCalc2 returnEquation]);
+		
+		NSLog(@"%@", [myCalc2 returnCalculatorSettings]);
+		
+		if ([myCalc2 equationIsValid]) {
+			double result = [[myCalc2 calculation] doubleValue];
+			NSLog(@"result %0.8f", result);
+		}
+		else
+			NSLog(@"%@", [myCalc2 getError]);
+		
+		[myCalc2 cleanEquation];
+		
+		
+		
     }
     return 0;
 }
