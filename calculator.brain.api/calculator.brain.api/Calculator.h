@@ -8,6 +8,12 @@
 
 /*
  The Calculator Brain only accepts NSNumber and NSString as the array stored in it's stack;
+ Main Function:
+ 	1, Handle a set of numbers and operators, find the result of this equation.
+ 	2, Find the mean, max, standard deviation of a stack of number.
+ 
+ Version 0.2
+ Last update: 14-Jan-2013
  
  Pubic Methods:
  	N(d): 
@@ -38,8 +44,9 @@
  		set the argument of calculator. eg: the radian and degree.
  		if not set, use the default configuration.
  		default keys and values
- 			key = "angle"    value = "radian"
-			key = "mode"     value = "standard"
+ 			key = "angle"     value = "radian"
+			key = "mode"      value = "math"
+ 			key = "frequency" value = "disable"
  
  	- (NSDictionary *) returnCalculatorSettings;
 		return the configuration of calculator. if not set, use the default configuration.
@@ -54,13 +61,15 @@
  
 		Remove:
  			remove some verification check inside the core - now which is replaced by external methods
+ 	14-Jan-2013
+ 		Add: - (void) cleanStatisticsOperator;
+ 		Description: delete the operator of statistics stack.
+ 
+ 		Add: Statistics Function
+		Description: the calculator can handle a stack of numbers with operator attached. Use setCalculatorArgument to set statistics avaliable. 
  */
 
 #import <Foundation/Foundation.h>
-#define N(d) [NSNumber numberWithDouble:d]
-
-
-
 @interface Calculator : NSObject
 
 @property (nonatomic, strong) NSMutableArray *equation;
@@ -71,6 +80,7 @@
 - (void) setEquation:(NSMutableArray *)equation;
 - (void) pushToEquationStack: (id)operand;
 - (void) cleanEquation;
+- (void) cleanStatisticsOperator;
 - (NSMutableArray *) returnEquation;
 - (NSString *) returnEquationAsAString;
 

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Calculator.h"
 #import "Math_Extented.h"
+#define N(d) [NSNumber numberWithDouble:d]
 
 int main(int argc, const char * argv[])
 {
@@ -36,7 +37,7 @@ int main(int argc, const char * argv[])
         [myCalc setEquation:myEquation];
         NSLog(@"%@", [myCalc calculation]);
         */
-        
+        /*
         Calculator *myCalc2 = [[Calculator alloc] init];
         [myCalc2 setCalculatorArgument:@"angle" WithValue:@"degree"];
 		
@@ -55,9 +56,26 @@ int main(int argc, const char * argv[])
 			NSLog(@"%@", [myCalc2 getError]);
 		
 		[myCalc2 cleanEquation];
+		*/
 		
+		Calculator *myCalc3 = [[Calculator alloc] init];
+		[myCalc3 setCalculatorArgument:@"mode" WithValue:@"stat"];
+		[myCalc3 setCalculatorArgument:@"frequency" WithValue:@"enable"];
+		NSLog(@"%@", [myCalc3 returnCalculatorSettings]);
 		
-		
+		[myCalc3 pushToEquationStack:N(1)];
+		[myCalc3 pushToEquationStack:N(2)];
+		[myCalc3 pushToEquationStack:N(3)];
+		[myCalc3 pushToEquationStack:N(4)];
+		[myCalc3 pushToEquationStack:@"sd"];
+		if ([myCalc3 equationIsValid] == YES) {
+			NSLog(@"valid");
+			NSLog(@"result = %g", [[myCalc3 calculation] doubleValue]);
+		}
+		else {
+			NSLog(@"%@", [myCalc3 getError]);
+			NSLog(@"invalid");
+		}
     }
     return 0;
 }

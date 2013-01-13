@@ -20,6 +20,7 @@
 
 // new version
 #define N(d) [NSNumber numberWithDouble:d]
+#define X(d) [[self.equation objectAtIndex:d] doubleValue]
 
 #define ERROR_INDEX -1
 #define ERROR_PRIORITY -1
@@ -31,6 +32,8 @@
 - (NSInteger) seekIndexOfInterest;
 - (unsigned int) getPriorityOfOperator: (NSString *)op;
 - (double) processSingleEquation: (NSInteger) index;
+
+- (void) processEquationByOperatorForStatOnly;
 
 - (BOOL) isKindOfOperator: (NSString *)op;
 - (BOOL) isKindOfSpecialOperator: (NSString *)op;
@@ -71,7 +74,7 @@
 - (NSDictionary *) defaultCalculatorSettings
 {
 	if (!_defaultCalculatorSettings) {
-		_defaultCalculatorSettings = [[NSDictionary alloc] initWithObjectsAndKeys:@"radian", @"angle", @"standard", @"mode", nil];
+		_defaultCalculatorSettings = [[NSDictionary alloc] initWithObjectsAndKeys:@"radian", @"angle", @"math", @"mode", @"disable", @"frequency", nil];
 		
 	}
 	return _defaultCalculatorSettings;
@@ -159,6 +162,17 @@
         self.equationString = @"";
         
     }
+}
+
+- (void) cleanStatisticsOperator
+{
+	if (self.equation != nil) {
+		if (self.equation.count > 0) {
+			if ([self.equation.lastObject isKindOfClass:[NSString class]] == YES) {
+				[self.equation removeLastObject];
+			}
+		}
+	}
 }
 
 - (BOOL) isKindOfOperator:(NSString *)op
@@ -617,24 +631,141 @@
     
 }
 
+- (void) processEquationByOperatorForStatOnly
+{
+	// we assume lastObject is a NSString Class
+	// can be verified by equationIsValid method
+	NSString *op = self.equation.lastObject;
+	
+	// find sum and sum for freq for general use
+	double sumValue = 0;
+	double sumOfFreq = 0;
+	double meanValue = 0;
+	
+	if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"disable"] == YES) {
+		for (NSInteger i = 0; i < self.equation.count - 1; i += 1) {
+			sumValue = sumValue + X(i);
+		}
+		sumOfFreq = self.equation.count - 1;
+	}
+	else if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"enable"] == YES) {
+		for (NSInteger i = 0; i < self.equation.count - 1; i += 2) {
+			sumValue = sumValue + X(i) * X(i + 1);
+			sumOfFreq = sumOfFreq + X(i + 1);
+		}
+	}
+	
+	meanValue = sumValue / sumOfFreq;
+	
+	if ([op isEqualToString:@"min"] == YES) {
+		double minValue = X(0);
+		if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"disable"] == YES) {
+			for (NSInteger i = 0; i < self.equation.count - 1; i += 1) {
+				if (minValue > X(i)) {
+					minValue = X(i);
+				}
+			}
+		}
+		else if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"enable"] == YES) {
+			for (NSInteger i = 0; i < self.equation.count - 1; i += 2) {
+				if (minValue > X(i)) {
+					minValue = X(i);
+				}
+			}
+		}
+		
+		
+		result = [NSNumber numberWithDouble:minValue];
+	}
+	
+	else if ([op isEqualToString:@"max"] == YES) {
+		double maxValue = X(0);
+		if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"disable"] == YES) {
+			for (NSInteger i = 0; i < self.equation.count - 1; i += 1) {
+				if (maxValue < X(i)) {
+					maxValue = X(i);
+				}
+			}
+		}
+		else if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"enable"] == YES) {
+			for (NSInteger i = 0; i < self.equation.count - 1; i += 2) {
+				if (maxValue < X(i)) {
+					maxValue = X(i);
+				}
+			}
+		}
+		
+		result = N(maxValue);
+	}
+	
+	else if ([op isEqualToString:@"sum"] == YES) {
+		result = N(sumValue);
+	}
+	
+	else if ([op isEqualToString:@"mean"] == YES) {
+		result = N(meanValue);
+	}
+	
+	else if ([op isEqualToString:@"sd"] == YES) {
+		// find sum of (xn - u)^2
+		double sdValue = 0;
+		double sumValue2 = 0;
+		
+		if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"disable"] == YES) {
+			for (NSInteger i = 0; i < self.equation.count - 1; i += 1) {
+				for (NSInteger i = 0; i < self.equation.count - 1; i += 1) {
+					sumValue2 = sumValue2 + (X(i) - meanValue) * (X(i) - meanValue);
+				}
+			}
+		}
+		else if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"enable"] == YES) {
+			for (NSInteger i = 0; i < self.equation.count - 1; i += 2) {
+				for (NSInteger i = 0; i < self.equation.count - 1; i += 2) {
+					sumValue2 = sumValue2 + (X(i) - meanValue) * (X(i) - meanValue);
+				}
+			}
+		}
+		
+		sdValue = sqrt(sumValue2 / sumOfFreq);
+		result = N(sdValue);
+	}
+	else
+		result = nil;
+	
+}
+
 - (NSNumber *) calculation
 {
     if (self.equation == nil) {
         return nil;
     }
     
-    NSInteger index;
-    while ([self isMostSimpleFormat] == NO) {
-        index = [self seekIndexOfInterest];
-        if (index == ERROR_INDEX) {
-            NSLog(@"ERROR_INDEX");
-            return nil;
-        }
-		if (![self replaceSingleEquation:index]) {
-			NSLog(@"ERROR ARRAY");
-			return nil;
+	// Math calculation
+	if ([[self.myCalculatorSettings objectForKey:@"mode"] isEqualToString:@"math"] == YES)
+	{
+		NSInteger index;
+		while ([self isMostSimpleFormat] == NO) {
+			index = [self seekIndexOfInterest];
+			if (index == ERROR_INDEX) {
+				NSLog(@"ERROR_INDEX");
+				return nil;
+			}
+			if (![self replaceSingleEquation:index]) {
+				NSLog(@"ERROR ARRAY");
+				return nil;
+			}
 		}
-    }
+	}
+	
+	
+	// Statistics calculation
+    else if ([[self.myCalculatorSettings objectForKey:@"mode"] isEqualToString:@"stat"] == YES) {
+		// incompletement
+		[self processEquationByOperatorForStatOnly];
+	}
+	
+		
+	
     return result;
 }
 
@@ -700,138 +831,191 @@
         return NO;
 }
 
-- (BOOL) equationIsValid
+- (BOOL) isKindOfStatisticsOperator: (NSString *) op
 {
-    // make string copy
-    for (id object in self.equation) {
-        self.equationString = [self.equationString stringByAppendingFormat:@"%@ ", object];
-    }
-    
-    // have equation in stack
-    if ([self.equation count] == 0) {
-        self.errorInfo = @"#1:no target equation";
-        return NO;
-    }
-    // equal bracket
-    unsigned short int leftBracketCount = 0, rightBracketCount = 0;
-    for (id object in self.equation) {
-        if ([object isKindOfClass:[NSString class]]) {
-            if ([object isEqualToString:@"("] == YES) {
-                ++ leftBracketCount;
-            }
-            if ([object isEqualToString:@")"] == YES) {
-                ++ rightBracketCount;
-            }
-        }
-    }
-    if (leftBracketCount != rightBracketCount) {
-        self.errorInfo = @"#2:unpaired bracket";
-        return NO;
-    }
-    
-    NSInteger leftIndex = 0, rightIndex = 0, localIndex = 0;
-    
-    // no sign in paired bracket
-    for (id object in self.equation) {
-        ++ localIndex;
-        if ([object isKindOfClass:[NSString class]]) {
-            if ([object isEqualToString:@"("] == YES) {
-                leftIndex = localIndex;
-            }
-            if ([object isEqualToString:@")"] == YES) {
-                rightIndex = localIndex;
-            }
-            if (rightIndex - leftIndex < 4 && rightIndex - leftIndex > 0) {
-                self.errorInfo = @"#3:sign error";
-                return NO;
-            }
-        }
-    }
-    
-    // connected signs
-    leftIndex = 0;
-    rightIndex = 0;
-    localIndex = 0;
-    
-    for (id object in self.equation) {
-        ++ localIndex;
-        if ([object isKindOfClass:[NSString class]]) {
-            if ([self isKindOfBasicOperator:object]) {
-                leftIndex = localIndex;
-                if (leftIndex - rightIndex < 2) {
-                    self.errorInfo = @"#4:sign error";
-                    return NO;
-                }
-                rightIndex = leftIndex;
-            }
-        }
-    }
-    
-    // no argument for special operator
-    localIndex = 0;
-    
-    for (id object in self.equation) {
-        ++ localIndex;
-        if ([object isKindOfClass:[NSString class]]) {
-            if ([self isKindOfSpecialOperator:object]) {
-                if ([self isKindOfSet1:[self.equation objectAtIndex:localIndex]] == NO) {
-                    self.errorInfo = @"#5:no argument";
-                    return NO;
-                }
-            }
-        }
-    }
-    
-    
-    // pass
-    NSInteger numberCount = 0, basicOperatorCount = 0;
-    for (id object in self.equation) {
-        if ([object isKindOfClass:[NSNumber class]] == YES) {
-            ++ numberCount;
-        }
-        else if ([object isKindOfClass:[NSString class]] == YES) {
-            if ([self isKindOfBasicOperator:object] == YES) {
-                ++ basicOperatorCount;
-            }
-        }
-    }
-    if (numberCount - basicOperatorCount == 1) {
+	if ([op isEqualToString:@"sum"] == YES){
         return YES;
     }
-    
-    /*
-    localIndex = 0;
-    for (id object in self.equation) {
-        ++ localIndex;
-        if ([object isKindOfClass:[NSNumber class]]) {
-            NSLog(@"%@", object);
-            // first number
-            if (localIndex == 1) {
-                if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex]] == NO) {
-                    self.errorInfo = @"#6:no operator follow";
-                    return NO;
-                }
-            }
-            else if (localIndex == self.equation.count){
-                return YES;
-            }
-            else{
-                if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex]] == NO) {
-                    self.errorInfo = @"#7:no operator follow";
-                    return NO;
-                }
-                else if ([self isKindOfBasicOperator:[self.equation objectAtIndex:localIndex - 2]] == NO) {
-                    self.errorInfo = @"#8:no operator follow";
-                    return NO;
-                }
-            }
-        }
+	else if ([op isEqualToString:@"max"] == YES){
+        return YES;
     }
-     */
+	else if ([op isEqualToString:@"min"] == YES){
+        return YES;
+    }
+	else if ([op isEqualToString:@"mean"] == YES){
+        return YES;
+    }
+	else if ([op isEqualToString:@"sd"] == YES){
+        return YES;
+    }
+	
+	return NO;
+}
+
+- (BOOL) equationIsValid
+{
+	/* Math part
+	 verify the validation of equation
+	 Math equation structure
+	 Number, Operator, Number, Operator ... , Number
+	 */
+	if ([[self.myCalculatorSettings objectForKey:@"mode"] isEqualToString:@"math"] == YES) {
+		// make string copy
+		for (id object in self.equation) {
+			self.equationString = [self.equationString stringByAppendingFormat:@"%@ ", object];
+		}
+		
+		// have equation in stack
+		if ([self.equation count] == 0) {
+			self.errorInfo = @"#1:no target equation";
+			return NO;
+		}
+		// equal bracket
+		unsigned short int leftBracketCount = 0, rightBracketCount = 0;
+		for (id object in self.equation) {
+			if ([object isKindOfClass:[NSString class]]) {
+				if ([object isEqualToString:@"("] == YES) {
+					++ leftBracketCount;
+				}
+				if ([object isEqualToString:@")"] == YES) {
+					++ rightBracketCount;
+				}
+			}
+		}
+		if (leftBracketCount != rightBracketCount) {
+			self.errorInfo = @"#2:unpaired bracket";
+			return NO;
+		}
+		
+		NSInteger leftIndex = 0, rightIndex = 0, localIndex = 0;
+		
+		// no sign in paired bracket
+		for (id object in self.equation) {
+			++ localIndex;
+			if ([object isKindOfClass:[NSString class]]) {
+				if ([object isEqualToString:@"("] == YES) {
+					leftIndex = localIndex;
+				}
+				if ([object isEqualToString:@")"] == YES) {
+					rightIndex = localIndex;
+				}
+				if (rightIndex - leftIndex < 4 && rightIndex - leftIndex > 0) {
+					self.errorInfo = @"#3:sign error";
+					return NO;
+				}
+			}
+		}
+		
+		// connected signs
+		leftIndex = 0;
+		rightIndex = 0;
+		localIndex = 0;
+		
+		for (id object in self.equation) {
+			++ localIndex;
+			if ([object isKindOfClass:[NSString class]]) {
+				if ([self isKindOfBasicOperator:object]) {
+					leftIndex = localIndex;
+					if (leftIndex - rightIndex < 2) {
+						self.errorInfo = @"#4:sign error";
+						return NO;
+					}
+					rightIndex = leftIndex;
+				}
+			}
+		}
+		
+		// no argument for special operator
+		localIndex = 0;
+		
+		for (id object in self.equation) {
+			++ localIndex;
+			if ([object isKindOfClass:[NSString class]]) {
+				if ([self isKindOfSpecialOperator:object]) {
+					if ([self isKindOfSet1:[self.equation objectAtIndex:localIndex]] == NO) {
+						self.errorInfo = @"#5:no argument";
+						return NO;
+					}
+				}
+			}
+		}
+		
+		
+		// pass
+		NSInteger numberCount = 0, basicOperatorCount = 0;
+		for (id object in self.equation) {
+			if ([object isKindOfClass:[NSNumber class]] == YES) {
+				++ numberCount;
+			}
+			else if ([object isKindOfClass:[NSString class]] == YES) {
+				if ([self isKindOfBasicOperator:object] == YES) {
+					++ basicOperatorCount;
+				}
+			}
+		}
+		if (numberCount - basicOperatorCount == 1) {
+			return YES;
+		}
+
+	}
+	
+	/* Statistics Part
+	 Statistics equation structure
+	 Number, Freq, Number, Freq, Number, Freq, Operator
+	 */
+	else if ([[self.myCalculatorSettings objectForKey:@"mode"] isEqualToString:@"stat"] == YES) {
+		// have equation in stack
+		if ([self.equation count] == 0) {
+			self.errorInfo = @"#6:no target stack";
+			return NO;
+		}
+		
+		// have operator at the end of stack
+		if ([self.equation.lastObject isKindOfClass:[NSString class]] == YES) {
+			if ([self isKindOfStatisticsOperator:self.equation.lastObject] == NO) {
+				self.errorInfo = @"#7:unrecognized operator";
+				return NO;
+			}
+		}
+		else {
+			self.errorInfo = @"#8:unrecognized operator";
+			return NO;
+		}
+		
+		
+		// have at least on number
+		if ([[self.equation objectAtIndex:0] isKindOfClass:[NSNumber class]] == NO) {
+			self.errorInfo = @"#9:no number in stack";
+			return NO;
+		}
+		
+		// Have number|frequency mathched(for frequency enabled only)
+		if ([[self.myCalculatorSettings objectForKey:@"frequency"] isEqualToString:@"enabled"] == YES) {
+			if ((self.equation.count - 1) % 2 != 0) {
+				self.errorInfo = @"#10:number and frequency not matched";
+				return NO;
+			}
+		}
+		
+		
+		// pass
+		BOOL allAreNumbers = YES;
+		for (NSInteger i = 0; i < self.equation.count - 1; ++ i) {
+			if ([[self.equation objectAtIndex:i] isKindOfClass:[NSNumber class]] == NO) {
+				allAreNumbers = NO;
+			}
+		}
+		if (allAreNumbers == YES) {
+			return YES;
+		}
+		else{
+			self.errorInfo = @"#11:not a statistics equation";
+			return NO;
+		}
+	}
     
     
-    
-    self.errorInfo = @"#9:unknown error";
+    self.errorInfo = @"#-1:unknown error";
     return NO;
 }
 
