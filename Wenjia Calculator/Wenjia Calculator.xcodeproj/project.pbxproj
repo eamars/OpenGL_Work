@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9BB5F8216A3C46800C0E0FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8116A3C46800C0E0FE /* UIKit.framework */; };
+		B9BB5F8416A3C46800C0E0FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8316A3C46800C0E0FE /* Foundation.framework */; };
+		B9BB5F8616A3C46800C0E0FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8516A3C46800C0E0FE /* CoreGraphics.framework */; };
+		B9BB5F8C16A3C46800C0E0FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5F8A16A3C46800C0E0FE /* InfoPlist.strings */; };
+		B9BB5F8E16A3C46800C0E0FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB5F8D16A3C46800C0E0FE /* main.m */; };
+		B9BB5F9216A3C46800C0E0FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB5F9116A3C46800C0E0FE /* AppDelegate.m */; };
+		B9BB5F9416A3C46800C0E0FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5F9316A3C46800C0E0FE /* Default.png */; };
+		B9BB5F9616A3C46800C0E0FE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5F9516A3C46800C0E0FE /* Default@2x.png */; };
+		B9BB5F9816A3C46800C0E0FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5F9716A3C46800C0E0FE /* Default-568h@2x.png */; };
+		B9BB5F9B16A3C46800C0E0FE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5F9916A3C46800C0E0FE /* MainStoryboard.storyboard */; };
+		B9BB5F9E16A3C46800C0E0FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB5F9D16A3C46800C0E0FE /* ViewController.m */; };
+		B9BB5FA616A3C46900C0E0FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5FA516A3C46900C0E0FE /* SenTestingKit.framework */; };
+		B9BB5FA716A3C46900C0E0FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8116A3C46800C0E0FE /* UIKit.framework */; };
+		B9BB5FA816A3C46900C0E0FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8316A3C46800C0E0FE /* Foundation.framework */; };
+		B9BB5FB016A3C46900C0E0FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5FAE16A3C46900C0E0FE /* InfoPlist.strings */; };
+		B9BB5FB316A3C46900C0E0FE /* Wenjia_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB5FB216A3C46900C0E0FE /* Wenjia_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9BB5FA916A3C46900C0E0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BB5F7416A3C46800C0E0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BB5F7C16A3C46800C0E0FE;
+			remoteInfo = "Wenjia Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9BB5F7D16A3C46800C0E0FE /* Wenjia Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wenjia Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BB5F8116A3C46800C0E0FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9BB5F8316A3C46800C0E0FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9BB5F8516A3C46800C0E0FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9BB5F8916A3C46800C0E0FE /* Wenjia Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wenjia Calculator-Info.plist"; sourceTree = "<group>"; };
+		B9BB5F8B16A3C46800C0E0FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9BB5F8D16A3C46800C0E0FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9BB5F8F16A3C46800C0E0FE /* Wenjia Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wenjia Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		B9BB5F9016A3C46800C0E0FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9BB5F9116A3C46800C0E0FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9BB5F9316A3C46800C0E0FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B9BB5F9516A3C46800C0E0FE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B9BB5F9716A3C46800C0E0FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B9BB5F9A16A3C46800C0E0FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B9BB5F9C16A3C46800C0E0FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9BB5F9D16A3C46800C0E0FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9BB5FA416A3C46900C0E0FE /* Wenjia CalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wenjia CalculatorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BB5FA516A3C46900C0E0FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9BB5FAD16A3C46900C0E0FE /* Wenjia CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wenjia CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		B9BB5FAF16A3C46900C0E0FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9BB5FB116A3C46900C0E0FE /* Wenjia_CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wenjia_CalculatorTests.h; sourceTree = "<group>"; };
+		B9BB5FB216A3C46900C0E0FE /* Wenjia_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wenjia_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9BB5F7A16A3C46800C0E0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BB5F8216A3C46800C0E0FE /* UIKit.framework in Frameworks */,
+				B9BB5F8416A3C46800C0E0FE /* Foundation.framework in Frameworks */,
+				B9BB5F8616A3C46800C0E0FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BB5FA016A3C46900C0E0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BB5FA616A3C46900C0E0FE /* SenTestingKit.framework in Frameworks */,
+				B9BB5FA716A3C46900C0E0FE /* UIKit.framework in Frameworks */,
+				B9BB5FA816A3C46900C0E0FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9BB5F7216A3C46800C0E0FE = {
+			isa = PBXGroup;
+			children = (
+				B9BB5F8716A3C46800C0E0FE /* Wenjia Calculator */,
+				B9BB5FAB16A3C46900C0E0FE /* Wenjia CalculatorTests */,
+				B9BB5F8016A3C46800C0E0FE /* Frameworks */,
+				B9BB5F7E16A3C46800C0E0FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9BB5F7E16A3C46800C0E0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB5F7D16A3C46800C0E0FE /* Wenjia Calculator.app */,
+				B9BB5FA416A3C46900C0E0FE /* Wenjia CalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BB5F8016A3C46800C0E0FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB5F8116A3C46800C0E0FE /* UIKit.framework */,
+				B9BB5F8316A3C46800C0E0FE /* Foundation.framework */,
+				B9BB5F8516A3C46800C0E0FE /* CoreGraphics.framework */,
+				B9BB5FA516A3C46900C0E0FE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9BB5F8716A3C46800C0E0FE /* Wenjia Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB5F9016A3C46800C0E0FE /* AppDelegate.h */,
+				B9BB5F9116A3C46800C0E0FE /* AppDelegate.m */,
+				B9BB5F9916A3C46800C0E0FE /* MainStoryboard.storyboard */,
+				B9BB5F9C16A3C46800C0E0FE /* ViewController.h */,
+				B9BB5F9D16A3C46800C0E0FE /* ViewController.m */,
+				B9BB5F8816A3C46800C0E0FE /* Supporting Files */,
+			);
+			path = "Wenjia Calculator";
+			sourceTree = "<group>";
+		};
+		B9BB5F8816A3C46800C0E0FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB5F8916A3C46800C0E0FE /* Wenjia Calculator-Info.plist */,
+				B9BB5F8A16A3C46800C0E0FE /* InfoPlist.strings */,
+				B9BB5F8D16A3C46800C0E0FE /* main.m */,
+				B9BB5F8F16A3C46800C0E0FE /* Wenjia Calculator-Prefix.pch */,
+				B9BB5F9316A3C46800C0E0FE /* Default.png */,
+				B9BB5F9516A3C46800C0E0FE /* Default@2x.png */,
+				B9BB5F9716A3C46800C0E0FE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9BB5FAB16A3C46900C0E0FE /* Wenjia CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB5FB116A3C46900C0E0FE /* Wenjia_CalculatorTests.h */,
+				B9BB5FB216A3C46900C0E0FE /* Wenjia_CalculatorTests.m */,
+				B9BB5FAC16A3C46900C0E0FE /* Supporting Files */,
+			);
+			path = "Wenjia CalculatorTests";
+			sourceTree = "<group>";
+		};
+		B9BB5FAC16A3C46900C0E0FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB5FAD16A3C46900C0E0FE /* Wenjia CalculatorTests-Info.plist */,
+				B9BB5FAE16A3C46900C0E0FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9BB5F7C16A3C46800C0E0FE /* Wenjia Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BB5FB616A3C46900C0E0FE /* Build configuration list for PBXNativeTarget "Wenjia Calculator" */;
+			buildPhases = (
+				B9BB5F7916A3C46800C0E0FE /* Sources */,
+				B9BB5F7A16A3C46800C0E0FE /* Frameworks */,
+				B9BB5F7B16A3C46800C0E0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wenjia Calculator";
+			productName = "Wenjia Calculator";
+			productReference = B9BB5F7D16A3C46800C0E0FE /* Wenjia Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9BB5FA316A3C46900C0E0FE /* Wenjia CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BB5FB916A3C46900C0E0FE /* Build configuration list for PBXNativeTarget "Wenjia CalculatorTests" */;
+			buildPhases = (
+				B9BB5F9F16A3C46900C0E0FE /* Sources */,
+				B9BB5FA016A3C46900C0E0FE /* Frameworks */,
+				B9BB5FA116A3C46900C0E0FE /* Resources */,
+				B9BB5FA216A3C46900C0E0FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BB5FAA16A3C46900C0E0FE /* PBXTargetDependency */,
+			);
+			name = "Wenjia CalculatorTests";
+			productName = "Wenjia CalculatorTests";
+			productReference = B9BB5FA416A3C46900C0E0FE /* Wenjia CalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9BB5F7416A3C46800C0E0FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ran Bao";
+			};
+			buildConfigurationList = B9BB5F7716A3C46800C0E0FE /* Build configuration list for PBXProject "Wenjia Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9BB5F7216A3C46800C0E0FE;
+			productRefGroup = B9BB5F7E16A3C46800C0E0FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9BB5F7C16A3C46800C0E0FE /* Wenjia Calculator */,
+				B9BB5FA316A3C46900C0E0FE /* Wenjia CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9BB5F7B16A3C46800C0E0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BB5F8C16A3C46800C0E0FE /* InfoPlist.strings in Resources */,
+				B9BB5F9416A3C46800C0E0FE /* Default.png in Resources */,
+				B9BB5F9616A3C46800C0E0FE /* Default@2x.png in Resources */,
+				B9BB5F9816A3C46800C0E0FE /* Default-568h@2x.png in Resources */,
+				B9BB5F9B16A3C46800C0E0FE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BB5FA116A3C46900C0E0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BB5FB016A3C46900C0E0FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9BB5FA216A3C46900C0E0FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9BB5F7916A3C46800C0E0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BB5F8E16A3C46800C0E0FE /* main.m in Sources */,
+				B9BB5F9216A3C46800C0E0FE /* AppDelegate.m in Sources */,
+				B9BB5F9E16A3C46800C0E0FE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BB5F9F16A3C46900C0E0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BB5FB316A3C46900C0E0FE /* Wenjia_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9BB5FAA16A3C46900C0E0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BB5F7C16A3C46800C0E0FE /* Wenjia Calculator */;
+			targetProxy = B9BB5FA916A3C46900C0E0FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9BB5F8A16A3C46800C0E0FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BB5F8B16A3C46800C0E0FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9BB5F9916A3C46800C0E0FE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BB5F9A16A3C46800C0E0FE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B9BB5FAE16A3C46900C0E0FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BB5FAF16A3C46900C0E0FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9BB5FB416A3C46900C0E0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B9BB5FB516A3C46900C0E0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9BB5FB716A3C46900C0E0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wenjia Calculator/Wenjia Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Wenjia Calculator/Wenjia Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9BB5FB816A3C46900C0E0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wenjia Calculator/Wenjia Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Wenjia Calculator/Wenjia Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9BB5FBA16A3C46900C0E0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wenjia Calculator.app/Wenjia Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wenjia Calculator/Wenjia Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Wenjia CalculatorTests/Wenjia CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B9BB5FBB16A3C46900C0E0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wenjia Calculator.app/Wenjia Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wenjia Calculator/Wenjia Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Wenjia CalculatorTests/Wenjia CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9BB5F7716A3C46800C0E0FE /* Build configuration list for PBXProject "Wenjia Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BB5FB416A3C46900C0E0FE /* Debug */,
+				B9BB5FB516A3C46900C0E0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BB5FB616A3C46900C0E0FE /* Build configuration list for PBXNativeTarget "Wenjia Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BB5FB716A3C46900C0E0FE /* Debug */,
+				B9BB5FB816A3C46900C0E0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9BB5FB916A3C46900C0E0FE /* Build configuration list for PBXNativeTarget "Wenjia CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BB5FBA16A3C46900C0E0FE /* Debug */,
+				B9BB5FBB16A3C46900C0E0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9BB5F7416A3C46800C0E0FE /* Project object */;
+}

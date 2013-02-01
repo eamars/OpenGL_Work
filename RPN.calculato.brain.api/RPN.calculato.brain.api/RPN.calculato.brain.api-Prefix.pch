@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RPN.calculato.brain.api' target in the 'RPN.calculato.brain.api' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
