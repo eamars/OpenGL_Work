@@ -24,18 +24,6 @@
 	else if ([op isEqualToString:@"C"]) {
 		return 4;
 	}
-	else if ([op isEqualToString:@"<"]) {
-		return 4;
-	}
-	else if ([op isEqualToString:@">"]) {
-		return 4;
-	}
-	else if ([op isEqualToString:@"<="]) {
-		return 4;
-	}
-	else if ([op isEqualToString:@">="]) {
-		return 4;
-	}
 	else if ([op isEqualToString:@"sinr"]) {
 		return 4;
 	}
@@ -90,18 +78,6 @@
 	else if ([op isEqualToString:@"C"]) {
 		return NO;
 	}
-	else if ([op isEqualToString:@"<"]) {
-		return NO;
-	}
-	else if ([op isEqualToString:@">"]) {
-		return NO;
-	}
-	else if ([op isEqualToString:@"<="]) {
-		return NO;
-	}
-	else if ([op isEqualToString:@">="]) {
-		return NO;
-	}
 	else if ([op isEqualToString:@"sinr"]) {
 		return NO;
 	}
@@ -152,9 +128,6 @@
 			return YES;
 		}
 		else if ([functionMark isEqualToString:@"RanInt#"]) {
-			return YES;
-		}
-		else if ([functionMark isEqualToString:@"if"]) {
 			return YES;
 		}
 		else
@@ -217,18 +190,6 @@
 			return YES;
 		}
 		else if ([op isEqualToString:@"C"]) {
-			return YES;
-		}
-		else if ([op isEqualToString:@"<"]) {
-			return YES;
-		}
-		else if ([op isEqualToString:@">"]) {
-			return YES;
-		}
-		else if ([op isEqualToString:@"<="]) {
-			return YES;
-		}
-		else if ([op isEqualToString:@">="]) {
 			return YES;
 		}
 		else if ([op isEqualToString:@"sinr"]) {

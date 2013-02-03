@@ -22,21 +22,31 @@ int main(int argc, const char * argv[])
 		myEquation1 = [NSMutableArray arrayWithObjects:@"sinr", @"(", N(2), @"+", N(3), @")", nil];
 		
 		NSMutableArray *myEquation2 = [NSMutableArray alloc];
-		myEquation2 = [NSMutableArray arrayWithObjects:N(3), @"+", N(4), nil];
+		myEquation2 = [NSMutableArray arrayWithObjects:N(3), N(5), @"+", N(2), @"*", nil];
 		
 		NSMutableArray *myEquation3 = [NSMutableArray alloc];
-		myEquation3 = [NSMutableArray arrayWithObjects:N(3),  @"*", @"fac", N(5), @"+", N(20) ,nil];
+		myEquation3 = [NSMutableArray arrayWithObjects:@"fac", N(5),nil];
 		
 		NSMutableArray *myEquation4 = [NSMutableArray alloc];
-		myEquation4 = [NSMutableArray arrayWithObjects:@"neg", N(3), @"+", N(9),nil];
+		myEquation4 = [NSMutableArray arrayWithObjects:@"neg", N(3), @"+",nil];
 		
 		
 		NSMutableArray *myEquation5 = [NSMutableArray alloc];
-		myEquation5 = [NSMutableArray arrayWithObjects:@"F_sum", @"(",N(3), @",", N(4),@")",@"+", N(9),nil];
+		myEquation5 = [NSMutableArray arrayWithObjects:@"F_pv", @"(",N(3), @",", N(5), @")",nil];
+		
+		NSMutableArray *myEquation6 = [NSMutableArray alloc];
+		myEquation6 = [NSMutableArray arrayWithObjects:@"Ran#",nil];
+		
+		NSMutableArray *myEquation7 = [NSMutableArray alloc];
+		myEquation7 = [NSMutableArray arrayWithObjects:@"RanInt#", @"(", N(1), N(3), @")",nil];
+		
+		NSMutableArray *myEquation8 = [NSMutableArray alloc];
+		myEquation8 = [NSMutableArray arrayWithObjects:N(10), @">", N(12),nil];
+		
 
 		// sample
 		INTCalculatorBrain *myCalc2 = [[INTCalculatorBrain alloc] init];
-		[myCalc2 setINTEquation:myEquation5];
+		[myCalc2 setINTEquation:myEquation8];
 		NSLog(@"%@", [myCalc2 returnEquation]);
 		
 		[myCalc2 transformToRPN];
@@ -44,12 +54,17 @@ int main(int argc, const char * argv[])
 		
 		NSLog(@"error:%@", [myCalc2 getError]);
 		
-		NSArray *func1 = [NSArray arrayWithObjects:@"a", @"b", @"+",nil];
-		[myCalc2 setCustomFunctions:@"F_sum" withFunction:func1];
-		//NSLog(@"customF: %@", [myCalc2 returnCustomFunctions]);
-
+		
+		 //Sample: set custom function
+		NSArray *func1 = [NSArray arrayWithObjects:@"a", @"b", @"+", @"2", @"*",nil];
+		[myCalc2 setCustomFunctions:@"F_pv" withFunction:func1];
+		
+		
+		
 		[myCalc2 performCalculation];
 		NSLog(@"result = %@", [myCalc2 returnEquation]);
+		
+		
 		
 	}
     return 0;

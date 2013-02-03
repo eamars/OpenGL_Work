@@ -10,9 +10,10 @@
 #import "RPNCalculatorBrain+OperatorSet.h"
 #import "math.h"
 #import "time.h"
+#import "INTCalculatorBrain.h"
 
 #define N(d) [NSNumber numberWithDouble:d]
-#define X(d) [[targetEquation objectAtIndex:d] doubleValue]
+#define X(d) [[self.RPNEquation objectAtIndex:d] doubleValue]
 
 
 @interface RPNCalculatorBrain ()
@@ -87,10 +88,12 @@
 		++ index;
 	}
 	
+	
 	// no more operand in equation stack, finish calculaton
 	if (!op) {
 		return YES;
 	}
+	
 	// do the calculation
 	double result = 0;
 	
@@ -115,42 +118,6 @@
 				int arg2 = (int)X(index - 1);
 				
 				result = [self factorial:arg1] / ([self factorial:(arg1 - arg2)] * [self factorial:arg2]);
-			}
-			else if ([op isEqualToString:@"<"]) {
-				double arg1 = X(index - 2);
-				double arg2 = X(index - 1);
-				if (arg1 < arg2) {
-					result = YES;
-				}
-				else
-					result = NO;
-			}
-			else if ([op isEqualToString:@">"]) {
-				double arg1 = X(index - 2);
-				double arg2 = X(index - 1);
-				if (arg1 > arg2) {
-					result = YES;
-				}
-				else
-					result = NO;
-			}
-			else if ([op isEqualToString:@"<="]) {
-				double arg1 = X(index - 2);
-				double arg2 = X(index - 1);
-				if (arg1 <= arg2) {
-					result = YES;
-				}
-				else
-					result = NO;
-			}
-			else if ([op isEqualToString:@">="]) {
-				double arg1 = X(index - 2);
-				double arg2 = X(index - 1);
-				if (arg1 >= arg2) {
-					result = YES;
-				}
-				else
-					result = NO;
 			}
 			else if ([op isEqualToString:@"-"]) {
 				result = X(index - 2) - X(index - 1);
@@ -227,15 +194,6 @@
 					result = rand() % (arg2 - arg1 + 1) + arg1;
 				}
 			}
-			else if ([op isEqualToString:@"if"]) {
-				numberOfOperand = 1;
-				if (X(index - 1)) {
-					result = YES;
-				}
-				else
-					result = NO;
-			}
-			
 		}
 	}
 	
@@ -247,42 +205,40 @@
 		// get number of arguments
 		numberOfOperand = (int)[self numberOfArgument:customFunction];
 		
-		
 		// assign value
-		unsigned int i = 0;
-		unsigned int internalIndex = (unsigned int)[customFunction count] - 1;
-		while (i < numberOfOperand) {
-			if (![self isKindOfArgument:[customFunction objectAtIndex:internalIndex]]) {
-				-- internalIndex;
-			}
-			else {
-				[customFunction replaceObjectAtIndex:internalIndex withObject:[targetEquation objectAtIndex:index - i - 1]];
-				++ i;
+		NSInteger count = [customFunction count];
+		for (NSInteger i = count - 1, j = numberOfOperand; i >= 0; --i, --j) {
+			if ([self isKindOfArgument:[customFunction objectAtIndex:i]]) {
+				[customFunction replaceObjectAtIndex:i withObject:[targetEquation objectAtIndex:j]];
 			}
 		}
 		
 		
 		// perform on custom function
+		/*
 		RPNCalculatorBrain *customCalc = [[RPNCalculatorBrain alloc] init];
 		[customCalc setRPNEquation:customFunction];
 		[customCalc performCalculation];
-		
-		result = [[customFunction objectAtIndex:0] doubleValue];
+		result = [[[customCalc returnEquation] objectAtIndex:0] doubleValue];
+		*/
+		INTCalculatorBrain *customCalc = [[INTCalculatorBrain alloc] init];
+		[customCalc setINTEquation:customFunction];
+		[customCalc transformToRPN];
+		[customCalc performCalculation];
+		result = [[[customCalc returnEquation] objectAtIndex:0] doubleValue];
 		
 	}
 	
-	// safely remove operand
+	
+	// safely remove operand, f1, f2
 	if (index >= numberOfOperand) {
 		for (short i = 0; i < numberOfOperand + 1; ++ i) {
-			if (targetEquation) {
-				[targetEquation removeObjectAtIndex:(index - numberOfOperand)];
+			if (self.RPNEquation) {
+				[self.RPNEquation removeObjectAtIndex:(index - numberOfOperand)];
 			}
 		}
 		// push result to stack
-		if (N(result)) {
-			[targetEquation insertObject:N(result) atIndex:index -numberOfOperand];
-		}
-		
+		[self.RPNEquation insertObject:N(result) atIndex:index -numberOfOperand];
 		return NO;
 	}
 	else

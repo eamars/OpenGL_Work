@@ -30,18 +30,6 @@
 	else if ([op isEqualToString:@"C"]) {
 		return YES;
 	}
-	else if ([op isEqualToString:@"<"]) {
-		return YES;
-	}
-	else if ([op isEqualToString:@">"]) {
-		return YES;
-	}
-	else if ([op isEqualToString:@"<="]) {
-		return YES;
-	}
-	else if ([op isEqualToString:@">="]) {
-		return YES;
-	}
     else
         return NO;
 }
@@ -90,10 +78,7 @@
 	if ([op isEqualToString:@"Ran#"]) {
 		return YES;
 	}
-	else if ([op isEqualToString:@"RanInt#"]) {
-		return YES;
-	}
-	else if ([op isEqualToString:@"if"]) {
+	if ([op isEqualToString:@"RanInt#"]) {
 		return YES;
 	}
 	else

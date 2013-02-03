@@ -158,16 +158,8 @@
 			NSString *op;
 			
 			for (op = [operatorStack lastObject]; ![self isLeftBracket:op]; op = [operatorStack lastObject]) {
-				if (operatorStack) {
-					[operatorStack removeLastObject];
-				}
-				else
-					return YES;
-				if (op) {
-					[outputQueue addObject:op];
-				}
-				else
-					return YES;
+				[operatorStack removeLastObject];
+				[outputQueue addObject:op];
 			}
 			
 			// remove left bracket
@@ -175,7 +167,7 @@
 				[operatorStack removeLastObject];
 			}
 			else {
-				self.errorInfo = @"#ERROR01:failed to remove left bracket";
+				self.errorInfo = @"#ERROR02:failed to remove left bracket";
 				return NO;
 			}
 				
@@ -231,7 +223,7 @@
 
 - (void) setCustomFunctions:(NSString *)name withFunction:(NSArray *)function
 {
-	//NSLog(@"name = %@, func = %@", name, function);
+	NSLog(@"name = %@, func = %@", name, function);
 	[[self.RPNCalculator customFunctions] setValue:function forKey:name];
 	
 }
