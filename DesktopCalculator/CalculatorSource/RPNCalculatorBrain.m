@@ -10,7 +10,6 @@
 #import "RPNCalculatorBrain+OperatorSet.h"
 #import "math.h"
 #import "time.h"
-#import "INTCalculatorBrain.h"
 
 #define N(d) [NSNumber numberWithDouble:d]
 #define X(d) [[self.RPNEquation objectAtIndex:d] doubleValue]
@@ -206,31 +205,31 @@
 		numberOfOperand = (int)[self numberOfArgument:customFunction];
 		
 		// assign value
-		NSInteger count = [customFunction count];
-		for (NSInteger i = count - 1, j = numberOfOperand; i >= 0; --i, --j) {
-			if ([self isKindOfArgument:[customFunction objectAtIndex:i]]) {
-				[customFunction replaceObjectAtIndex:i withObject:[targetEquation objectAtIndex:j]];
+		unsigned int i = 0;
+		unsigned int internalIndex = (unsigned int)[customFunction count] - 1;
+		while (i < numberOfOperand) {
+			if (![self isKindOfArgument:[customFunction objectAtIndex:internalIndex]]) {
+				-- internalIndex;
+			}
+			else {
+				[customFunction replaceObjectAtIndex:internalIndex withObject:[targetEquation objectAtIndex:index - i - 1]];
+				++ i;
 			}
 		}
 		
 		
 		// perform on custom function
-		/*
+		
 		RPNCalculatorBrain *customCalc = [[RPNCalculatorBrain alloc] init];
 		[customCalc setRPNEquation:customFunction];
 		[customCalc performCalculation];
-		result = [[[customCalc returnEquation] objectAtIndex:0] doubleValue];
-		*/
-		INTCalculatorBrain *customCalc = [[INTCalculatorBrain alloc] init];
-		[customCalc setINTEquation:customFunction];
-		[customCalc transformToRPN];
-		[customCalc performCalculation];
+		
 		result = [[[customCalc returnEquation] objectAtIndex:0] doubleValue];
 		
 	}
 	
 	
-	// safely remove operand, f1, f2
+	// safely remove operand
 	if (index >= numberOfOperand) {
 		for (short i = 0; i < numberOfOperand + 1; ++ i) {
 			if (self.RPNEquation) {
@@ -238,7 +237,10 @@
 			}
 		}
 		// push result to stack
-		[self.RPNEquation insertObject:N(result) atIndex:index -numberOfOperand];
+		if (N(result)) {
+			[self.RPNEquation insertObject:N(result) atIndex:index -numberOfOperand];
+		}
+		
 		return NO;
 	}
 	else

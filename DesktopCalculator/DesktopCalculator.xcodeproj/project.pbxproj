@@ -22,6 +22,8 @@
 		B9EFBE4A16BD3FBF009AA0E5 /* RPNCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBE4516BD3FBF009AA0E5 /* RPNCalculatorBrain.m */; };
 		B9EFBE4B16BD3FBF009AA0E5 /* RPNCalculatorBrain+OperatorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBE4716BD3FBF009AA0E5 /* RPNCalculatorBrain+OperatorSet.m */; };
 		B9EFBE5A16BD4AE7009AA0E5 /* button_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = B9EFBE5916BD4AE7009AA0E5 /* button_orange.png */; };
+		B9EFBE5C16BD4BAF009AA0E5 /* button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = B9EFBE5B16BD4BAF009AA0E5 /* button_black.png */; };
+		B9EFBE6416BD6F95009AA0E5 /* Calculator.icns in Resources */ = {isa = PBXBuildFile; fileRef = B9EFBE6316BD6F95009AA0E5 /* Calculator.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		B9EFBE4E16BD4560009AA0E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
 		B9EFBE4F16BD4560009AA0E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		B9EFBE5916BD4AE7009AA0E5 /* button_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_orange.png; path = ImageResource/button_orange.png; sourceTree = "<group>"; };
+		B9EFBE5B16BD4BAF009AA0E5 /* button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_black.png; path = ImageResource/button_black.png; sourceTree = "<group>"; };
+		B9EFBE6316BD6F95009AA0E5 /* Calculator.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Calculator.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 		B9EFBDF316BD32B0009AA0E5 = {
 			isa = PBXGroup;
 			children = (
+				B9EFBE6316BD6F95009AA0E5 /* Calculator.icns */,
 				B9EFBE5016BD475F009AA0E5 /* ImageResource */,
 				B9EFBE3316BD3F4A009AA0E5 /* CalculatorSource */,
 				B9EFBE0516BD32B0009AA0E5 /* DesktopCalculator */,
@@ -191,6 +196,7 @@
 		B9EFBE5016BD475F009AA0E5 /* ImageResource */ = {
 			isa = PBXGroup;
 			children = (
+				B9EFBE5B16BD4BAF009AA0E5 /* button_black.png */,
 				B9EFBE5916BD4AE7009AA0E5 /* button_orange.png */,
 			);
 			name = ImageResource;
@@ -272,6 +278,8 @@
 				B9EFBE1016BD32B0009AA0E5 /* Credits.rtf in Resources */,
 				B9EFBE1616BD32B1009AA0E5 /* MainMenu.xib in Resources */,
 				B9EFBE5A16BD4AE7009AA0E5 /* button_orange.png in Resources */,
+				B9EFBE5C16BD4BAF009AA0E5 /* button_black.png in Resources */,
+				B9EFBE6416BD6F95009AA0E5 /* Calculator.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				B9EFBE2F16BD32B1009AA0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9EFBE3016BD32B1009AA0E5 /* Build configuration list for PBXNativeTarget "DesktopCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				B9EFBE3216BD32B1009AA0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "INTCalculatorBrain.h"
 #define N(d) [NSNumber numberWithDouble:d]
+#define C(d) [NSString stringWithFormat:@"%c", d]
 
 @interface AppDelegate ()
 
@@ -20,6 +21,10 @@
 @property (nonatomic, strong) NSMutableArray *myEquation;
 
 @property (nonatomic, strong) NSNumber *answerFromLastCalculation;
+
+@property (weak) IBOutlet NSTextField *nameOfCustomFunction;
+@property (weak) IBOutlet NSTokenField *contentOfCustomFunction;
+
 
 @end
 
@@ -45,6 +50,9 @@
 @synthesize myCalculatorSettings = _myCalculatorSettings;
 @synthesize defaultCalculatorSettings = _defaultCalculatorSettings;
 @synthesize answerFromLastCalculation = _answerFromLastCalculation;
+
+@synthesize nameOfCustomFunction = _nameOfCustomFunction;
+@synthesize contentOfCustomFunction = _contentOfCustomFunction;
 
 
 - (IBAction)digitPressed:(NSButton *)sender {
@@ -103,6 +111,67 @@
     
     // push operator to equation stack
 	[self.myEquation addObject:op];
+}
+
+- (IBAction)separaterPressed:(NSButton *)sender {
+	if (self.isInTheMiddleOfTyping == NO) {
+        self.display.stringValue = @"";
+        self.isInTheMiddleOfTyping = YES;
+    }
+    
+    // push number(double value) to equation stack
+    if (![self.numberString isEqualToString:@""]) {
+		[self.myEquation addObject:N([self.numberString doubleValue])];
+    }
+    
+    //clean number string
+    self.numberString = @"";
+	
+	// append operator sign to display string
+    self.display.stringValue = [self.display.stringValue stringByAppendingString:sender.title];
+    
+    // push operator to equation stack
+	[self.myEquation addObject:sender.title];
+}
+
+
+
+- (IBAction)internalFunctionPressed:(NSButton *)sender {
+	if (self.isInTheMiddleOfTyping == NO) {
+        self.display.stringValue = @"";
+        self.isInTheMiddleOfTyping = YES;
+    }
+	
+	if (![self.numberString isEqualToString:@""]) {
+		[self.myEquation addObject:N([self.numberString doubleValue])];
+    }
+	
+	//clean number string
+    self.numberString = @"";
+	
+	
+	// for RanInt, add a left bracket
+	if ([sender.title isEqualToString:@"RanInt#"]) {
+		self.display.stringValue = [self.display.stringValue stringByAppendingString:sender.title];
+		self.display.stringValue = [self.display.stringValue stringByAppendingString:@"("];
+		
+		[self.myEquation addObject:sender.title];
+		[self.myEquation addObject:@"("];
+	}
+	
+	// for nCr, only append C and push C into stack
+	else if ([sender.title isEqualToString:@"nCr"]) {
+		self.display.stringValue = [self.display.stringValue stringByAppendingString:@"C"];
+		[self.myEquation addObject:@"C"];
+	}
+	
+	else {
+		// append operator sign to display string
+		self.display.stringValue = [self.display.stringValue stringByAppendingString:sender.title];
+		
+		// push operator to equation stack
+		[self.myEquation addObject:sender.title];
+	}
 }
 
 - (IBAction)specialOperationPressed:(NSButton *)sender {
@@ -207,6 +276,7 @@
     }
 }
 
+
 - (IBAction)equalPressed:(NSButton *)sender {
 	// push number(double value) to equation stack
     if ([self.numberString isEqualToString:@""] == NO) {
@@ -278,6 +348,99 @@
 		[self updateConfigureStatus];
 	}
 }
+
+- (IBAction)addPressed:(NSButton *)sender {
+	if (self.isInTheMiddleOfTyping == NO) {
+        self.display.stringValue = @"";
+        self.isInTheMiddleOfTyping = YES;
+    }
+    
+    if (![self.numberString isEqualToString:@""]) {
+		[self.myEquation addObject:N([self.numberString doubleValue])];
+    }
+	
+    
+    //clean number string
+    self.numberString = @"";
+	
+	// function check
+	BOOL isValid = YES;
+	
+	// if no name add
+	if ([self.nameOfCustomFunction.stringValue isEqualToString:@"F_"]) {
+		self.resultDisplay.stringValue = @"No name add";
+		isValid = NO;
+	}
+	
+	// invalid name
+	if ([self.nameOfCustomFunction.stringValue length] > 10) {
+		self.resultDisplay.stringValue = @"Name must shorter than 10 characters";
+		isValid = NO;
+	}
+	
+	// invalid name
+	if ([self.nameOfCustomFunction.stringValue characterAtIndex:0] != 'F' || [self.nameOfCustomFunction.stringValue characterAtIndex:1] != '_') {
+		self.resultDisplay.stringValue = @"Name must start with F_";
+		isValid = NO;
+	}
+	
+	// if no function add
+	if ([self.contentOfCustomFunction.stringValue isEqualToString:@""]) {
+		self.resultDisplay.stringValue = @"No function add";
+		isValid = NO;
+	}
+	
+	if ([self.contentOfCustomFunction.stringValue length] > 80) {
+		self.resultDisplay.stringValue = @"Function too long";
+		isValid = NO;
+	}
+	
+	// add function
+	if (isValid ) {
+		NSMutableArray *function = [[NSMutableArray alloc] initWithCapacity:50];
+		/*
+		for (unsigned int i = 0; i < [self.contentOfCustomFunction.stringValue length]; ++ i) {
+			[function addObject:C([self.contentOfCustomFunction.stringValue characterAtIndex:i])];
+		}
+		*/
+		
+		NSString *op = [[NSString alloc] init];
+		for (unsigned int i = 0; i < [self.contentOfCustomFunction.stringValue length]; ++ i) {
+			if ([self.contentOfCustomFunction.stringValue characterAtIndex:i] != ',') {
+				op = [op stringByAppendingString:C([self.contentOfCustomFunction.stringValue characterAtIndex:i])];
+			}
+			else {
+				//NSLog(@"opValue = %g", [op doubleValue]);
+				if ([op doubleValue]) {
+					[function addObject:N([op doubleValue])];
+				}
+				else
+					[function addObject:op];
+				op = @"";
+			}
+		}
+		if (![op isEqualToString:@""]) {
+			[function addObject:op];
+		}
+		
+		NSLog(@"func = %@", function);
+		
+		[self.myCalculator setCustomFunctions:self.nameOfCustomFunction.stringValue withFunction:[function copy]];
+		
+		// append on string
+		self.display.stringValue = [self.display.stringValue stringByAppendingString:self.nameOfCustomFunction.stringValue];
+		self.display.stringValue = [self.display.stringValue stringByAppendingString:@"("];
+		
+		// push operator to equation stack
+		[self.myEquation addObject:self.nameOfCustomFunction.stringValue];
+		[self.myEquation addObject:@"("];
+	}
+	
+}
+
+
+
+// buttons finish
 
 - (NSNumber *) answerFromLastCalculation
 {
