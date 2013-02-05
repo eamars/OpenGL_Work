@@ -116,7 +116,6 @@
 		else if ([self isKindOfOperator:object]) {
 			NSString *op1, *op2;
 			op1 = object;
-			
 			/*
 			op2 = [operatorStack lastObject];
 			if (op2) {

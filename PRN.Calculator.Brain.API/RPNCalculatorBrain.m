@@ -86,11 +86,11 @@
 		}
 		++ index;
 	}
-	
 	// no more operand in equation stack, finish calculaton
 	if (!op) {
 		return YES;
 	}
+	
 	// do the calculation
 	double result = 0;
 	
@@ -113,8 +113,47 @@
 			else if ([op isEqualToString:@"C"]) {
 				int arg1 = (int)X(index - 2);
 				int arg2 = (int)X(index - 1);
-				
 				result = [self factorial:arg1] / ([self factorial:(arg1 - arg2)] * [self factorial:arg2]);
+			}
+			else if ([op isEqualToString:@"equal"]) {
+				double arg1 = X(index - 2);
+				double arg2 = X(index - 1);
+				if (fabs(arg1 - arg2) < 0.000000001) {
+					result = YES;
+				}
+				else
+					result = NO;
+			}
+			else if ([op isEqualToString:@"or"]) {
+				int arg1 = (int)X(index - 2);
+				int arg2 = (int)X(index - 1);
+				if (arg1 || arg2) {
+					result = YES;
+				}
+				else
+					result = NO;
+			}
+			else if ([op isEqualToString:@"xor"]) {
+				int arg1 = (int)X(index - 2);
+				int arg2 = (int)X(index - 1);
+				if (!arg1 && !arg2) {
+					result = NO;
+				}
+				else if (!arg1 && arg2)
+					result = YES;
+				else if (arg1 && !arg2)
+					result = YES;
+				else if (arg1 && arg2)
+					result = NO;
+			}
+			else if ([op isEqualToString:@"and"]) {
+				int arg1 = (int)X(index - 2);
+				int arg2 = (int)X(index - 1);
+				if (arg1 && arg2) {
+					result = YES;
+				}
+				else
+					result = NO;
 			}
 			else if ([op isEqualToString:@"<"]) {
 				double arg1 = X(index - 2);
@@ -219,21 +258,31 @@
 			}
 			else if ([op isEqualToString:@"RanInt#"]) {
 				numberOfOperand = 2;
-				int arg1 = (int)X(index - 2);
-				int arg2 = (int)X(index - 1);
-				// the argument is valid
-				if (arg2 > arg1) {
-					srand((int) time(NULL));
-					result = rand() % (arg2 - arg1 + 1) + arg1;
+				if (index >= numberOfOperand) {
+					int arg1 = (int)X(index - 2);
+					int arg2 = (int)X(index - 1);
+					// the argument is valid
+					if (arg2 > arg1) {
+						srand((int) time(NULL));
+						result = rand() % (arg2 - arg1 + 1) + arg1;
+					}
 				}
+				
 			}
 			else if ([op isEqualToString:@"if"]) {
 				numberOfOperand = 1;
-				if (X(index - 1)) {
-					result = YES;
+				if (index >= numberOfOperand) {
+					if (X(index - 1)) {
+						result = YES;
+					}
+					else
+						result = NO;
 				}
-				else
-					result = NO;
+				
+			}
+			else if ([op isEqualToString:@"sum"]) {
+				
+				
 			}
 			
 		}

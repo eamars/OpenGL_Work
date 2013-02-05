@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+#ifdef DEBUG
+#define API_VERSION @"1.2.1A"
+#else
+#define API_VERSION @"1.2.1B"
+#endif
+
 @interface INTCalculatorBrain : NSObject
 
 @property (nonatomic, strong) NSMutableArray *INTEquation;

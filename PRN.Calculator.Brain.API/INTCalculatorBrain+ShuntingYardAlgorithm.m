@@ -24,6 +24,18 @@
 	else if ([op isEqualToString:@"C"]) {
 		return 4;
 	}
+	else if ([op isEqualToString:@"or"]) {
+		return 4;
+	}
+	else if ([op isEqualToString:@"and"]) { // and > or
+		return 5;
+	}
+	else if ([op isEqualToString:@"xor"]) {
+		return 4;
+	}
+	else if ([op isEqualToString:@"equal"]) {
+		return 4;
+	}
 	else if ([op isEqualToString:@"<"]) {
 		return 4;
 	}
@@ -88,6 +100,18 @@
 		return NO;
 	}
 	else if ([op isEqualToString:@"C"]) {
+		return NO;
+	}
+	else if ([op isEqualToString:@"equal"]) {
+		return NO;
+	}
+	else if ([op isEqualToString:@"or"]) {
+		return NO;
+	}
+	else if ([op isEqualToString:@"xor"]) {
+		return NO;
+	}
+	else if ([op isEqualToString:@"and"]) {
 		return NO;
 	}
 	else if ([op isEqualToString:@"<"]) {
@@ -157,6 +181,15 @@
 		else if ([functionMark isEqualToString:@"if"]) {
 			return YES;
 		}
+		else if ([functionMark isEqualToString:@"sum"]) {
+			return YES;
+		}
+		else if ([functionMark isEqualToString:@"sd"]) {
+			return YES;
+		}
+		else if ([functionMark isEqualToString:@"mean"]) {
+			return YES;
+		}
 		else
 			return NO;
 	}
@@ -217,6 +250,18 @@
 			return YES;
 		}
 		else if ([op isEqualToString:@"C"]) {
+			return YES;
+		}
+		else if ([op isEqualToString:@"or"]) {
+			return YES;
+		}
+		else if ([op isEqualToString:@"xor"]) {
+			return YES;
+		}
+		else if ([op isEqualToString:@"and"]) {
+			return YES;
+		}
+		else if ([op isEqualToString:@"equal"]) {
 			return YES;
 		}
 		else if ([op isEqualToString:@"<"]) {

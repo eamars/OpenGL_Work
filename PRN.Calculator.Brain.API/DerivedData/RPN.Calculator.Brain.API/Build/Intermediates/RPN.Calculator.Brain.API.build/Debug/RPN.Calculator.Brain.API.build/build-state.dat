@@ -1,0 +1,201 @@
+TRPN.Calculator.Brain.API
+v5
+r1
+cCheck dependencies
+cProcessPCH /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch.pth PRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/main.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain+OperatorSet.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain+OperatorSet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain+ShuntingYardAlgorithm.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain+ShuntingYardAlgorithm.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/RPN.Calculator.Brain.API normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005109F82400000000000000AA
+t1359607844
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050EE407900000000000C39B8
+t1357791353
+s801208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050EE407900000000000015F7
+t1357791353
+s5623
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch.pth
+t2
+s0
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain+ShuntingYardAlgorithm.o
+t2
+s0
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain.o
+t2
+s0
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPN.Calculator.Brain.API.LinkFileList
+c000000005110757C000000000000043D
+t1360033148
+s1085
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain+OperatorSet.o
+t2
+s0
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain.o
+t2
+s0
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/RPN.Calculator.Brain.API
+t2
+s0
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain+ShuntingYardAlgorithm.m
+c00000000510F8A5F00000000000018C8
+t1359972959
+s6344
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain.m
+c00000000510F83FF00000000000016C8
+t1359971327
+s5832
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch
+c00000000510A84C100000000000000BA
+t1359643841
+s186
+i<Foundation/Foundation.h>
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/main.m
+c00000000510F865F000000000000080E
+t1359971935
+s2062
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain+OperatorSet.m
+c00000000510F864F0000000000000B7F
+t1359971919
+s2943
+
+N/Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain.m
+c000000005110757C0000000000001D47
+t1360033148
+s7495
+
+CBuild AST from /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain+ShuntingYardAlgorithm.m
+r0
+
+CBuild AST from /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain.m
+r0
+
+CBuild AST from /Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/main.m
+r0
+
+CBuild AST from /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain+OperatorSet.m
+r0
+
+CBuild AST from /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9d4a8efcacc0b641^2ac49bfcacc0b641^---0#1#0#--18"Check dependencies36"9294E2F8-7713-4981-9CEA-2C514CF15F18-
+
+CCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain+ShuntingYardAlgorithm.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain+ShuntingYardAlgorithm.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381725949.416529
+e381725949.459224
+r1
+xCompileC
+xDerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain+ShuntingYardAlgorithm.o
+x/Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain+ShuntingYardAlgorithm.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain+ShuntingYardAlgorithm.m79ca6afdacc0b641^9f9075fdacc0b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain+ShuntingYardAlgorithm.m0000000000000000^4284"CompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain+ShuntingYardAlgorithm.o INTCalculatorBrain+ShuntingYardAlgorithm.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/RanBao/Codes/PRN.Calculator.Brain.API    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-generated-files.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-own-target-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-all-target-headers.hmap -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-project-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources/x86_64 -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources -F/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug -include /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch -MMD -MT dependencies -MF /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain+ShuntingYardAlgorithm.d --serialize-diagnostics /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain+ShuntingYardAlgorithm.dia -c /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain+ShuntingYardAlgorithm.m -o /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain+ShuntingYardAlgorithm.o36"F2A44D37-5D13-433B-86F1-04D47E3169D8-
+
+CCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381725949.260105
+e381725949.420856
+r1
+xCompileC
+xDerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain.o
+x/Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain.m01bf42fdacc0b641^7fbc6bfdacc0b641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain.m0000000000000000^4152"CompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain.o INTCalculatorBrain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/RanBao/Codes/PRN.Calculator.Brain.API    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-generated-files.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-own-target-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-all-target-headers.hmap -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-project-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources/x86_64 -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources -F/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug -include /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch -MMD -MT dependencies -MF /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain.d --serialize-diagnostics /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain.dia -c /Users/RanBao/Codes/PRN.Calculator.Brain.API/INTCalculatorBrain.m -o /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/INTCalculatorBrain.o36"16DD51EA-FC16-42C6-BDBD-E9CCE52771D7-
+
+CCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain+OperatorSet.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain+OperatorSet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381725949.259522
+e381725949.437332
+r1
+xCompileC
+xDerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain+OperatorSet.o
+x/Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain+OperatorSet.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain+OperatorSet.m16a742fdacc0b641^8cf36ffdacc0b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain+OperatorSet.m0000000000000000^4224"CompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain+OperatorSet.o RPNCalculatorBrain+OperatorSet.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/RanBao/Codes/PRN.Calculator.Brain.API    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-generated-files.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-own-target-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-all-target-headers.hmap -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-project-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources/x86_64 -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources -F/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug -include /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch -MMD -MT dependencies -MF /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain+OperatorSet.d --serialize-diagnostics /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain+OperatorSet.dia -c /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain+OperatorSet.m -o /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain+OperatorSet.o36"83A6D37A-18DB-4A73-BC70-DB1488DC596E-
+
+CCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381725949.259507
+e381725949.436084
+r1
+xCompileC
+xDerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain.o
+x/Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain.m2ba642fdacc0b641^8ca26ffdacc0b641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain.m0000000000000000^4152"CompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain.o RPNCalculatorBrain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/RanBao/Codes/PRN.Calculator.Brain.API    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-generated-files.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-own-target-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-all-target-headers.hmap -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-project-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources/x86_64 -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources -F/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug -include /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch -MMD -MT dependencies -MF /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain.d --serialize-diagnostics /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain.dia -c /Users/RanBao/Codes/PRN.Calculator.Brain.API/RPNCalculatorBrain.m -o /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPNCalculatorBrain.o36"7609A2AB-74C2-4241-9C2D-32FB574D24ED-
+
+CCompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/main.o /Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381725949.259511
+e381725949.415180
+r1
+xCompileC
+xDerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/main.o
+x/Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/main.mfda442fdacc0b641^4b596afdacc0b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/main.m0000000000000000^4118"CompileC DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/main.o PRN.Calculator.Brain.API/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/RanBao/Codes/PRN.Calculator.Brain.API    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-generated-files.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-own-target-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-all-target-headers.hmap -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-project-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources/x86_64 -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources -F/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug -include /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch -MMD -MT dependencies -MF /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/main.dia -c /Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/main.m -o /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/main.o36"D6AC81A4-B097-4E00-92D7-26A0023FD705-
+
+CLd /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/RPN.Calculator.Brain.API normal x86_64
+s381725949.466306
+e381725949.490418
+r1
+xLd
+x/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/RPN.Calculator.Brain.API
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/RPN.Calculator.Brain.APIef7077fdacc0b641^938f7dfdacc0b641^---0#0#0#--1072"Ld DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/RPN.Calculator.Brain.API normal x86_64    cd /Users/RanBao/Codes/PRN.Calculator.Brain.API    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug -F/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug -filelist /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/Objects-normal/x86_64/RPN.Calculator.Brain.API.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework Foundation -o /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/RPN.Calculator.Brain.API36"A42B68C9-ED7C-4FF2-92D4-E2BD5B9AED67-
+
+CProcessPCH /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch.pth PRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381725948.612950
+e381725949.252969
+r1
+xProcessPCH
+x/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch.pth
+xPRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile PRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch98169dfcacc0b641^c6c240fdacc0b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch0000000000000000^4046"ProcessPCH DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch.pth PRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/RanBao/Codes/PRN.Calculator.Brain.API    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-generated-files.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-own-target-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-all-target-headers.hmap -iquote /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/RPN.Calculator.Brain.API-project-headers.hmap -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources/x86_64 -I/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/RPN.Calculator.Brain.API.build/Debug/RPN.Calculator.Brain.API.build/DerivedSources -F/Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Products/Debug --serialize-diagnostics /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch.dia -c /Users/RanBao/Codes/PRN.Calculator.Brain.API/PRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch -o /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch.pth -MMD -MT dependencies -MF /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Build/Intermediates/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-axqajbtjhgqswreauiuvbavknlqd/RPN.Calculator.Brain.API-Prefix.pch.d36"F90231F5-77B5-490B-BFA4-32C31BA0D6F0-
+
+CProcessPCH /Users/RanBao/Codes/PRN.Calculator.Brain.API/DerivedData/RPN.Calculator.Brain.API/Index/PrecompiledHeaders/RPN.Calculator.Brain.API-Prefix-cxyfjrlmddqmfkbugoqacyrybpoe_ast/RPN.Calculator.Brain.API-Prefix.pch.pth PRN.Calculator.Brain.API/RPN.Calculator.Brain.API-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

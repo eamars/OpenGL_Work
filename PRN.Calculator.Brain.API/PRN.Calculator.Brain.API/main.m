@@ -41,7 +41,7 @@ int main(int argc, const char * argv[])
 		myEquation7 = [NSMutableArray arrayWithObjects:@"RanInt#", @"(", N(1), N(3), @")",nil];
 		
 		NSMutableArray *myEquation8 = [NSMutableArray alloc];
-		myEquation8 = [NSMutableArray arrayWithObjects:N(10), @">", N(12),nil];
+		myEquation8 = [NSMutableArray arrayWithObjects:N(YES), @"xor", N(YES),nil];
 		
 
 		// sample

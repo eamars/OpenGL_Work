@@ -30,6 +30,18 @@
 	else if ([op isEqualToString:@"C"]) {
 		return YES;
 	}
+	else if ([op isEqualToString:@"equal"]) {
+		return YES;
+	}
+	else if ([op isEqualToString:@"or"]) {
+		return YES;
+	}
+	else if ([op isEqualToString:@"xor"]) {
+		return YES;
+	}
+	else if ([op isEqualToString:@"and"]) {
+		return YES;
+	}
 	else if ([op isEqualToString:@"<"]) {
 		return YES;
 	}
