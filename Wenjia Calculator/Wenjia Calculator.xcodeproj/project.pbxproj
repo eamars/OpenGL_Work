@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92DB5B016C0CED700C3B616 /* button_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B92DB5AF16C0CED700C3B616 /* button_blue.png */; };
+		B92DB5B216C0CF2C00C3B616 /* button_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = B92DB5B116C0CF2C00C3B616 /* button_pink.png */; };
+		B92DB5B416C0D03600C3B616 /* button_fadeblue.png in Resources */ = {isa = PBXBuildFile; fileRef = B92DB5B316C0D03600C3B616 /* button_fadeblue.png */; };
+		B92DB5B916C0DAF800C3B616 /* view_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B92DB5B816C0DAF800C3B616 /* view_background.png */; };
+		B92DB5BD16C0DCDD00C3B616 /* view_pattern_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B92DB5BC16C0DCDD00C3B616 /* view_pattern_background.png */; };
+		B92DB5BF16C0DD7700C3B616 /* view_pattern_background_faded.png in Resources */ = {isa = PBXBuildFile; fileRef = B92DB5BE16C0DD7700C3B616 /* view_pattern_background_faded.png */; };
+		B92DB5C716C0E34900C3B616 /* display_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B92DB5C616C0E34900C3B616 /* display_background.png */; };
+		B92DB5C916C0E74200C3B616 /* button_pink_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B92DB5C816C0E74200C3B616 /* button_pink_2.png */; };
+		B9AC9D7F16C0A3A40084254E /* INTCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC9D7816C0A3A40084254E /* INTCalculatorBrain.m */; };
+		B9AC9D8016C0A3A40084254E /* INTCalculatorBrain+ShuntingYardAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC9D7A16C0A3A40084254E /* INTCalculatorBrain+ShuntingYardAlgorithm.m */; };
+		B9AC9D8116C0A3A40084254E /* RPNCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC9D7C16C0A3A40084254E /* RPNCalculatorBrain.m */; };
+		B9AC9D8216C0A3A40084254E /* RPNCalculatorBrain+OperatorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC9D7E16C0A3A40084254E /* RPNCalculatorBrain+OperatorSet.m */; };
+		B9AC9D8416C0A8F00084254E /* button_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AC9D8316C0A8F00084254E /* button_orange.png */; };
+		B9AC9D8716C0A92E0084254E /* button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AC9D8616C0A92E0084254E /* button_black.png */; };
 		B9BB5F8216A3C46800C0E0FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8116A3C46800C0E0FE /* UIKit.framework */; };
 		B9BB5F8416A3C46800C0E0FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8316A3C46800C0E0FE /* Foundation.framework */; };
 		B9BB5F8616A3C46800C0E0FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8516A3C46800C0E0FE /* CoreGraphics.framework */; };
@@ -23,6 +37,8 @@
 		B9BB5FA816A3C46900C0E0FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB5F8316A3C46800C0E0FE /* Foundation.framework */; };
 		B9BB5FB016A3C46900C0E0FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5FAE16A3C46900C0E0FE /* InfoPlist.strings */; };
 		B9BB5FB316A3C46900C0E0FE /* Wenjia_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB5FB216A3C46900C0E0FE /* Wenjia_CalculatorTests.m */; };
+		B9BB5FBD16A3C69D00C0E0FE /* Retina_Icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5FBC16A3C69D00C0E0FE /* Retina_Icon_ipad.png */; };
+		B9BB5FBF16A3C69F00C0E0FE /* Icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5FBE16A3C69F00C0E0FE /* Icon_ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B92DB5AF16C0CED700C3B616 /* button_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_blue.png; sourceTree = "<group>"; };
+		B92DB5B116C0CF2C00C3B616 /* button_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pink.png; sourceTree = "<group>"; };
+		B92DB5B316C0D03600C3B616 /* button_fadeblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_fadeblue.png; sourceTree = "<group>"; };
+		B92DB5B816C0DAF800C3B616 /* view_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view_background.png; sourceTree = "<group>"; };
+		B92DB5BC16C0DCDD00C3B616 /* view_pattern_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view_pattern_background.png; sourceTree = "<group>"; };
+		B92DB5BE16C0DD7700C3B616 /* view_pattern_background_faded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view_pattern_background_faded.png; sourceTree = "<group>"; };
+		B92DB5C616C0E34900C3B616 /* display_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display_background.png; sourceTree = "<group>"; };
+		B92DB5C816C0E74200C3B616 /* button_pink_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pink_2.png; sourceTree = "<group>"; };
+		B9AC9D7716C0A3A40084254E /* INTCalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INTCalculatorBrain.h; path = CalculatorSource/INTCalculatorBrain.h; sourceTree = "<group>"; };
+		B9AC9D7816C0A3A40084254E /* INTCalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INTCalculatorBrain.m; path = CalculatorSource/INTCalculatorBrain.m; sourceTree = "<group>"; };
+		B9AC9D7916C0A3A40084254E /* INTCalculatorBrain+ShuntingYardAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "INTCalculatorBrain+ShuntingYardAlgorithm.h"; path = "CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.h"; sourceTree = "<group>"; };
+		B9AC9D7A16C0A3A40084254E /* INTCalculatorBrain+ShuntingYardAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "INTCalculatorBrain+ShuntingYardAlgorithm.m"; path = "CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m"; sourceTree = "<group>"; };
+		B9AC9D7B16C0A3A40084254E /* RPNCalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPNCalculatorBrain.h; path = CalculatorSource/RPNCalculatorBrain.h; sourceTree = "<group>"; };
+		B9AC9D7C16C0A3A40084254E /* RPNCalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPNCalculatorBrain.m; path = CalculatorSource/RPNCalculatorBrain.m; sourceTree = "<group>"; };
+		B9AC9D7D16C0A3A40084254E /* RPNCalculatorBrain+OperatorSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RPNCalculatorBrain+OperatorSet.h"; path = "CalculatorSource/RPNCalculatorBrain+OperatorSet.h"; sourceTree = "<group>"; };
+		B9AC9D7E16C0A3A40084254E /* RPNCalculatorBrain+OperatorSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RPNCalculatorBrain+OperatorSet.m"; path = "CalculatorSource/RPNCalculatorBrain+OperatorSet.m"; sourceTree = "<group>"; };
+		B9AC9D8316C0A8F00084254E /* button_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_orange.png; sourceTree = "<group>"; };
+		B9AC9D8616C0A92E0084254E /* button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_black.png; sourceTree = "<group>"; };
 		B9BB5F7D16A3C46800C0E0FE /* Wenjia Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wenjia Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BB5F8116A3C46800C0E0FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B9BB5F8316A3C46800C0E0FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +92,8 @@
 		B9BB5FAF16A3C46900C0E0FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B9BB5FB116A3C46900C0E0FE /* Wenjia_CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wenjia_CalculatorTests.h; sourceTree = "<group>"; };
 		B9BB5FB216A3C46900C0E0FE /* Wenjia_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wenjia_CalculatorTests.m; sourceTree = "<group>"; };
+		B9BB5FBC16A3C69D00C0E0FE /* Retina_Icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Retina_Icon_ipad.png; sourceTree = "<group>"; };
+		B9BB5FBE16A3C69F00C0E0FE /* Icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_ipad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +120,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B92DB5B516C0D9D500C3B616 /* view_background */ = {
+			isa = PBXGroup;
+			children = (
+				B92DB5C616C0E34900C3B616 /* display_background.png */,
+				B92DB5BE16C0DD7700C3B616 /* view_pattern_background_faded.png */,
+				B92DB5BC16C0DCDD00C3B616 /* view_pattern_background.png */,
+				B92DB5B816C0DAF800C3B616 /* view_background.png */,
+			);
+			name = view_background;
+			sourceTree = "<group>";
+		};
+		B9AC9D7616C0A3920084254E /* CalculatorSource */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC9D7716C0A3A40084254E /* INTCalculatorBrain.h */,
+				B9AC9D7816C0A3A40084254E /* INTCalculatorBrain.m */,
+				B9AC9D7916C0A3A40084254E /* INTCalculatorBrain+ShuntingYardAlgorithm.h */,
+				B9AC9D7A16C0A3A40084254E /* INTCalculatorBrain+ShuntingYardAlgorithm.m */,
+				B9AC9D7B16C0A3A40084254E /* RPNCalculatorBrain.h */,
+				B9AC9D7C16C0A3A40084254E /* RPNCalculatorBrain.m */,
+				B9AC9D7D16C0A3A40084254E /* RPNCalculatorBrain+OperatorSet.h */,
+				B9AC9D7E16C0A3A40084254E /* RPNCalculatorBrain+OperatorSet.m */,
+			);
+			name = CalculatorSource;
+			sourceTree = "<group>";
+		};
+		B9AC9D8516C0A91F0084254E /* button_background */ = {
+			isa = PBXGroup;
+			children = (
+				B92DB5C816C0E74200C3B616 /* button_pink_2.png */,
+				B92DB5B316C0D03600C3B616 /* button_fadeblue.png */,
+				B92DB5B116C0CF2C00C3B616 /* button_pink.png */,
+				B92DB5AF16C0CED700C3B616 /* button_blue.png */,
+				B9AC9D8616C0A92E0084254E /* button_black.png */,
+				B9AC9D8316C0A8F00084254E /* button_orange.png */,
+			);
+			name = button_background;
+			sourceTree = "<group>";
+		};
 		B9BB5F7216A3C46800C0E0FE = {
 			isa = PBXGroup;
 			children = (
+				B9BB5FBE16A3C69F00C0E0FE /* Icon_ipad.png */,
+				B9BB5FBC16A3C69D00C0E0FE /* Retina_Icon_ipad.png */,
 				B9BB5F8716A3C46800C0E0FE /* Wenjia Calculator */,
 				B9BB5FAB16A3C46900C0E0FE /* Wenjia CalculatorTests */,
 				B9BB5F8016A3C46800C0E0FE /* Frameworks */,
@@ -117,6 +194,7 @@
 		B9BB5F8716A3C46800C0E0FE /* Wenjia Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				B9AC9D7616C0A3920084254E /* CalculatorSource */,
 				B9BB5F9016A3C46800C0E0FE /* AppDelegate.h */,
 				B9BB5F9116A3C46800C0E0FE /* AppDelegate.m */,
 				B9BB5F9916A3C46800C0E0FE /* MainStoryboard.storyboard */,
@@ -130,6 +208,8 @@
 		B9BB5F8816A3C46800C0E0FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B92DB5B516C0D9D500C3B616 /* view_background */,
+				B9AC9D8516C0A91F0084254E /* button_background */,
 				B9BB5F8916A3C46800C0E0FE /* Wenjia Calculator-Info.plist */,
 				B9BB5F8A16A3C46800C0E0FE /* InfoPlist.strings */,
 				B9BB5F8D16A3C46800C0E0FE /* main.m */,
@@ -170,6 +250,7 @@
 				B9BB5F7916A3C46800C0E0FE /* Sources */,
 				B9BB5F7A16A3C46800C0E0FE /* Frameworks */,
 				B9BB5F7B16A3C46800C0E0FE /* Resources */,
+				B93E19AF16C0CC1700B917F4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -236,6 +317,18 @@
 				B9BB5F9616A3C46800C0E0FE /* Default@2x.png in Resources */,
 				B9BB5F9816A3C46800C0E0FE /* Default-568h@2x.png in Resources */,
 				B9BB5F9B16A3C46800C0E0FE /* MainStoryboard.storyboard in Resources */,
+				B9BB5FBD16A3C69D00C0E0FE /* Retina_Icon_ipad.png in Resources */,
+				B9BB5FBF16A3C69F00C0E0FE /* Icon_ipad.png in Resources */,
+				B9AC9D8416C0A8F00084254E /* button_orange.png in Resources */,
+				B9AC9D8716C0A92E0084254E /* button_black.png in Resources */,
+				B92DB5B016C0CED700C3B616 /* button_blue.png in Resources */,
+				B92DB5B216C0CF2C00C3B616 /* button_pink.png in Resources */,
+				B92DB5B416C0D03600C3B616 /* button_fadeblue.png in Resources */,
+				B92DB5B916C0DAF800C3B616 /* view_background.png in Resources */,
+				B92DB5BD16C0DCDD00C3B616 /* view_pattern_background.png in Resources */,
+				B92DB5BF16C0DD7700C3B616 /* view_pattern_background_faded.png in Resources */,
+				B92DB5C716C0E34900C3B616 /* display_background.png in Resources */,
+				B92DB5C916C0E74200C3B616 /* button_pink_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +343,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B93E19AF16C0CC1700B917F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
 		B9BB5FA216A3C46900C0E0FE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,6 +379,10 @@
 				B9BB5F8E16A3C46800C0E0FE /* main.m in Sources */,
 				B9BB5F9216A3C46800C0E0FE /* AppDelegate.m in Sources */,
 				B9BB5F9E16A3C46800C0E0FE /* ViewController.m in Sources */,
+				B9AC9D7F16C0A3A40084254E /* INTCalculatorBrain.m in Sources */,
+				B9AC9D8016C0A3A40084254E /* INTCalculatorBrain+ShuntingYardAlgorithm.m in Sources */,
+				B9AC9D8116C0A3A40084254E /* RPNCalculatorBrain.m in Sources */,
+				B9AC9D8216C0A3A40084254E /* RPNCalculatorBrain+OperatorSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +441,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -360,7 +471,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -380,6 +492,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wenjia Calculator/Wenjia Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Wenjia Calculator/Wenjia Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,6 +504,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wenjia Calculator/Wenjia Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Wenjia Calculator/Wenjia Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -449,6 +563,7 @@
 				B9BB5FB816A3C46900C0E0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9BB5FB916A3C46900C0E0FE /* Build configuration list for PBXNativeTarget "Wenjia CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +572,7 @@
 				B9BB5FBB16A3C46900C0E0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,541 @@
+TWenjia Calculator
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Info.plist" "Wenjia Calculator/Wenjia Calculator-Info.plist"
+cProcessPCH "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch.pth" "Wenjia Calculator/Wenjia Calculator-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/ViewController.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/ViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/AppDelegate.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/main.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain+ShuntingYardAlgorithm.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain+OperatorSet.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator" normal i386
+cGenerateDSYMFile "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app.dSYM" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator"
+cCopyStringsFile "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/en.lproj/InfoPlist.strings" "Wenjia Calculator/en.lproj/InfoPlist.strings"
+cCpResource "Wenjia Calculator/Default.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default.png"
+cCpResource "Wenjia Calculator/Default@2x.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default@2x.png"
+cCpResource "Wenjia Calculator/Default-568h@2x.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default-568h@2x.png"
+cCpResource Retina_Icon_ipad.png "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Retina_Icon_ipad.png"
+cCompileStoryboard "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/en.lproj/MainStoryboard.storyboard"
+cCpResource Icon_ipad.png "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Icon_ipad.png"
+cCpResource "Wenjia Calculator/button_orange.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_orange.png"
+cCpResource "Wenjia Calculator/button_black.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_black.png"
+cPhaseScriptExecution "Run Script" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Script-B93E19AF16C0CC1700B917F4.sh"
+cTouch "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c000000005102E2D30000000000000110
+t1359143635
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005109F7DA0000000000228FE0
+t1359607770
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005109F7DB00000000003DDFA0
+t1359607771
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005109F7DB00000000000015F7
+t1359607771
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000005109F7DF0000000000000E8D
+t1359607775
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005109F7E10000000000AB6230
+t1359607777
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c000000005109F7ED0000000000001B73
+t1359607789
+s7027
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch.pth
+t1360030894
+s4678584
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/AppDelegate.o
+t1360030894
+s86480
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain+ShuntingYardAlgorithm.o
+t1360033262
+s22416
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain.o
+t1360033262
+s24476
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain+OperatorSet.o
+t1360030895
+s16552
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain.o
+t1360033262
+s34028
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/ViewController.o
+t1360035008
+s142508
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/Wenjia Calculator.LinkFileList
+c0000000051106CAE000000000000057A
+t1360030894
+s1402
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/main.o
+t1360030894
+s3296
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Script-B93E19AF16C0CC1700B917F4.sh
+c00000000511094B6000000000000022B
+t1360041142
+s555
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app
+t1360041146
+s442
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app.dSYM
+t1360035008
+s102
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default-568h@2x.png
+t1360030895
+s18594
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default.png
+t1360030895
+s6540
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default@2x.png
+t1360030895
+s16107
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Icon_ipad.png
+t1360030895
+s16088
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Info.plist
+t1360030894
+s1045
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/PkgInfo
+t1360030894
+s8
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Retina_Icon_ipad.png
+t1360030895
+s62816
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator
+t1360035008
+s99800
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_black.png
+t1360032232
+s6417
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_orange.png
+t1360032232
+s6417
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/en.lproj/InfoPlist.strings
+t1360030895
+s42
+
+N/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/en.lproj/MainStoryboard.storyboardc
+t1360041146
+s170
+
+N/Users/RanBao/Codes/Wenjia Calculator/Icon_ipad.png
+c0000000050F38F0D0000000000003ED8
+t1358139149
+s16088
+
+N/Users/RanBao/Codes/Wenjia Calculator/Retina_Icon_ipad.png
+c0000000050F38ECE000000000000F560
+t1358139086
+s62816
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/AppDelegate.h
+c0000000050F38CE80000000000000118
+t1358138600
+s280
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/AppDelegate.m
+c0000000050F38CE800000000000007C5
+t1358138600
+s1989
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.h
+c00000000510B58C60000000000000260
+t1359698118
+s608
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m
+c00000000510F8A5F00000000000018C8
+t1359972959
+s6344
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain.h
+c000000005110757C00000000000003E8
+t1360033148
+s1000
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain.m
+c00000000510F83FF00000000000016C8
+t1359971327
+s5832
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.h
+c00000000510CC43C0000000000000211
+t1359791164
+s529
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m
+c00000000510F864F0000000000000B7F
+t1359971919
+s2943
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.h
+c00000000510F8A5A00000000000002E6
+t1359972954
+s742
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.m
+c00000000511075A10000000000001D7B
+t1360033185
+s7547
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/ViewController.h
+c0000000050F393030000000000000196
+t1358140163
+s406
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/ViewController.m
+c0000000051107CC000000000000042F3
+t1360035008
+s17139
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Wenjia Calculator-Prefix.pch
+c0000000050F38CE8000000000000014B
+t1358138600
+s331
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/button_black.png
+c00000000510D13820000000000001911
+t1359811458
+s6417
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/button_orange.png
+c00000000510D135A0000000000001911
+t1359811418
+s6417
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/en.lproj/InfoPlist.strings
+c0000000050F38CE8000000000000002D
+t1358138600
+s45
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/en.lproj/MainStoryboard.storyboard
+c0000000051108D64000000000000F853
+t1360039268
+s63571
+
+N/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/main.m
+c0000000050F38CE8000000000000014A
+t1358138600
+s330
+
+NWenjia Calculator/Wenjia Calculator-Info.plist
+c0000000050F38F1F00000000000005EE
+t1358139167
+s1518
+
+CBuild AST from "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m"
+r0
+
+CBuild AST from "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain.m"
+r0
+
+CBuild AST from "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m"
+r0
+
+CBuild AST from "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.m"
+r0
+
+CBuild AST from "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/ViewController.m"
+r0
+
+CBuild AST from "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8bc276ddccc0b641^0800a2ddccc0b641^---0#1#0#--18"Check dependencies36"4F328D63-C8FA-4FFC-8FE9-1DD8FC3D94C9-
+
+CCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/AppDelegate.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381723694.798652
+e381723694.934821
+r1
+xCompileC
+xDerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/AppDelegate.o
+x/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/AppDelegate.m9cc4cc2ea4c0b641^685def2ea4c0b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/AppDelegate.m0000000000000000^4272"CompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/AppDelegate.o" "Wenjia Calculator/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-generated-files.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-own-target-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-all-target-headers.hmap" -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-project-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources/i386" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" -include "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch" -MMD -MT dependencies -MF "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/AppDelegate.d" --serialize-diagnostics "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/AppDelegate.dia" -c "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/AppDelegate.m" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/AppDelegate.o"36"BD550AC2-77D0-4117-862E-ECB88E79F4BB-
+
+CCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain+ShuntingYardAlgorithm.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381726062.608320
+e381726062.670079
+r1
+xCompileC
+xDerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain+ShuntingYardAlgorithm.o
+x/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m61de9b6eadc0b641^2497ab6eadc0b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m0000000000000000^4480"CompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain+ShuntingYardAlgorithm.o" "Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-generated-files.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-own-target-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-all-target-headers.hmap" -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-project-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources/i386" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" -include "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch" -MMD -MT dependencies -MF "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain+ShuntingYardAlgorithm.d" --serialize-diagnostics "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain+ShuntingYardAlgorithm.dia" -c "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain+ShuntingYardAlgorithm.m" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain+ShuntingYardAlgorithm.o"36"25709657-8672-4EBA-9290-FD994697E2DA-
+
+CCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381726062.606863
+e381726062.663760
+r1
+xCompileC
+xDerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain.o
+x/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain.mfe7c9b6eadc0b641^7ff8a96eadc0b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/CalculatorSource/INTCalculatorBrain.m0000000000000000^4348"CompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain.o" "Wenjia Calculator/CalculatorSource/INTCalculatorBrain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-generated-files.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-own-target-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-all-target-headers.hmap" -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-project-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources/i386" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" -include "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch" -MMD -MT dependencies -MF "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain.d" --serialize-diagnostics "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain.dia" -c "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/INTCalculatorBrain.m" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/INTCalculatorBrain.o"36"AE34DDBB-1E67-442C-8ACC-D949C4647FD1-
+
+CCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain+OperatorSet.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381723694.936190
+e381723695.009096
+r1
+xCompileC
+xDerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain+OperatorSet.o
+x/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m23d9ef2ea4c0b641^6553022fa4c0b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m0000000000000000^4420"CompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain+OperatorSet.o" "Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-generated-files.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-own-target-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-all-target-headers.hmap" -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-project-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources/i386" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" -include "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch" -MMD -MT dependencies -MF "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain+OperatorSet.d" --serialize-diagnostics "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain+OperatorSet.dia" -c "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain+OperatorSet.m" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain+OperatorSet.o"36"663A3AB3-E3ED-4EC8-A6F7-4E889658A463-
+
+CCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381726062.608342
+e381726062.674476
+r1
+xCompileC
+xDerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain.o
+x/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.ma8e59b6eadc0b641^a0a8ac6eadc0b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/CalculatorSource/RPNCalculatorBrain.m0000000000000000^4348"CompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain.o" "Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-generated-files.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-own-target-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-all-target-headers.hmap" -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-project-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources/i386" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" -include "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch" -MMD -MT dependencies -MF "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain.d" --serialize-diagnostics "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain.dia" -c "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/CalculatorSource/RPNCalculatorBrain.m" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/RPNCalculatorBrain.o"36"01A374B7-6330-42B2-8E0B-6CD881FCF1E2-
+
+CCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/ViewController.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/ViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381727808.340569
+e381727808.530524
+r1
+xCompileC
+xDerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/ViewController.o
+x/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/ViewController.m295c5b40b4c0b641^42ce8740b4c0b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/ViewController.m0000000000000000^4290"CompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/ViewController.o" "Wenjia Calculator/ViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-generated-files.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-own-target-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-all-target-headers.hmap" -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-project-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources/i386" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" -include "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch" -MMD -MT dependencies -MF "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/ViewController.d" --serialize-diagnostics "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/ViewController.dia" -c "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/ViewController.m" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/ViewController.o"36"F1FC7530-09CD-4796-8D3C-7E21088913C2-
+
+CCompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/main.o" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381723694.798648
+e381723694.879602
+r1
+xCompileC
+xDerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/main.o
+x/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/main.m4cc3cc2ea4c0b641^2975e12ea4c0b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/main.m0000000000000000^4230"CompileC "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/main.o" "Wenjia Calculator/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-generated-files.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-own-target-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-all-target-headers.hmap" -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-project-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources/i386" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" -include "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch" -MMD -MT dependencies -MF "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/main.dia" -c "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/main.m" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/main.o"36"AA290701-2416-4BFF-953E-7919B5A8F252-
+
+CCompileStoryboard "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/en.lproj/MainStoryboard.storyboard"
+s381733943.019615
+e381733946.042604
+r1
+xCompileStoryboard
+x/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/en.lproj/MainStoryboard.storyboard
+o2013-02-05 18:12:25.424 Interface Builder Cocoa Touch Tool[74698:f07] CFPreferences: user home directory at file://localhost/Users/RanBao/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CompileStoryboard "Wenjia Calculator/en.lproj/MainStoryboard.storyboard"8e200537ccc0b641^c9e60a3accc0b641^-239"2013-02-05 18:12:25.424 Interface Builder Cocoa Touch Tool[74698:f07] CFPreferences: user home directory at file://localhost/Users/RanBao/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/en.lproj/MainStoryboard.storyboard0000000000000000^1018"CompileStoryboard "Wenjia Calculator/en.lproj/MainStoryboard.storyboard"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/en.lproj/MainStoryboard.storyboardc" "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/en.lproj/MainStoryboard.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"1AE37F5E-2E44-4966-A7F4-1D8601076DFC-
+
+CCopyStringsFile "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/en.lproj/InfoPlist.strings" "Wenjia Calculator/en.lproj/InfoPlist.strings"
+s381723695.281117
+e381723695.326186
+r1
+xCopyStringsFile
+x/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/en.lproj/InfoPlist.strings
+xWenjia Calculator/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Wenjia Calculator/en.lproj/InfoPlist.strings8314482fa4c0b641^66bd542fa4c0b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/en.lproj/InfoPlist.strings0000000000000000^701"CopyStringsFile "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/en.lproj/InfoPlist.strings" "Wenjia Calculator/en.lproj/InfoPlist.strings"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/en.lproj" -- "Wenjia Calculator/en.lproj/InfoPlist.strings"36"A595DBD5-A511-4E82-9CB4-33ADB628E1AD-
+
+CCpResource "Wenjia Calculator/Default-568h@2x.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default-568h@2x.png"
+s381723695.284469
+e381723695.326409
+r1
+xCpResource
+xWenjia Calculator/Default-568h@2x.png
+xDerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default-568h@2x.pngd4f1482fa4c0b641^33c5542fa4c0b641^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/DerivedData/Wenjia%20Calculator/Build/Products/Debug-iphonesimulator/Wenjia%20Calculator.app/Default-568h@2x.png000000000080d041^723"CpResource "Wenjia Calculator/Default-568h@2x.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default-568h@2x.png"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Default-568h@2x.png" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"36"C997775D-CA2D-49DE-B9AA-1F3BBC6442F9-
+
+CCpResource "Wenjia Calculator/Default.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default.png"
+s381723695.282999
+e381723695.325285
+r1
+xCpResource
+xWenjia Calculator/Default.png
+xDerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default.png378e482fa4c0b641^c16e542fa4c0b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/DerivedData/Wenjia%20Calculator/Build/Products/Debug-iphonesimulator/Wenjia%20Calculator.app/Default.png000000000080d041^699"CpResource "Wenjia Calculator/Default.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default.png"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Default.png" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"36"D7C78B91-A394-4C98-BAFE-D6FFFA666174-
+
+CCpResource "Wenjia Calculator/Default@2x.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default@2x.png"
+s381723695.283627
+e381723695.325575
+r1
+xCpResource
+xWenjia Calculator/Default@2x.png
+xDerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default@2x.pnga9bd482fa4c0b641^88b9542fa4c0b641^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/DerivedData/Wenjia%20Calculator/Build/Products/Debug-iphonesimulator/Wenjia%20Calculator.app/Default@2x.png000000000080d041^708"CpResource "Wenjia Calculator/Default@2x.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Default@2x.png"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Default@2x.png" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"36"E8ED1BFA-2B2D-4109-BC24-2817FF9C7EF4-
+
+CCpResource "Wenjia Calculator/button_black.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_black.png"
+s381725032.398151
+e381725032.402208
+r1
+xCpResource
+xWenjia Calculator/button_black.png
+xDerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_black.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_black.pngde016668a9c0b641^a9f56668a9c0b641^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/DerivedData/Wenjia%20Calculator/Build/Products/Debug-iphonesimulator/Wenjia%20Calculator.app/button_black.png000000000080d041^714"CpResource "Wenjia Calculator/button_black.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_black.png"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/button_black.png" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"36"AC4A80B5-938C-4672-97CF-6059B420F859-
+
+CCpResource "Wenjia Calculator/button_orange.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_orange.png"
+s381725032.397018
+e381725032.401131
+r1
+xCpResource
+xWenjia Calculator/button_orange.png
+xDerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_orange.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_orange.png97c46568a9c0b641^e2ae6668a9c0b641^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/DerivedData/Wenjia%20Calculator/Build/Products/Debug-iphonesimulator/Wenjia%20Calculator.app/button_orange.png000000000080d041^717"CpResource "Wenjia Calculator/button_orange.png" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/button_orange.png"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/button_orange.png" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"36"24794A9E-5B0C-4870-86E6-A551C4ECE133-
+
+CCpResource Icon_ipad.png "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Icon_ipad.png"
+s381723695.328798
+e381723695.362316
+r1
+xCpResource
+xIcon_ipad.png
+xDerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Icon_ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Icon_ipad.pngbf44542fa4c0b641^40c25c2fa4c0b641^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/DerivedData/Wenjia%20Calculator/Build/Products/Debug-iphonesimulator/Wenjia%20Calculator.app/Icon_ipad.png000000000080d041^667"CpResource Icon_ipad.png "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Icon_ipad.png"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/RanBao/Codes/Wenjia Calculator/Icon_ipad.png" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"36"3EBDA86B-AFE4-49C0-979A-299AF9C726ED-
+
+CCpResource Retina_Icon_ipad.png "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Retina_Icon_ipad.png"
+s381723695.327259
+e381723695.374001
+r1
+xCpResource
+xRetina_Icon_ipad.png
+xDerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Retina_Icon_ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Retina_Icon_ipad.pngeb1b542fa4c0b641^7fbe612fa4c0b641^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/DerivedData/Wenjia%20Calculator/Build/Products/Debug-iphonesimulator/Wenjia%20Calculator.app/Retina_Icon_ipad.png000000000080d041^688"CpResource Retina_Icon_ipad.png "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Retina_Icon_ipad.png"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/RanBao/Codes/Wenjia Calculator/Retina_Icon_ipad.png" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"36"A23FD238-F6D8-45AB-95BE-6FCF40C19960-
+
+CGenerateDSYMFile "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app.dSYM" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator"
+s381727808.591863
+e381727808.661239
+r1
+xGenerateDSYMFile
+x/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app.dSYM
+x/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Generate /Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app.dSYM50a89740b4c0b641^3b52a940b4c0b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/DerivedData/Wenjia%20Calculator/Build/Products/Debug-iphonesimulator/Wenjia%20Calculator.app.dSYM/0000000000000000^848"GenerateDSYMFile "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app.dSYM" "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app.dSYM"36"7AC2F0BB-3FF5-4394-B4C1-0CA35B8AA10A-
+
+CLd "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator" normal i386
+s381727808.537532
+e381727808.584841
+r1
+xLd
+x/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Link /Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculatorfdbc8940b4c0b641^a1be9540b4c0b641^---0#0#0#--1424"Ld "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator" normal i386    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk "-L/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" -filelist "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/Wenjia Calculator.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Wenjia Calculator"36"BBF321EA-FB10-4B40-8CF4-AE64192C222D-
+
+CPhaseScriptExecution "Run Script" "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Script-B93E19AF16C0CC1700B917F4.sh"
+s381734109.824004
+e381734110.116633
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Script-B93E19AF16C0CC1700B917F4.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'47e4d3ddccc0b641^badb1ddeccc0b641^---0#0#0#--22739"PhaseScriptExecution "Run Script" "DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Script-B93E19AF16C0CC1700B917F4.sh"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER RanBao    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products"    setenv BUILD_ROOT "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products"    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator"    setenv CACHE_ROOT /var/folders/f_/8phs9zxx0ng0fjwbtlt9jk9c0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/f_/8phs9zxx0ng0fjwbtlt9jk9c0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_CXX_LANGUAGE_STANDARD gnu++0x    setenv CLANG_CXX_LIBRARY libc++    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/f_/8phs9zxx0ng0fjwbtlt9jk9c0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH "Wenjia Calculator.app"    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH "Wenjia Calculator.app/English.lproj/Documentation"    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT "/tmp/Wenjia Calculator.dst"    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME "Wenjia Calculator.app.dSYM"    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH "Wenjia Calculator.app/Executables"    setenv EXECUTABLE_FOLDER_PATH "Wenjia Calculator.app"    setenv EXECUTABLE_NAME "Wenjia Calculator"    setenv EXECUTABLE_PATH "Wenjia Calculator.app/Wenjia Calculator"    setenv FILE_LIST "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH "Wenjia Calculator.app/Frameworks"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME "Wenjia Calculator.app"    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER "Wenjia Calculator/Wenjia Calculator-Prefix.pch"    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include\"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE "Wenjia Calculator/Wenjia Calculator-Info.plist"    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH "Wenjia Calculator.app/Info.plist"    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH "Wenjia Calculator.app/English.lproj/InfoPlist.strings"    setenv INSTALL_DIR "/tmp/Wenjia Calculator.dst/Applications"    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER RanBao    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT "/tmp/Wenjia Calculator.dst"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH "Wenjia Calculator.app/Java"    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-LinkMap-normal-i386.txt"    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal/i386/Wenjia Calculator.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH "Wenjia Calculator.app/English.lproj"    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Objects-normal"    setenv OBJROOT "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates"    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH "Wenjia Calculator.app/pbdevelopment.plist"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/PkgInfo"    setenv PKGINFO_PATH "Wenjia Calculator.app/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH "Wenjia Calculator.app/PlugIns"    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH "Wenjia Calculator.app/PrivateHeaders"    setenv PRODUCT_NAME "Wenjia Calculator"    setenv PRODUCT_SETTINGS_PATH "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Wenjia Calculator-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT "Wenjia Calculator"    setenv PROJECT_DERIVED_FILE_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/DerivedSources"    setenv PROJECT_DIR "/Users/RanBao/Codes/Wenjia Calculator"    setenv PROJECT_FILE_PATH "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator.xcodeproj"    setenv PROJECT_NAME "Wenjia Calculator"    setenv PROJECT_TEMP_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build"    setenv PROJECT_TEMP_ROOT "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates"    setenv PUBLIC_HEADERS_FOLDER_PATH "Wenjia Calculator.app/Headers"    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH "Wenjia Calculator.app/Scripts"    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH "Wenjia Calculator.app/SharedFrameworks"    setenv SHARED_PRECOMPS_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders"    setenv SHARED_SUPPORT_FOLDER_PATH "Wenjia Calculator.app/SharedSupport"    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT "/Users/RanBao/Codes/Wenjia Calculator"    setenv SRCROOT "/Users/RanBao/Codes/Wenjia Calculator"    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME "Wenjia Calculator"    setenv TARGET_BUILD_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator"    setenv TARGET_NAME "Wenjia Calculator"    setenv TARGET_TEMP_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build"    setenv TEMP_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build"    setenv TEMP_FILES_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build"    setenv TEMP_FILE_DIR "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build"    setenv TEMP_ROOT "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates"    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH "Wenjia Calculator.app"    setenv UNSTRIPPED_PRODUCT NO    setenv USER RanBao    setenv USER_APPS_DIR /Users/RanBao/Applications    setenv USER_LIBRARY_DIR /Users/RanBao/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH "Wenjia Calculator.app/version.plist"    setenv VERSION_INFO_BUILDER RanBao    setenv VERSION_INFO_FILE "Wenjia Calculator_vers.c"    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Wenjia Calculator  PROJECT:Wenjia Calculator-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME "Wenjia Calculator.app"    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H127    setenv XCODE_VERSION_ACTUAL 0460    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c "\"/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Script-B93E19AF16C0CC1700B917F4.sh\""36"7B536CD5-7C93-4916-BB3B-5E34854B24EB-
+
+CProcessInfoPlistFile "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Info.plist" "Wenjia Calculator/Wenjia Calculator-Info.plist"
+s381723694.301275
+e381723694.306065
+r1
+xProcessInfoPlistFile
+x/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Info.plist
+xWenjia Calculator/Wenjia Calculator-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Process Wenjia Calculator/Wenjia Calculator-Info.plist31604d2ea4c0b641^48e1562ea4c0b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/Wenjia%20Calculator-Info.plist0000000000000000^846"ProcessInfoPlistFile "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Info.plist" "Wenjia Calculator/Wenjia Calculator-Info.plist"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Wenjia Calculator/Wenjia Calculator-Info.plist" -genpkginfo "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app/Info.plist"36"AFC724D8-F988-47C4-A2F9-3907B56CC5C8-
+
+CProcessPCH "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch.pth" "Wenjia Calculator/Wenjia Calculator-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381723694.314204
+e381723694.791566
+r1
+xProcessPCH
+x/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch.pth
+xWenjia Calculator/Wenjia Calculator-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile Wenjia Calculator/Wenjia Calculator-Prefix.pch7ba1502ea4c0b641^3ca2ca2ea4c0b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/RanBao/Codes/Wenjia%20Calculator/Wenjia%20Calculator/Wenjia%20Calculator-Prefix.pch0000000000000000^4114"ProcessPCH "DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch.pth" "Wenjia Calculator/Wenjia Calculator-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-generated-files.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-own-target-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-all-target-headers.hmap" -iquote "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/Wenjia Calculator-project-headers.hmap" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources/i386" "-I/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/Wenjia Calculator.build/Debug-iphonesimulator/Wenjia Calculator.build/DerivedSources" "-F/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator" --serialize-diagnostics "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch.dia" -c "/Users/RanBao/Codes/Wenjia Calculator/Wenjia Calculator/Wenjia Calculator-Prefix.pch" -o "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Intermediates/PrecompiledHeaders/Wenjia Calculator-Prefix-ezwzecggacxpstbxevmpexwuarnv/Wenjia Calculator-Prefix.pch.d"36"2CDC707D-899B-421F-9EF8-A4E5B9E93DFF-
+
+CProcessPCH "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Index/PrecompiledHeaders/Wenjia Calculator-Prefix-bsfttgulhmviavgusyiwalwsverp_ast/Wenjia Calculator-Prefix.pch.pth" "Wenjia Calculator/Wenjia Calculator-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"
+s381733946.095234
+e381733946.116702
+r1
+xTouch
+x/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Touch /Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app1477183accc0b641^87df1d3accc0b641^---0#0#0#--490"Touch "DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"    cd "/Users/RanBao/Codes/Wenjia Calculator"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/RanBao/Codes/Wenjia Calculator/DerivedData/Wenjia Calculator/Build/Products/Debug-iphonesimulator/Wenjia Calculator.app"36"88D9C9A2-55ED-45F4-9EB2-00E035FEDE2E-
+

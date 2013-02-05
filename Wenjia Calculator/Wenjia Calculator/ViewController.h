@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *configurationDisplay;
+
+@property (weak, nonatomic) IBOutlet UILabel *display;
+
+@property (weak, nonatomic) IBOutlet UILabel *resultDisplay;
+
+
 @end
