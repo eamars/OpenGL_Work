@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B998257916E48C99007115B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B998257816E48C99007115B3 /* Cocoa.framework */; };
+		B998258316E48C99007115B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B998258116E48C99007115B3 /* InfoPlist.strings */; };
+		B998258516E48C99007115B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B998258416E48C99007115B3 /* main.m */; };
+		B998258916E48C9A007115B3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B998258716E48C9A007115B3 /* Credits.rtf */; };
+		B998258C16E48C9A007115B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B998258B16E48C9A007115B3 /* AppDelegate.m */; };
+		B998258F16E48C9A007115B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B998258D16E48C9A007115B3 /* MainMenu.xib */; };
+		B998259716E48C9A007115B3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B998259616E48C9A007115B3 /* SenTestingKit.framework */; };
+		B998259816E48C9A007115B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B998257816E48C99007115B3 /* Cocoa.framework */; };
+		B99825A016E48C9A007115B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B998259E16E48C9A007115B3 /* InfoPlist.strings */; };
+		B99825A316E48C9A007115B3 /* pythonideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B99825A216E48C9A007115B3 /* pythonideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B998259916E48C9A007115B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B998256D16E48C99007115B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B998257416E48C99007115B3;
+			remoteInfo = pythonide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B998257516E48C99007115B3 /* pythonide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pythonide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B998257816E48C99007115B3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B998257B16E48C99007115B3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B998257C16E48C99007115B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B998257D16E48C99007115B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B998258016E48C99007115B3 /* pythonide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pythonide-Info.plist"; sourceTree = "<group>"; };
+		B998258216E48C99007115B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B998258416E48C99007115B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B998258616E48C99007115B3 /* pythonide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pythonide-Prefix.pch"; sourceTree = "<group>"; };
+		B998258816E48C9A007115B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B998258A16E48C9A007115B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B998258B16E48C9A007115B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B998258E16E48C9A007115B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B998259516E48C9A007115B3 /* pythonideTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pythonideTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B998259616E48C9A007115B3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B998259D16E48C9A007115B3 /* pythonideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pythonideTests-Info.plist"; sourceTree = "<group>"; };
+		B998259F16E48C9A007115B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B99825A116E48C9A007115B3 /* pythonideTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythonideTests.h; sourceTree = "<group>"; };
+		B99825A216E48C9A007115B3 /* pythonideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pythonideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B998257216E48C99007115B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B998257916E48C99007115B3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B998259116E48C9A007115B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B998259716E48C9A007115B3 /* SenTestingKit.framework in Frameworks */,
+				B998259816E48C9A007115B3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B998256C16E48C99007115B3 = {
+			isa = PBXGroup;
+			children = (
+				B998257E16E48C99007115B3 /* pythonide */,
+				B998259B16E48C9A007115B3 /* pythonideTests */,
+				B998257716E48C99007115B3 /* Frameworks */,
+				B998257616E48C99007115B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B998257616E48C99007115B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B998257516E48C99007115B3 /* pythonide.app */,
+				B998259516E48C9A007115B3 /* pythonideTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B998257716E48C99007115B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B998257816E48C99007115B3 /* Cocoa.framework */,
+				B998259616E48C9A007115B3 /* SenTestingKit.framework */,
+				B998257A16E48C99007115B3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B998257A16E48C99007115B3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B998257B16E48C99007115B3 /* AppKit.framework */,
+				B998257C16E48C99007115B3 /* CoreData.framework */,
+				B998257D16E48C99007115B3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B998257E16E48C99007115B3 /* pythonide */ = {
+			isa = PBXGroup;
+			children = (
+				B998258A16E48C9A007115B3 /* AppDelegate.h */,
+				B998258B16E48C9A007115B3 /* AppDelegate.m */,
+				B998258D16E48C9A007115B3 /* MainMenu.xib */,
+				B998257F16E48C99007115B3 /* Supporting Files */,
+			);
+			path = pythonide;
+			sourceTree = "<group>";
+		};
+		B998257F16E48C99007115B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B998258016E48C99007115B3 /* pythonide-Info.plist */,
+				B998258116E48C99007115B3 /* InfoPlist.strings */,
+				B998258416E48C99007115B3 /* main.m */,
+				B998258616E48C99007115B3 /* pythonide-Prefix.pch */,
+				B998258716E48C9A007115B3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B998259B16E48C9A007115B3 /* pythonideTests */ = {
+			isa = PBXGroup;
+			children = (
+				B99825A116E48C9A007115B3 /* pythonideTests.h */,
+				B99825A216E48C9A007115B3 /* pythonideTests.m */,
+				B998259C16E48C9A007115B3 /* Supporting Files */,
+			);
+			path = pythonideTests;
+			sourceTree = "<group>";
+		};
+		B998259C16E48C9A007115B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B998259D16E48C9A007115B3 /* pythonideTests-Info.plist */,
+				B998259E16E48C9A007115B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B998257416E48C99007115B3 /* pythonide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99825A616E48C9A007115B3 /* Build configuration list for PBXNativeTarget "pythonide" */;
+			buildPhases = (
+				B998257116E48C99007115B3 /* Sources */,
+				B998257216E48C99007115B3 /* Frameworks */,
+				B998257316E48C99007115B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pythonide;
+			productName = pythonide;
+			productReference = B998257516E48C99007115B3 /* pythonide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B998259416E48C9A007115B3 /* pythonideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99825A916E48C9A007115B3 /* Build configuration list for PBXNativeTarget "pythonideTests" */;
+			buildPhases = (
+				B998259016E48C9A007115B3 /* Sources */,
+				B998259116E48C9A007115B3 /* Frameworks */,
+				B998259216E48C9A007115B3 /* Resources */,
+				B998259316E48C9A007115B3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B998259A16E48C9A007115B3 /* PBXTargetDependency */,
+			);
+			name = pythonideTests;
+			productName = pythonideTests;
+			productReference = B998259516E48C9A007115B3 /* pythonideTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B998256D16E48C99007115B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ran Bao";
+			};
+			buildConfigurationList = B998257016E48C99007115B3 /* Build configuration list for PBXProject "pythonide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B998256C16E48C99007115B3;
+			productRefGroup = B998257616E48C99007115B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B998257416E48C99007115B3 /* pythonide */,
+				B998259416E48C9A007115B3 /* pythonideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B998257316E48C99007115B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B998258316E48C99007115B3 /* InfoPlist.strings in Resources */,
+				B998258916E48C9A007115B3 /* Credits.rtf in Resources */,
+				B998258F16E48C9A007115B3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B998259216E48C9A007115B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99825A016E48C9A007115B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B998259316E48C9A007115B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B998257116E48C99007115B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B998258516E48C99007115B3 /* main.m in Sources */,
+				B998258C16E48C9A007115B3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B998259016E48C9A007115B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99825A316E48C9A007115B3 /* pythonideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B998259A16E48C9A007115B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B998257416E48C99007115B3 /* pythonide */;
+			targetProxy = B998259916E48C9A007115B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B998258116E48C99007115B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B998258216E48C99007115B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B998258716E48C9A007115B3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B998258816E48C9A007115B3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B998258D16E48C9A007115B3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B998258E16E48C9A007115B3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B998259E16E48C9A007115B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B998259F16E48C9A007115B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B99825A416E48C9A007115B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B99825A516E48C9A007115B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B99825A716E48C9A007115B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pythonide/pythonide-Prefix.pch";
+				INFOPLIST_FILE = "pythonide/pythonide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B99825A816E48C9A007115B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pythonide/pythonide-Prefix.pch";
+				INFOPLIST_FILE = "pythonide/pythonide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B99825AA16E48C9A007115B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pythonide.app/Contents/MacOS/pythonide";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pythonide/pythonide-Prefix.pch";
+				INFOPLIST_FILE = "pythonideTests/pythonideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B99825AB16E48C9A007115B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pythonide.app/Contents/MacOS/pythonide";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pythonide/pythonide-Prefix.pch";
+				INFOPLIST_FILE = "pythonideTests/pythonideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B998257016E48C99007115B3 /* Build configuration list for PBXProject "pythonide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99825A416E48C9A007115B3 /* Debug */,
+				B99825A516E48C9A007115B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99825A616E48C9A007115B3 /* Build configuration list for PBXNativeTarget "pythonide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99825A716E48C9A007115B3 /* Debug */,
+				B99825A816E48C9A007115B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B99825A916E48C9A007115B3 /* Build configuration list for PBXNativeTarget "pythonideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99825AA16E48C9A007115B3 /* Debug */,
+				B99825AB16E48C9A007115B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B998256D16E48C99007115B3 /* Project object */;
+}
