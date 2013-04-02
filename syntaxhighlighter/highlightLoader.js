@@ -7,7 +7,7 @@ try
  catch(e)
  {
   var elem = document.createElement('SCRIPT');
-  elem.src="https://raw.github.com/eamars/OpenGL_Work/master/syntaxhighlighter/highlight.pack.js";
+  elem.src="https://raw.github.com/eamars/OpenGL_Work/master/syntaxhighlighter/highlight.js";
   var theBody = document.getElementsByTagName('body')[0];
   theBody.appendChild(elem);
  }
